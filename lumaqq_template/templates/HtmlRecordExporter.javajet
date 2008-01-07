@@ -1,0 +1,8 @@
+<%@ jet package="edu.tsinghua.lumaqq.template.record" class="HtmlRecordExporter" imports="edu.tsinghua.lumaqq.widgets.record.* java.util.Map" skeleton="generator.skeleton" %>
+<% 
+	Map<String, Object> params = (Map<String, Object>)argument;
+	Integer exportType = (Integer)params.get(IRecordExporter.EXPORT_TYPE);
+	IRecordExporter exporter = HtmlRecordExporterFactory.getExporter(exportType);
+	if(exporter != null)
+		stringBuffer.append(exporter.generate(argument));
+%>

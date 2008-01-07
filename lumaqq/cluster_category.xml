@@ -1,0 +1,3875 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Parent id="0" value="根目录" version="1.0">
+  <L1 id="1" value="购物">
+    <L2 id="369" value="电脑">
+      <L3 id="3915" value="整机"/>
+      <L3 id="3916" value="笔记本"/>
+      <L3 id="3917" value="PDA"/>
+      <L3 id="3918" value="电子辞典"/>
+      <L3 id="3919" value="外设"/>
+      <L3 id="3920" value="耗材"/>
+      <L3 id="3921" value="网络"/>
+      <L3 id="3922" value="软件"/>
+    </L2>
+    <L2 id="370" value="通讯设备">
+      <L3 id="3923" value="彩屏"/>
+      <L3 id="3924" value="CDMA"/>
+      <L3 id="3925" value="配件"/>
+      <L3 id="3926" value="饰品"/>
+      <L3 id="3927" value="非彩屏"/>
+      <L3 id="3928" value="卡"/>
+      <L3 id="3929" value="小灵通"/>
+      <L3 id="3930" value="电话"/>
+    </L2>
+    <L2 id="371" value="摄像摄影">
+      <L3 id="3931" value="数码相机"/>
+      <L3 id="3932" value="闪存卡"/>
+      <L3 id="3933" value="相机配件"/>
+      <L3 id="3934" value="摄像机"/>
+      <L3 id="3935" value="照相器材"/>
+      <L3 id="3936" value="冲印"/>
+    </L2>
+    <L2 id="372" value="音响">
+      <L3 id="3937" value="MP3"/>
+      <L3 id="3938" value="CD机"/>
+      <L3 id="3939" value="配件"/>
+      <L3 id="3940" value="耳机"/>
+      <L3 id="3941" value="音响"/>
+      <L3 id="3942" value="HIFI"/>
+      <L3 id="3943" value="汽摩"/>
+    </L2>
+    <L2 id="373" value="运动休闲">
+      <L3 id="3944" value="运动用品"/>
+      <L3 id="3945" value="运动服"/>
+      <L3 id="3946" value="男运动鞋"/>
+      <L3 id="3947" value="健身"/>
+      <L3 id="3948" value="户外野营"/>
+      <L3 id="3949" value="极限"/>
+    </L2>
+    <L2 id="374" value="动漫游戏">
+      <L3 id="3950" value="日韩"/>
+      <L3 id="3951" value="视听"/>
+      <L3 id="3952" value="游戏周边"/>
+      <L3 id="3953" value="限量精品"/>
+      <L3 id="3954" value="漫画"/>
+      <L3 id="3955" value="动漫COS"/>
+      <L3 id="3956" value="画材"/>
+      <L3 id="3957" value="游戏配件及软件"/>
+    </L2>
+    <L2 id="375" value=" 古董收藏">
+      <L3 id="3958" value="邮品"/>
+      <L3 id="3959" value="图书"/>
+      <L3 id="3960" value="卡"/>
+      <L3 id="3961" value="木艺"/>
+      <L3 id="3962" value="金石"/>
+      <L3 id="3963" value="玉器"/>
+      <L3 id="3964" value="古玩"/>
+      <L3 id="3965" value="字画"/>
+      <L3 id="3966" value="老唱片"/>
+      <L3 id="3967" value="标牌章"/>
+      <L3 id="3968" value="雕塑"/>
+    </L2>
+    <L2 id="376" value="汽车">
+      <L3 id="3969" value="整车"/>
+      <L3 id="3970" value="摩托"/>
+      <L3 id="3971" value="电动车"/>
+      <L3 id="3972" value="滑板车"/>
+      <L3 id="3973" value="配件"/>
+      <L3 id="3974" value="品牌"/>
+      <L3 id="3975" value="美容养护"/>
+      <L3 id="3976" value="车内饰品"/>
+      <L3 id="3977" value="电子电器"/>
+    </L2>
+    <L2 id="377" value="游戏装备交易区">
+      <L3 id="3978" value="热血传奇"/>
+      <L3 id="3979" value="MU奇迹"/>
+      <L3 id="3980" value="RO永恒仙境"/>
+      <L3 id="3981" value="传奇3"/>
+      <L3 id="3982" value="QQ专区"/>
+      <L3 id="3983" value="A3"/>
+      <L3 id="3984" value="传奇世界"/>
+      <L3 id="3985" value="天堂 Ⅱ"/>
+      <L3 id="3986" value="魔力宝贝"/>
+      <L3 id="3987" value="骑士"/>
+      <L3 id="3988" value="大话西游2"/>
+      <L3 id="3989" value="游戏周边"/>
+      <L3 id="3990" value="游戏点卡"/>
+      <L3 id="3991" value="游戏帐号"/>
+    </L2>
+    <L2 id="378" value="珠宝饰品">
+      <L3 id="3992" value="银饰"/>
+      <L3 id="3993" value="民族饰品"/>
+      <L3 id="3994" value="流行饰品"/>
+      <L3 id="3995" value="钻石"/>
+      <L3 id="3996" value="铂金"/>
+      <L3 id="3997" value="水晶"/>
+      <L3 id="3998" value="玉石"/>
+      <L3 id="3999" value="宝石"/>
+      <L3 id="4000" value="男士饰品"/>
+    </L2>
+    <L2 id="379" value="化妆品">
+      <L3 id="4001" value="香水"/>
+      <L3 id="4002" value="彩妆"/>
+      <L3 id="4003" value="美体"/>
+      <L3 id="4004" value="洗护"/>
+      <L3 id="4005" value=" 防晒"/>
+      <L3 id="4006" value="唇彩"/>
+      <L3 id="4007" value="护肤"/>
+      <L3 id="4008" value="美发"/>
+      <L3 id="4009" value="男士护肤"/>
+      <L3 id="4010" value="美颜保健"/>
+    </L2>
+    <L2 id="380" value="女装">
+      <L3 id="4011" value="女上装"/>
+      <L3 id="4012" value="女裙"/>
+      <L3 id="4013" value="女裤"/>
+      <L3 id="4014" value="情侣装"/>
+      <L3 id="4015" value="女士内衣"/>
+      <L3 id="4016" value="品牌内衣"/>
+    </L2>
+    <L2 id="381" value="女士配件">
+      <L3 id="4017" value="女包"/>
+      <L3 id="4018" value="女士配件"/>
+      <L3 id="4019" value="女鞋"/>
+    </L2>
+    <L2 id="382" value="男士精品">
+      <L3 id="4020" value="男上装"/>
+      <L3 id="4021" value="男裤"/>
+      <L3 id="4022" value="男包"/>
+      <L3 id="4023" value="男鞋"/>
+      <L3 id="4024" value="男士配件"/>
+    </L2>
+    <L2 id="383" value="家居日用">
+      <L3 id="4025" value="床上用品"/>
+      <L3 id="4026" value="宜家"/>
+      <L3 id="4027" value="日用品"/>
+      <L3 id="4028" value="食品饮料"/>
+      <L3 id="4029" value="宠物及用品"/>
+      <L3 id="4030" value="居家饰品"/>
+      <L3 id="4031" value="窗帘"/>
+      <L3 id="4032" value="靠垫"/>
+      <L3 id="4033" value="布艺"/>
+      <L3 id="4034" value="家具"/>
+      <L3 id="4035" value="各种灯具"/>
+    </L2>
+    <L2 id="384" value="家用电子电器">
+      <L3 id="4036" value="影音"/>
+      <L3 id="4037" value="个人护理"/>
+      <L3 id="4038" value="医疗保健"/>
+      <L3 id="4039" value="清洁卫生"/>
+      <L3 id="4040" value="空气调节"/>
+      <L3 id="4041" value="厨卫设备"/>
+      <L3 id="4042" value="电源"/>
+      <L3 id="4043" value="照明设备"/>
+    </L2>
+    <L2 id="385" value="玩具">
+      <L3 id="4044" value="泰迪熊"/>
+      <L3 id="4045" value="幼儿"/>
+      <L3 id="4046" value="木制"/>
+      <L3 id="4047" value="充气"/>
+      <L3 id="4048" value="电动遥控"/>
+      <L3 id="4049" value="卡哇伊"/>
+      <L3 id="4050" value="毛绒"/>
+      <L3 id="4051" value="模型"/>
+      <L3 id="4052" value="芭比"/>
+      <L3 id="4053" value="成人"/>
+    </L2>
+    <L2 id="386" value="工艺精品">
+      <L3 id="4054" value="民族"/>
+      <L3 id="4055" value="民间"/>
+      <L3 id="4056" value="手工工艺品"/>
+      <L3 id="4057" value="海报"/>
+      <L3 id="4058" value="明星照片"/>
+    </L2>
+    <L2 id="387" value="其他"/>
+  </L1>
+  <L1 id="2" value="追星族">
+    <L2 id="50" value="港台明星">
+      <L3 id="1000" value="5566"/>
+      <L3 id="1001" value="A 阿杜"/>
+      <L3 id="1002" value="C 蔡依林"/>
+      <L3 id="1003" value="C 陈冠希"/>
+      <L3 id="1004" value="C 陈文媛"/>
+      <L3 id="1005" value="C 陈司翰"/>
+      <L3 id="1006" value="C 蔡健雅"/>
+      <L3 id="1007" value="C 陈奕迅"/>
+      <L3 id="1008" value="C 陈慧珊"/>
+      <L3 id="1009" value="C 蔡少芬"/>
+      <L3 id="1010" value="C 陈小春"/>
+      <L3 id="1011" value="C 成龙"/>
+      <L3 id="1012" value="C 陈慧琳"/>
+      <L3 id="1013" value="C 陈德容"/>
+      <L3 id="1014" value="C 陈孝萱"/>
+      <L3 id="1015" value="C 陈晓东"/>
+      <L3 id="1016" value="D 戴佩妮"/>
+      <L3 id="1017" value="D 杜德伟"/>
+      <L3 id="1018" value="E energy"/>
+      <L3 id="1019" value="F 范文芳"/>
+      <L3 id="1020" value="F 范玮琪"/>
+      <L3 id="1021" value="F 房祖名"/>
+      <L3 id="1022" value="F F4"/>
+      <L3 id="1023" value="G 关心妍"/>
+      <L3 id="1024" value="G 古巨基"/>
+      <L3 id="1025" value="G 郭富城"/>
+      <L3 id="1026" value="G 古天乐"/>
+      <L3 id="1027" value="G 郭羡妮"/>
+      <L3 id="1028" value="G 关之琳"/>
+      <L3 id="1029" value="G 郭可盈"/>
+      <L3 id="1030" value="H 黄湘怡"/>
+      <L3 id="1031" value="H 黄耀明"/>
+      <L3 id="1032" value="H 何润东"/>
+      <L3 id="1033" value="H 黄品冠"/>
+      <L3 id="1034" value="H 侯湘婷"/>
+      <L3 id="1035" value="J 金城武"/>
+      <L3 id="1036" value="J 贾静雯"/>
+      <L3 id="1037" value="L 林志玲"/>
+      <L3 id="1038" value="L 梁静茹"/>
+      <L3 id="1039" value="L 吕颂贤"/>
+      <L3 id="1040" value="L 林嘉欣"/>
+      <L3 id="1041" value="L 卢巧音"/>
+      <L3 id="1042" value="L 林忆莲"/>
+      <L3 id="1043" value="L 李彩桦"/>
+      <L3 id="1044" value="L 刘嘉玲"/>
+      <L3 id="1045" value="L 梁汉文"/>
+      <L3 id="1046" value="L 梁朝伟"/>
+      <L3 id="1047" value="L 刘若英"/>
+      <L3 id="1048" value="L 林熙蕾"/>
+      <L3 id="1049" value="L 李玟"/>
+      <L3 id="1050" value="L 林心如"/>
+      <L3 id="1051" value="L 黎姿"/>
+      <L3 id="1052" value="L 梁咏琪"/>
+      <L3 id="1053" value="L 李嘉欣"/>
+      <L3 id="1054" value="L 李克勤"/>
+      <L3 id="1055" value="L 黎明"/>
+      <L3 id="1056" value="L 刘德华"/>
+      <L3 id="1057" value="L 李若彤"/>
+      <L3 id="1058" value="L 林志颖"/>
+      <L3 id="1059" value="L 林俊杰"/>
+      <L3 id="1060" value="L 李连杰"/>
+      <L3 id="1061" value="L 梁家辉"/>
+      <L3 id="1062" value="L 罗志祥"/>
+      <L3 id="1063" value="M 马德钟"/>
+      <L3 id="1064" value="M 莫文蔚"/>
+      <L3 id="1065" value="M Maggie Q"/>
+      <L3 id="1066" value="M 梅艳芳"/>
+      <L3 id="1067" value="M 蒙嘉慧"/>
+      <L3 id="1068" value="M 马俊伟"/>
+      <L3 id="1069" value="P 潘玮博"/>
+      <L3 id="1070" value="Q 邱泽"/>
+      <L3 id="1071" value="Q 邱淑贞"/>
+      <L3 id="1072" value="R 任贤齐"/>
+      <L3 id="1073" value="R 容祖儿"/>
+      <L3 id="1074" value="S  SOS"/>
+      <L3 id="1075" value="S 舒淇"/>
+      <L3 id="1076" value="S 苏有朋"/>
+      <L3 id="1077" value="S 孙燕姿"/>
+      <L3 id="1078" value="S SHE"/>
+      <L3 id="1079" value="S 苏慧伦"/>
+      <L3 id="1080" value="S 佘诗曼"/>
+      <L3 id="1081" value="T  twins"/>
+      <L3 id="1082" value="T 谭咏麟"/>
+      <L3 id="1083" value="T 天心"/>
+      <L3 id="1084" value="T 陶喆"/>
+      <L3 id="1085" value="T 腾丽名"/>
+      <L3 id="1086" value="W 吴彦祖"/>
+      <L3 id="1087" value="W 王力宏"/>
+      <L3 id="1088" value="W 王菲"/>
+      <L3 id="1089" value="W 吴宗宪"/>
+      <L3 id="1090" value="W 吴奇隆"/>
+      <L3 id="1091" value="W 吴启华"/>
+      <L3 id="1092" value="W 吴建豪"/>
+      <L3 id="1093" value="W 温碧霞"/>
+      <L3 id="1094" value="W 伍佰"/>
+      <L3 id="1095" value="W 五月天"/>
+      <L3 id="1096" value="X 许慧欣"/>
+      <L3 id="1097" value="X 许茹芸"/>
+      <L3 id="1098" value="X 许冠杰"/>
+      <L3 id="1099" value="X 萧亚轩"/>
+      <L3 id="1100" value="X 徐若萱"/>
+      <L3 id="1101" value="X 许志安"/>
+      <L3 id="1102" value="X 谢霆锋"/>
+      <L3 id="1103" value="X 萧蔷"/>
+      <L3 id="1104" value="X 宣萱"/>
+      <L3 id="1105" value="X 徐熙媛"/>
+      <L3 id="1106" value="X 徐怀钰"/>
+      <L3 id="1107" value="Y 言承旭"/>
+      <L3 id="1108" value="Y 余文乐"/>
+      <L3 id="1109" value="Y 杨千嬅"/>
+      <L3 id="1110" value="Y 杨采妮"/>
+      <L3 id="1111" value="Y 杨恭如"/>
+      <L3 id="1112" value="Y 伊能静"/>
+      <L3 id="1113" value="Y 袁咏仪"/>
+      <L3 id="1114" value="Y 庾澄庆"/>
+      <L3 id="1115" value="Y 袁洁莹"/>
+      <L3 id="1116" value="Z 张惠妹"/>
+      <L3 id="1117" value="Z 郑中基"/>
+      <L3 id="1118" value="Z 周杰伦"/>
+      <L3 id="1119" value="Z 周渝民"/>
+      <L3 id="1120" value="Z 朱茵"/>
+      <L3 id="1121" value="Z 钟丽缇"/>
+      <L3 id="1122" value="Z 张柏芝"/>
+      <L3 id="1123" value="Z 张曼玉"/>
+      <L3 id="1124" value="Z 张学友"/>
+      <L3 id="1125" value="Z 郑伊健"/>
+      <L3 id="1126" value="Z 周润发"/>
+      <L3 id="1127" value="Z 郑秀文"/>
+      <L3 id="1128" value="Z 张庭"/>
+      <L3 id="1129" value="Z 张卫健"/>
+      <L3 id="1130" value="Z 朱孝天"/>
+      <L3 id="1131" value="Z 张可颐"/>
+      <L3 id="1132" value="Z 张信哲"/>
+      <L3 id="1133" value="Z 周星驰"/>
+      <L3 id="1134" value="Z 张国荣"/>
+      <L3 id="1135" value="Z 周丽淇"/>
+      <L3 id="1136" value="Z 张韶涵"/>
+      <L3 id="1137" value="Z 张智霖"/>
+      <L3 id="1138" value="其他港台明星"/>
+    </L2>
+    <L2 id="51" value="内地明星">
+      <L3 id="1139" value="A 艾敬"/>
+      <L3 id="1140" value="C 陈好"/>
+      <L3 id="1141" value="C 陈思思"/>
+      <L3 id="1142" value="C 陈红"/>
+      <L3 id="1143" value="C 陈冲"/>
+      <L3 id="1144" value="C 陈道明"/>
+      <L3 id="1145" value="C 陈琳"/>
+      <L3 id="1146" value="C 陈坤"/>
+      <L3 id="1147" value="C 崔健"/>
+      <L3 id="1148" value="C 常远"/>
+      <L3 id="1149" value="C 曹颖"/>
+      <L3 id="1150" value="D 达达乐队"/>
+      <L3 id="1151" value="D 董洁"/>
+      <L3 id="1152" value="F 范冰冰"/>
+      <L3 id="1153" value="G 高圆圆"/>
+      <L3 id="1154" value="G 巩俐"/>
+      <L3 id="1155" value="H 黄征"/>
+      <L3 id="1156" value="H 黄晓明"/>
+      <L3 id="1157" value="H 何炅"/>
+      <L3 id="1158" value="H 韩红"/>
+      <L3 id="1159" value="H 黄海冰"/>
+      <L3 id="1160" value="H 胡军"/>
+      <L3 id="1161" value="H 黄磊"/>
+      <L3 id="1162" value="H 胡兵"/>
+      <L3 id="1163" value="H 黄奕"/>
+      <L3 id="1164" value="H 花儿乐队"/>
+      <L3 id="1165" value="J 金海心"/>
+      <L3 id="1166" value="J 蒋勤勤"/>
+      <L3 id="1167" value="L 罗中旭"/>
+      <L3 id="1168" value="L 老狼"/>
+      <L3 id="1169" value="L 陆毅"/>
+      <L3 id="1170" value="L 李泉"/>
+      <L3 id="1171" value="L 刘烨"/>
+      <L3 id="1172" value="L 李学庆"/>
+      <L3 id="1173" value="L 刘亦菲"/>
+      <L3 id="1174" value="L 李亚鹏"/>
+      <L3 id="1175" value="L 李湘"/>
+      <L3 id="1176" value="L 李小冉"/>
+      <L3 id="1177" value="L 李小璐"/>
+      <L3 id="1178" value="L 李冰冰"/>
+      <L3 id="1179" value="L 刘涛"/>
+      <L3 id="1180" value="L 刘仪伟"/>
+      <L3 id="1181" value="L 刘孜"/>
+      <L3 id="1182" value="M 马伊俐"/>
+      <L3 id="1183" value="M 梅婷"/>
+      <L3 id="1184" value="N 牛莉"/>
+      <L3 id="1185" value="N 宁静"/>
+      <L3 id="1186" value="N 那英"/>
+      <L3 id="1187" value="N 聂远"/>
+      <L3 id="1188" value="P 朴树"/>
+      <L3 id="1189" value="Q 瞿颖"/>
+      <L3 id="1190" value="Q 秦海璐"/>
+      <L3 id="1191" value="R 任泉"/>
+      <L3 id="1192" value="S 斯琴格日勒"/>
+      <L3 id="1193" value="S 沙宝亮"/>
+      <L3 id="1194" value="S 邵兵"/>
+      <L3 id="1195" value="S 宋祖英"/>
+      <L3 id="1196" value="S 孙楠"/>
+      <L3 id="1197" value="S 舒高"/>
+      <L3 id="1198" value="S 孙俪"/>
+      <L3 id="1199" value="T 田震"/>
+      <L3 id="1200" value="T 陶红"/>
+      <L3 id="1201" value="T 陶虹"/>
+      <L3 id="1202" value="W 王蓉"/>
+      <L3 id="1203" value="X 谢东娜"/>
+      <L3 id="1204" value="X 夏雨"/>
+      <L3 id="1205" value="X 许晴"/>
+      <L3 id="1206" value="X 解小东"/>
+      <L3 id="1207" value="X 徐静蕾"/>
+      <L3 id="1208" value="X 徐路"/>
+      <L3 id="1209" value="X 徐帆"/>
+      <L3 id="1210" value="X 谢雨欣"/>
+      <L3 id="1211" value="Y 于娜"/>
+      <L3 id="1212" value="Y 印小天"/>
+      <L3 id="1213" value="Y 杨钰莹"/>
+      <L3 id="1214" value="Y 叶蓓"/>
+      <L3 id="1215" value="Y 袁立"/>
+      <L3 id="1216" value="Y 羽泉"/>
+      <L3 id="1217" value="Z 周涛"/>
+      <L3 id="1218" value="Z 章子怡"/>
+      <L3 id="1219" value="Z 赵薇"/>
+      <L3 id="1220" value="Z 周迅"/>
+      <L3 id="1221" value="Z 张延"/>
+      <L3 id="1222" value="其他内地明星"/>
+    </L2>
+    <L2 id="52" value="日韩明星">
+      <L3 id="1223" value="A 安七炫"/>
+      <L3 id="1224" value="A 安在旭"/>
+      <L3 id="1225" value="A 安室奈美惠"/>
+      <L3 id="1226" value="B Baby Vox"/>
+      <L3 id="1227" value="B BoA"/>
+      <L3 id="1228" value="B 柏原崇"/>
+      <L3 id="1229" value="B 滨崎步"/>
+      <L3 id="1230" value="B 本多ruru"/>
+      <L3 id="1231" value="C 崔智友"/>
+      <L3 id="1232" value="C 车太贤"/>
+      <L3 id="1233" value="C 车仁表"/>
+      <L3 id="1234" value="C 常盘贵子"/>
+      <L3 id="1235" value="C 蔡琳"/>
+      <L3 id="1236" value="C 仓木麻衣"/>
+      <L3 id="1237" value="C 崔真实"/>
+      <L3 id="1238" value="F 福山雅治"/>
+      <L3 id="1239" value="F 反町隆史"/>
+      <L3 id="1240" value="G 宫内知美"/>
+      <L3 id="1241" value="H 韩载锡"/>
+      <L3 id="1242" value="H 河利秀"/>
+      <L3 id="1243" value="H 河智苑"/>
+      <L3 id="1244" value="J 金在元"/>
+      <L3 id="1245" value="J 金民钟"/>
+      <L3 id="1246" value="J 金荷娜"/>
+      <L3 id="1247" value="J 金贤政"/>
+      <L3 id="1248" value="J 金贤珠"/>
+      <L3 id="1249" value="J 金素妍"/>
+      <L3 id="1250" value="J 加藤纪子"/>
+      <L3 id="1251" value="J 酒井法子"/>
+      <L3 id="1252" value="J 菊池万里江"/>
+      <L3 id="1253" value="J 金南珠"/>
+      <L3 id="1254" value="J 金喜善"/>
+      <L3 id="1255" value="J 进畿小子"/>
+      <L3 id="1256" value="L 李美妍"/>
+      <L3 id="1257" value="L 泷泽秀明"/>
+      <L3 id="1258" value="L 李政宰"/>
+      <L3 id="1259" value="L 李秉宪"/>
+      <L3 id="1260" value="L 柳时元"/>
+      <L3 id="1261" value="L 柳明日香"/>
+      <L3 id="1262" value="L 铃木亚美"/>
+      <L3 id="1263" value="L 李英爱"/>
+      <L3 id="1264" value="M 木村拓哉"/>
+      <L3 id="1265" value="N 内田有纪"/>
+      <L3 id="1266" value="N N.R.G"/>
+      <L3 id="1267" value="P 裴勇俊"/>
+      <L3 id="1268" value="Q 全智贤"/>
+      <L3 id="1269" value="Q 权相宇"/>
+      <L3 id="1270" value="S 申恩庆"/>
+      <L3 id="1271" value="S 上户彩"/>
+      <L3 id="1272" value="S 宋允儿"/>
+      <L3 id="1273" value="S 宋慧乔"/>
+      <L3 id="1274" value="S 松岛菜菜子"/>
+      <L3 id="1275" value="S 深田恭子"/>
+      <L3 id="1276" value="S 沈银河"/>
+      <L3 id="1277" value="S 石田光"/>
+      <L3 id="1278" value="S 宋承宪"/>
+      <L3 id="1279" value="S 松隆子"/>
+      <L3 id="1280" value="S 松浦亚弥"/>
+      <L3 id="1281" value="S SMAP"/>
+      <L3 id="1282" value="S 神话乐队"/>
+      <L3 id="1283" value="T 田中丽奈"/>
+      <L3 id="1284" value="T 藤原纪香"/>
+      <L3 id="1285" value="W 洼冢洋介"/>
+      <L3 id="1286" value="W 文熙俊"/>
+      <L3 id="1287" value="Y 叶月里绪菜"/>
+      <L3 id="1288" value="Y 友阪理惠"/>
+      <L3 id="1289" value="Y 元彬"/>
+      <L3 id="1290" value="Y 宇多田光"/>
+      <L3 id="1291" value="Z 张娜拉"/>
+      <L3 id="1292" value="Z 张赫"/>
+      <L3 id="1293" value="Z 竹野内丰"/>
+      <L3 id="1294" value="Z 中岛美嘉"/>
+      <L3 id="1295" value="Z 张东健"/>
+      <L3 id="1296" value="Z 中山美穗"/>
+      <L3 id="1297" value="Z 织田裕二"/>
+      <L3 id="1298" value="其他日韩明星"/>
+    </L2>
+    <L2 id="53" value="欧美明星">
+      <L3 id="1299" value="A 安东尼奥.班德拉斯"/>
+      <L3 id="1300" value="A 阿诺德.施瓦辛格"/>
+      <L3 id="1301" value="A 阿德里安.布罗迪"/>
+      <L3 id="1302" value="A 奥黛丽-赫本"/>
+      <L3 id="1303" value="A 艾薇儿"/>
+      <L3 id="1304" value="A 安吉丽娜.朱丽"/>
+      <L3 id="1305" value="A 奥兰多.布兰姆"/>
+      <L3 id="1306" value="B 本.阿弗莱克"/>
+      <L3 id="1307" value="B 布拉德.皮特"/>
+      <L3 id="1308" value="B 布兰妮.斯皮尔斯"/>
+      <L3 id="1309" value="C 凯瑟琳.泽塔琼斯"/>
+      <L3 id="1310" value="C 卡梅隆.迪亚兹"/>
+      <L3 id="1311" value="C 克里斯汀娜.阿奎莱拉"/>
+      <L3 id="1312" value="C 席琳.迪翁"/>
+      <L3 id="1313" value="D 黛咪.摩尔"/>
+      <L3 id="1314" value="H 哈莉.贝瑞"/>
+      <L3 id="1315" value="I 英格丽.褒曼"/>
+      <L3 id="1316" value="J 朱迪.福斯特"/>
+      <L3 id="1317" value="J 约翰.屈伏塔"/>
+      <L3 id="1318" value="J 詹妮弗.康奈利"/>
+      <L3 id="1319" value="J 詹妮弗.洛佩兹"/>
+      <L3 id="1320" value="J 约翰尼.戴普"/>
+      <L3 id="1321" value="J 珍妮佛.安妮丝顿"/>
+      <L3 id="1322" value="J 朱莉娅.罗伯茨"/>
+      <L3 id="1323" value="J 贾斯汀"/>
+      <L3 id="1324" value="K 基努.里维斯"/>
+      <L3 id="1325" value="K 凯拉.奈特丽"/>
+      <L3 id="1326" value="K 凯特.温丝莱特"/>
+      <L3 id="1327" value="K 胡凯莉"/>
+      <L3 id="1328" value="K 克莉斯汀娜"/>
+      <L3 id="1329" value="L 莱昂纳多.迪卡普里奥"/>
+      <L3 id="1330" value="L 刘玉玲"/>
+      <L3 id="1331" value="L 丽芙.泰勒"/>
+      <L3 id="1332" value="M 梅格.瑞恩"/>
+      <L3 id="1333" value="M 玛丽莲.梦露"/>
+      <L3 id="1334" value="M 玛丽亚.凯莉"/>
+      <L3 id="1335" value="M 麦当娜"/>
+      <L3 id="1336" value="M 迈克尔.杰克逊"/>
+      <L3 id="1337" value="N 妮可.基德曼"/>
+      <L3 id="1338" value="O 奥兰多.布鲁姆"/>
+      <L3 id="1339" value="P 佩内洛普.克鲁兹"/>
+      <L3 id="1340" value="S 秀兰.邓波儿"/>
+      <L3 id="1341" value="S 仙妮雅.唐恩"/>
+      <L3 id="1342" value="S 莎朗.斯通"/>
+      <L3 id="1343" value="S 苏菲.玛索"/>
+      <L3 id="1344" value="S 桑德拉.布洛克"/>
+      <L3 id="1345" value="S spice girls"/>
+      <L3 id="1346" value="T 汤姆.克鲁斯"/>
+      <L3 id="1347" value="V 费雯丽"/>
+      <L3 id="1348" value="V 维多利亚.贝克汉姆"/>
+      <L3 id="1349" value="W 惠特妮.休斯顿"/>
+      <L3 id="1350" value="其他欧美明星"/>
+    </L2>
+    <L2 id="54" value="体坛明星">
+      <L3 id="1351" value="姚明"/>
+      <L3 id="1352" value="刘翔"/>
+      <L3 id="1353" value="贝克汉姆"/>
+      <L3 id="1354" value="田亮"/>
+      <L3 id="1355" value="乔丹"/>
+      <L3 id="1356" value="奥运冠军"/>
+      <L3 id="1357" value="足球明星"/>
+      <L3 id="1358" value="篮球明星"/>
+      <L3 id="1359" value="网球明星"/>
+      <L3 id="1360" value="F1明星"/>
+      <L3 id="1361" value="其他体坛明星"/>
+    </L2>
+    <L2 id="55" value="其他"/>
+  </L1>
+  <L1 id="3" value="影视音乐">
+    <L2 id="56" value="电影发烧"/>
+    <L2 id="57" value="电视剧迷"/>
+    <L2 id="58" value="淘碟一族"/>
+    <L2 id="59" value="影音共享"/>
+    <L2 id="60" value="古典音乐"/>
+    <L2 id="61" value="HipHop"/>
+    <L2 id="62" value="乐坛流行"/>
+    <L2 id="63" value="摇滚"/>
+    <L2 id="64" value="音乐原创"/>
+    <L2 id="65" value="DV原创"/>
+    <L2 id="66" value="其他"/>
+  </L1>
+  <L1 id="4" value="游戏">
+    <L2 id="67" value="传奇"/>
+    <L2 id="68" value="魔兽世界"/>
+    <L2 id="69" value="奇迹"/>
+    <L2 id="70" value="天堂"/>
+    <L2 id="71" value="大话西游"/>
+    <L2 id="72" value="CS"/>
+    <L2 id="73" value="QQ游戏">
+      <L3 id="4059" value="QQ堂"/>
+    </L2>
+    <L2 id="74" value="泡泡堂"/>
+    <L2 id="75" value="单机游戏"/>
+    <L2 id="76" value="PS2/XBOX"/>
+    <L2 id="77" value="经典怀旧"/>
+    <L2 id="78" value="其他游戏"/>
+    <L2 id="398" value="网络游戏">
+      <L3 id="4060" value="A.傲世"/>
+      <L3 id="4061" value="A.A3"/>
+      <L3 id="4062" value="B.飚车"/>
+      <L3 id="4063" value="C.赤龙剑心"/>
+      <L3 id="4064" value="C.传奇3G"/>
+      <L3 id="4065" value="C.传奇"/>
+      <L3 id="4066" value="C.传奇世界"/>
+      <L3 id="4067" value="C.传说"/>
+      <L3 id="4068" value="D.豆豆秀"/>
+      <L3 id="4069" value="D.刀剑"/>
+      <L3 id="4070" value="D.大话西游II"/>
+      <L3 id="4071" value="E.无尽的任务II"/>
+      <L3 id="4072" value="F.飞飞"/>
+      <L3 id="4073" value="F.封神传说"/>
+      <L3 id="4074" value="F.封神榜"/>
+      <L3 id="4075" value="F.疯狂坦克II"/>
+      <L3 id="4076" value="G.咕噜咕噜"/>
+      <L3 id="4077" value="H.魂"/>
+      <L3 id="4078" value="H.海之乐章"/>
+      <L3 id="4079" value="H.航海世纪"/>
+      <L3 id="4080" value="H.华夏"/>
+      <L3 id="4081" value="H.火线任务"/>
+      <L3 id="4082" value="H.幻灵游侠"/>
+      <L3 id="4083" value="J.绝对女神"/>
+      <L3 id="4084" value="J.巨商"/>
+      <L3 id="4085" value="J.剑侠情缘"/>
+      <L3 id="4086" value="J.极限摩托"/>
+      <L3 id="4087" value="J.劲乐团"/>
+      <L3 id="4088" value="K.科隆"/>
+      <L3 id="4089" value="K.开天"/>
+      <L3 id="4090" value="K.科洛斯"/>
+      <L3 id="4091" value="K.快乐西游"/>
+      <L3 id="4092" value="L.领土"/>
+      <L3 id="4093" value="L.猎人MM"/>
+      <L3 id="4094" value="L.雷霆战队"/>
+      <L3 id="4095" value="L.洛奇"/>
+      <L3 id="4096" value="M.墨香"/>
+      <L3 id="4097" value="M.梦幻国度"/>
+      <L3 id="4098" value="M.魔兽世界"/>
+      <L3 id="4099" value="M.梦幻之星"/>
+      <L3 id="4100" value="M.冒险岛"/>
+      <L3 id="4101" value="M.密传"/>
+      <L3 id="4102" value="M.魔力宝贝"/>
+      <L3 id="4103" value="M.梦幻西游"/>
+      <L3 id="4104" value="M.美丽世界"/>
+      <L3 id="4105" value="M.魔剑"/>
+      <L3 id="4106" value="P.泡泡堂"/>
+      <L3 id="4107" value="P.破天一剑"/>
+      <L3 id="4108" value="Q.奇缘"/>
+      <L3 id="4109" value="Q.奇侠Xiah"/>
+      <L3 id="4110" value="Q.奇迹"/>
+      <L3 id="4111" value="Q.奇域"/>
+      <L3 id="4112" value="R.荣耀"/>
+      <L3 id="4113" value="R.RFonline"/>
+      <L3 id="4114" value="R.热血江湖"/>
+      <L3 id="4115" value="S.丝路传说"/>
+      <L3 id="4116" value="S.水浒Q传"/>
+      <L3 id="4117" value="S.神话"/>
+      <L3 id="4118" value="S.神之领域"/>
+      <L3 id="4119" value="S.神迹"/>
+      <L3 id="4120" value="S.三国策"/>
+      <L3 id="4121" value="S.石器时代"/>
+      <L3 id="4122" value="S.神曲"/>
+      <L3 id="4123" value="S.搜神记"/>
+      <L3 id="4124" value="S.少林传奇"/>
+      <L3 id="4125" value="S.什么什么大冒险"/>
+      <L3 id="4126" value="S.3D西游"/>
+      <L3 id="4127" value="T.天骄II"/>
+      <L3 id="4128" value="T.天方夜谭"/>
+      <L3 id="4129" value="T.铁血三国志"/>
+      <L3 id="4130" value="T.天堂Ⅱ"/>
+      <L3 id="4131" value="T.天翼之链"/>
+      <L3 id="4132" value="T.天外"/>
+      <L3 id="4133" value="T.天之炼狱"/>
+      <L3 id="4134" value="T.天下无双"/>
+      <L3 id="4135" value="T.吞食天地"/>
+      <L3 id="4136" value="W.武林外史"/>
+      <L3 id="4137" value="W.网络三缺一"/>
+      <L3 id="4138" value="W.武魂"/>
+      <L3 id="4139" value="X.星际OL"/>
+      <L3 id="4140" value="X.侠义道"/>
+      <L3 id="4141" value="X.仙侣奇缘"/>
+      <L3 id="4142" value="X.信仰"/>
+      <L3 id="4143" value="X.星际家园"/>
+      <L3 id="4144" value="X.侠客天下"/>
+      <L3 id="4145" value="X.仙境传说"/>
+      <L3 id="4146" value="X.轩辕二"/>
+      <L3 id="4147" value="X.希望OL"/>
+      <L3 id="4148" value="X.幸福花园"/>
+      <L3 id="4149" value="X.星钻物语"/>
+      <L3 id="4150" value="X.仙界传"/>
+      <L3 id="4151" value="Y.倚天II"/>
+      <L3 id="4152" value="Y.英雄王座"/>
+      <L3 id="4153" value="Y.英雄年代"/>
+      <L3 id="4154" value="Y.佣兵传说"/>
+      <L3 id="4155" value="Z.拯救"/>
+      <L3 id="4156" value="Z.战国英雄"/>
+      <L3 id="4157" value="Z.足球经理在线"/>
+      <L3 id="4158" value="Z.征服"/>
+      <L3 id="4159" value="其它网络游戏"/>
+    </L2>
+    <L2 id="399" value="电脑游戏">
+      <L3 id="4160" value="A.暗黑破坏神系列"/>
+      <L3 id="4161" value="D.大航海时代系列"/>
+      <L3 id="4162" value="D.帝国时代系列"/>
+      <L3 id="4163" value="F.反恐精英(CS)系列"/>
+      <L3 id="4164" value="F.分裂细胞系列"/>
+      <L3 id="4165" value="F.风色幻想系列"/>
+      <L3 id="4166" value="F.FIFA系列"/>
+      <L3 id="4167" value="G.古墓丽影系列"/>
+      <L3 id="4168" value="H.红色警戒系列"/>
+      <L3 id="4169" value="H.幻想三国志系列"/>
+      <L3 id="4170" value="J.极品飞车系列"/>
+      <L3 id="4171" value="J.金庸群侠传系列"/>
+      <L3 id="4172" value="J.剑侠情缘系列"/>
+      <L3 id="4173" value="J.绝代双骄系列"/>
+      <L3 id="4174" value="M.盟军敢死队系列"/>
+      <L3 id="4175" value="M.命令与征服系列"/>
+      <L3 id="4176" value="M.明星志愿系列"/>
+      <L3 id="4177" value="M.魔兽争霸系列"/>
+      <L3 id="4178" value="M.模拟城市系列"/>
+      <L3 id="4179" value="M.模拟人生系列"/>
+      <L3 id="4180" value="R.荣誉勋章系列"/>
+      <L3 id="4181" value="S.三国群英传系列"/>
+      <L3 id="4182" value="S.三国志系列"/>
+      <L3 id="4183" value="S.使命召唤系列"/>
+      <L3 id="4184" value="X.仙剑奇侠传系列"/>
+      <L3 id="4185" value="X.星际争霸系列"/>
+      <L3 id="4186" value="X.轩辕剑系列"/>
+      <L3 id="4187" value="T.太阁立志传系列"/>
+      <L3 id="4188" value="Y.英雄传说系列"/>
+      <L3 id="4189" value="Y.英雄无敌系列"/>
+      <L3 id="4190" value="其它电脑游戏"/>
+    </L2>
+    <L2 id="400" value="电视游戏">
+      <L3 id="4191" value="G.GB闪客"/>
+      <L3 id="4192" value="G.GT赛车系列"/>
+      <L3 id="4193" value="G.高达系列"/>
+      <L3 id="4194" value="G.鬼武者系列"/>
+      <L3 id="4195" value="H.合金装备系列"/>
+      <L3 id="4196" value="H.火影忍者系列"/>
+      <L3 id="4197" value="K.口袋妖怪系列"/>
+      <L3 id="4198" value="L.洛克人系列"/>
+      <L3 id="4199" value="M.牧场物语系列"/>
+      <L3 id="4200" value="Q.七龙珠Z系列"/>
+      <L3 id="4201" value="R.热血系列"/>
+      <L3 id="4202" value="S.生化危机系列"/>
+      <L3 id="4203" value="S.实况足球系列"/>
+      <L3 id="4204" value="X.新世纪福音战士系列"/>
+      <L3 id="4205" value="X.星之卡比系列"/>
+      <L3 id="4206" value="Z.真三国无双系列"/>
+      <L3 id="4207" value="Z.最终幻想系列"/>
+      <L3 id="4208" value="其它电视游戏"/>
+    </L2>
+    <L2 id="401" value="手机游戏">
+      <L3 id="4209" value="M.摩托罗拉手机游戏"/>
+      <L3 id="4210" value="N.诺基亚手机游戏"/>
+      <L3 id="4211" value="S.三星手机游戏"/>
+      <L3 id="4212" value="S.索爱手机游戏"/>
+      <L3 id="4213" value="X.西门子手机游戏"/>
+      <L3 id="4214" value="其它手机游戏"/>
+    </L2>
+    <L2 id="402" value="腾讯游戏">
+      <L3 id="4215" value="凯旋"/>
+      <L3 id="4216" value="QQ游戏"/>
+      <L3 id="4217" value="QQ堂"/>
+      <L3 id="4218" value="QQ幻想"/>
+    </L2>
+  </L1>
+  <L1 id="5" value="置业安居">
+    <L2 id="79" value="北京市">
+      <L3 id="1362" value="东城区"/>
+      <L3 id="1363" value="西城区"/>
+      <L3 id="1364" value="崇文区"/>
+      <L3 id="1365" value="宣武区"/>
+      <L3 id="1366" value="朝阳区"/>
+      <L3 id="1367" value="丰台区"/>
+      <L3 id="1368" value="石景山区"/>
+      <L3 id="1369" value="海淀区"/>
+      <L3 id="1370" value="门头沟区"/>
+      <L3 id="1371" value="房山区"/>
+      <L3 id="1372" value="通州区"/>
+      <L3 id="1373" value="顺义区"/>
+      <L3 id="1374" value="延庆县"/>
+      <L3 id="1375" value="昌平区"/>
+      <L3 id="1376" value="怀柔区"/>
+      <L3 id="1377" value="密云县"/>
+      <L3 id="1378" value="平谷区"/>
+      <L3 id="1379" value="大兴区"/>
+      <L3 id="1380" value="其它地区"/>
+    </L2>
+    <L2 id="80" value="天津市">
+      <L3 id="1381" value="和平区"/>
+      <L3 id="1382" value="河东区"/>
+      <L3 id="1383" value="河西区"/>
+      <L3 id="1384" value="南开区"/>
+      <L3 id="1385" value="河北区"/>
+      <L3 id="1386" value="红桥区"/>
+      <L3 id="1387" value="塘沽区"/>
+      <L3 id="1388" value="大港区"/>
+      <L3 id="1389" value="东丽区"/>
+      <L3 id="1390" value="西青区"/>
+      <L3 id="1391" value="津南区"/>
+      <L3 id="1392" value="北辰区"/>
+      <L3 id="1393" value="蓟县"/>
+      <L3 id="1394" value="宝坻区"/>
+      <L3 id="1395" value="武清区"/>
+      <L3 id="1396" value="宁河县"/>
+      <L3 id="1397" value="静海县"/>
+      <L3 id="1398" value="汉沽区"/>
+      <L3 id="1399" value="其它地区"/>
+    </L2>
+    <L2 id="81" value="上海市">
+      <L3 id="1400" value="黄浦区"/>
+      <L3 id="1401" value="卢湾区"/>
+      <L3 id="1402" value="徐汇区"/>
+      <L3 id="1403" value="长宁区"/>
+      <L3 id="1404" value="静安区"/>
+      <L3 id="1405" value="普陀区"/>
+      <L3 id="1406" value="闸北区"/>
+      <L3 id="1407" value="虹口区"/>
+      <L3 id="1408" value="杨浦区"/>
+      <L3 id="1409" value="闵行区"/>
+      <L3 id="1410" value="宝山区"/>
+      <L3 id="1411" value="嘉定区"/>
+      <L3 id="1412" value="浦东新区"/>
+      <L3 id="1413" value="金山区"/>
+      <L3 id="1414" value="松江区"/>
+      <L3 id="1415" value="崇明县"/>
+      <L3 id="1416" value="青浦区"/>
+      <L3 id="1417" value="南汇区"/>
+      <L3 id="1418" value="奉贤区"/>
+      <L3 id="1419" value="其它地区"/>
+    </L2>
+    <L2 id="82" value="重庆市">
+      <L3 id="1420" value="渝中区"/>
+      <L3 id="1421" value="大渡口区"/>
+      <L3 id="1422" value="江北区"/>
+      <L3 id="1423" value="沙坪坝区"/>
+      <L3 id="1424" value="九龙坡区"/>
+      <L3 id="1425" value="南岸区"/>
+      <L3 id="1426" value="北碚区"/>
+      <L3 id="1427" value="万盛区"/>
+      <L3 id="1428" value="双桥区"/>
+      <L3 id="1429" value="渝北区"/>
+      <L3 id="1430" value="巴南区"/>
+      <L3 id="1431" value="万州区"/>
+      <L3 id="1432" value="涪陵区"/>
+      <L3 id="1433" value="合川市"/>
+      <L3 id="1434" value="永川市"/>
+      <L3 id="1435" value="江津市"/>
+      <L3 id="1436" value="南川市"/>
+      <L3 id="1437" value="长寿区"/>
+      <L3 id="1438" value="綦江县"/>
+      <L3 id="1439" value="潼南县"/>
+      <L3 id="1440" value="铜梁县"/>
+      <L3 id="1441" value="大足县"/>
+      <L3 id="1442" value="荣昌县"/>
+      <L3 id="1443" value="璧山县"/>
+      <L3 id="1444" value="垫江县"/>
+      <L3 id="1445" value="武隆县"/>
+      <L3 id="1446" value="丰都县"/>
+      <L3 id="1447" value="城口县"/>
+      <L3 id="1448" value="梁平县"/>
+      <L3 id="1449" value="黔江区"/>
+      <L3 id="1450" value="奉节县"/>
+      <L3 id="1451" value="开县"/>
+      <L3 id="1452" value="云阳县"/>
+      <L3 id="1453" value="忠县"/>
+      <L3 id="1454" value="巫溪县"/>
+      <L3 id="1455" value="巫山县"/>
+      <L3 id="1456" value="石柱土家族自治县"/>
+      <L3 id="1457" value="秀山土家族苗族自治县"/>
+      <L3 id="1458" value="酉阳土家族苗族自治县"/>
+      <L3 id="1459" value="彭水苗族土家族自治县"/>
+      <L3 id="1460" value="其它地区"/>
+    </L2>
+    <L2 id="83" value="河北省">
+      <L3 id="1461" value="石家庄市"/>
+      <L3 id="1462" value="张家口市"/>
+      <L3 id="1463" value="承德市"/>
+      <L3 id="1464" value="秦皇岛市"/>
+      <L3 id="1465" value="唐山市"/>
+      <L3 id="1466" value="廊坊市"/>
+      <L3 id="1467" value="保定市"/>
+      <L3 id="1468" value="沧州市"/>
+      <L3 id="1469" value="衡水市"/>
+      <L3 id="1470" value="邢台市"/>
+      <L3 id="1471" value="邯郸市"/>
+      <L3 id="1472" value="其它地区"/>
+    </L2>
+    <L2 id="84" value="山西省">
+      <L3 id="1473" value="太原市"/>
+      <L3 id="1474" value="大同市"/>
+      <L3 id="1475" value="朔州市"/>
+      <L3 id="1476" value="阳泉市"/>
+      <L3 id="1477" value="长治市"/>
+      <L3 id="1478" value="晋城市"/>
+      <L3 id="1479" value="忻州市"/>
+      <L3 id="1480" value="吕梁市"/>
+      <L3 id="1481" value="晋中市"/>
+      <L3 id="1482" value="临汾市"/>
+      <L3 id="1483" value="运城市"/>
+      <L3 id="1484" value="其它地区"/>
+    </L2>
+    <L2 id="85" value="辽宁省">
+      <L3 id="1485" value="沈阳市"/>
+      <L3 id="1486" value="朝阳市"/>
+      <L3 id="1487" value="阜新市"/>
+      <L3 id="1488" value="铁岭市"/>
+      <L3 id="1489" value="抚顺市"/>
+      <L3 id="1490" value="本溪市"/>
+      <L3 id="1491" value="辽阳市"/>
+      <L3 id="1492" value="鞍山市"/>
+      <L3 id="1493" value="丹东市"/>
+      <L3 id="1494" value="大连市"/>
+      <L3 id="1495" value="营口市"/>
+      <L3 id="1496" value="盘锦市"/>
+      <L3 id="1497" value="锦州市"/>
+      <L3 id="1498" value="葫芦岛市"/>
+      <L3 id="1499" value="其它地区"/>
+    </L2>
+    <L2 id="86" value="吉林省">
+      <L3 id="1500" value="长春市"/>
+      <L3 id="1501" value="白城市"/>
+      <L3 id="1502" value="松原市"/>
+      <L3 id="1503" value="吉林市"/>
+      <L3 id="1504" value="四平市"/>
+      <L3 id="1505" value="辽源市"/>
+      <L3 id="1506" value="通化市"/>
+      <L3 id="1507" value="白山市"/>
+      <L3 id="1508" value="延边朝鲜族自治州"/>
+      <L3 id="1509" value="其它地区"/>
+    </L2>
+    <L2 id="87" value="江苏省">
+      <L3 id="1510" value="南京市"/>
+      <L3 id="1511" value="徐州市"/>
+      <L3 id="1512" value="连云港市"/>
+      <L3 id="1513" value="宿迁市"/>
+      <L3 id="1514" value="淮阴市"/>
+      <L3 id="1515" value="盐城市"/>
+      <L3 id="1516" value="扬州市"/>
+      <L3 id="1517" value="泰州市"/>
+      <L3 id="1518" value="南通市"/>
+      <L3 id="1519" value="镇江市"/>
+      <L3 id="1520" value="常州市"/>
+      <L3 id="1521" value="无锡市"/>
+      <L3 id="1522" value="苏州市"/>
+      <L3 id="1523" value="淮安市"/>
+      <L3 id="1524" value="其它地区"/>
+    </L2>
+    <L2 id="88" value="浙江省">
+      <L3 id="1525" value="杭州市"/>
+      <L3 id="1526" value="湖州市"/>
+      <L3 id="1527" value="嘉兴市"/>
+      <L3 id="1528" value="舟山市"/>
+      <L3 id="1529" value="宁波市"/>
+      <L3 id="1530" value="绍兴市"/>
+      <L3 id="1531" value="金华市"/>
+      <L3 id="1532" value="台州市"/>
+      <L3 id="1533" value="温州市"/>
+      <L3 id="1534" value="丽水市"/>
+      <L3 id="1535" value="衢州市"/>
+      <L3 id="1536" value="其它地区"/>
+    </L2>
+    <L2 id="89" value="安徽省">
+      <L3 id="1537" value="合肥市"/>
+      <L3 id="1538" value="宿州市"/>
+      <L3 id="1539" value="淮北市"/>
+      <L3 id="1540" value="阜阳市"/>
+      <L3 id="1541" value="蚌埠市"/>
+      <L3 id="1542" value="淮南市"/>
+      <L3 id="1543" value="滁州市"/>
+      <L3 id="1544" value="马鞍山市"/>
+      <L3 id="1545" value="芜湖市"/>
+      <L3 id="1546" value="铜陵市"/>
+      <L3 id="1547" value="安庆市"/>
+      <L3 id="1548" value="黄山市"/>
+      <L3 id="1549" value="六安市"/>
+      <L3 id="1550" value="巢湖市"/>
+      <L3 id="1551" value="池州市"/>
+      <L3 id="1552" value="宣城市"/>
+      <L3 id="1553" value="亳州市"/>
+      <L3 id="1554" value="其它地区"/>
+    </L2>
+    <L2 id="90" value="福建省">
+      <L3 id="1555" value="福州市"/>
+      <L3 id="1556" value="南平市"/>
+      <L3 id="1557" value="三明市"/>
+      <L3 id="1558" value="莆田市"/>
+      <L3 id="1559" value="泉州市"/>
+      <L3 id="1560" value="厦门市"/>
+      <L3 id="1561" value="漳州市"/>
+      <L3 id="1562" value="龙岩市"/>
+      <L3 id="1563" value="宁德市"/>
+      <L3 id="1564" value="其它地区"/>
+    </L2>
+    <L2 id="91" value="江西省">
+      <L3 id="1565" value="南昌市"/>
+      <L3 id="1566" value="九江市"/>
+      <L3 id="1567" value="景德镇市"/>
+      <L3 id="1568" value="鹰潭市"/>
+      <L3 id="1569" value="新余市"/>
+      <L3 id="1570" value="萍乡市"/>
+      <L3 id="1571" value="赣州市"/>
+      <L3 id="1572" value="上饶市"/>
+      <L3 id="1573" value="抚州市"/>
+      <L3 id="1574" value="宜春市"/>
+      <L3 id="1575" value="吉安市"/>
+      <L3 id="1576" value="其它地区"/>
+    </L2>
+    <L2 id="92" value="山东省">
+      <L3 id="1577" value="济南市"/>
+      <L3 id="1578" value="聊城市"/>
+      <L3 id="1579" value="德州市"/>
+      <L3 id="1580" value="东营市"/>
+      <L3 id="1581" value="淄博市"/>
+      <L3 id="1582" value="潍坊市"/>
+      <L3 id="1583" value="烟台市"/>
+      <L3 id="1584" value="威海市"/>
+      <L3 id="1585" value="青岛市"/>
+      <L3 id="1586" value="日照市"/>
+      <L3 id="1587" value="临沂市"/>
+      <L3 id="1588" value="枣庄市"/>
+      <L3 id="1589" value="济宁市"/>
+      <L3 id="1590" value="泰安市"/>
+      <L3 id="1591" value="莱芜市"/>
+      <L3 id="1592" value="滨州市"/>
+      <L3 id="1593" value="菏泽市"/>
+      <L3 id="1594" value="其它地区"/>
+    </L2>
+    <L2 id="93" value="河南省">
+      <L3 id="1595" value="郑州市"/>
+      <L3 id="1596" value="三门峡市"/>
+      <L3 id="1597" value="洛阳市"/>
+      <L3 id="1598" value="焦作市"/>
+      <L3 id="1599" value="新乡市"/>
+      <L3 id="1600" value="鹤壁市"/>
+      <L3 id="1601" value="安阳市"/>
+      <L3 id="1602" value="濮阳市"/>
+      <L3 id="1603" value="开封市"/>
+      <L3 id="1604" value="商丘市"/>
+      <L3 id="1605" value="许昌市"/>
+      <L3 id="1606" value="漯河市"/>
+      <L3 id="1607" value="平顶山市"/>
+      <L3 id="1608" value="南阳市"/>
+      <L3 id="1609" value="信阳市"/>
+      <L3 id="1610" value="济源市"/>
+      <L3 id="1611" value="周口市"/>
+      <L3 id="1612" value="驻马店市"/>
+      <L3 id="1613" value="其它地区"/>
+    </L2>
+    <L2 id="94" value="内蒙古自治区">
+      <L3 id="1614" value="呼和浩特市"/>
+      <L3 id="1615" value="包头市"/>
+      <L3 id="1616" value="乌海市"/>
+      <L3 id="1617" value="赤峰市"/>
+      <L3 id="1618" value="呼伦贝尔"/>
+      <L3 id="1619" value="兴安盟"/>
+      <L3 id="1620" value="锡林郭勒盟"/>
+      <L3 id="1621" value="乌兰察布市"/>
+      <L3 id="1622" value="巴彦淖尔市"/>
+      <L3 id="1623" value="阿拉善盟"/>
+      <L3 id="1624" value="鄂尔多斯市"/>
+      <L3 id="1625" value="通辽市"/>
+      <L3 id="1626" value="其它地区"/>
+    </L2>
+    <L2 id="95" value="黑龙江省">
+      <L3 id="1627" value="哈尔滨市"/>
+      <L3 id="1628" value="齐齐哈尔市"/>
+      <L3 id="1629" value="黑河市"/>
+      <L3 id="1630" value="大庆市"/>
+      <L3 id="1631" value="伊春市"/>
+      <L3 id="1632" value="鹤岗市"/>
+      <L3 id="1633" value="佳木斯市"/>
+      <L3 id="1634" value="双鸭山市"/>
+      <L3 id="1635" value="七台河市"/>
+      <L3 id="1636" value="鸡西市"/>
+      <L3 id="1637" value="牡丹江市"/>
+      <L3 id="1638" value="绥化地区"/>
+      <L3 id="1639" value="大兴安岭地区"/>
+      <L3 id="1640" value="其它地区"/>
+    </L2>
+    <L2 id="96" value="湖北省">
+      <L3 id="1641" value="武汉市"/>
+      <L3 id="1642" value="十堰市"/>
+      <L3 id="1643" value="襄樊市"/>
+      <L3 id="1644" value="荆门市"/>
+      <L3 id="1645" value="孝感市"/>
+      <L3 id="1646" value="黄冈市"/>
+      <L3 id="1647" value="鄂州市"/>
+      <L3 id="1648" value="黄石市"/>
+      <L3 id="1649" value="咸宁市"/>
+      <L3 id="1650" value="荆州市"/>
+      <L3 id="1651" value="宜昌市"/>
+      <L3 id="1652" value="随州市"/>
+      <L3 id="1653" value="仙桃市"/>
+      <L3 id="1654" value="天门市"/>
+      <L3 id="1655" value="潜江市"/>
+      <L3 id="1656" value="神农架林区"/>
+      <L3 id="1657" value="恩施土家族苗族自治州"/>
+      <L3 id="1658" value="其它地区"/>
+    </L2>
+    <L2 id="97" value="湖南省">
+      <L3 id="1659" value="长沙市"/>
+      <L3 id="1660" value="张家界市"/>
+      <L3 id="1661" value="常德市"/>
+      <L3 id="1662" value="益阳市"/>
+      <L3 id="1663" value="岳阳市"/>
+      <L3 id="1664" value="株洲市"/>
+      <L3 id="1665" value="湘潭市"/>
+      <L3 id="1666" value="衡阳市"/>
+      <L3 id="1667" value="郴州市"/>
+      <L3 id="1668" value="永州市"/>
+      <L3 id="1669" value="邵阳市"/>
+      <L3 id="1670" value="怀化市"/>
+      <L3 id="1671" value="娄底市"/>
+      <L3 id="1672" value="湘西土家族苗族自治州"/>
+      <L3 id="1673" value="其它地区"/>
+    </L2>
+    <L2 id="98" value="广东省">
+      <L3 id="1674" value="广州市"/>
+      <L3 id="1675" value="清远市"/>
+      <L3 id="1676" value="韶关市"/>
+      <L3 id="1677" value="河源市"/>
+      <L3 id="1678" value="梅州市"/>
+      <L3 id="1679" value="潮州市"/>
+      <L3 id="1680" value="汕头市"/>
+      <L3 id="1681" value="揭阳市"/>
+      <L3 id="1682" value="汕尾市"/>
+      <L3 id="1683" value="惠州市"/>
+      <L3 id="1684" value="东莞市"/>
+      <L3 id="1685" value="深圳市"/>
+      <L3 id="1686" value="珠海市"/>
+      <L3 id="1687" value="中山市"/>
+      <L3 id="1688" value="江门市"/>
+      <L3 id="1689" value="佛山市"/>
+      <L3 id="1690" value="肇庆市"/>
+      <L3 id="1691" value="云浮市"/>
+      <L3 id="1692" value="阳江市"/>
+      <L3 id="1693" value="茂名市"/>
+      <L3 id="1694" value="湛江市"/>
+      <L3 id="1695" value="其它地区"/>
+    </L2>
+    <L2 id="99" value="广西壮族自治区">
+      <L3 id="1696" value="南宁市"/>
+      <L3 id="1697" value="桂林市"/>
+      <L3 id="1698" value="柳州市"/>
+      <L3 id="1699" value="梧州市"/>
+      <L3 id="1700" value="贵港市"/>
+      <L3 id="1701" value="玉林市"/>
+      <L3 id="1702" value="钦州市"/>
+      <L3 id="1703" value="北海市"/>
+      <L3 id="1704" value="防城港市"/>
+      <L3 id="1705" value="百色市"/>
+      <L3 id="1706" value="河池地区"/>
+      <L3 id="1707" value="贺州地区"/>
+      <L3 id="1708" value="崇左市"/>
+      <L3 id="1709" value="凭祥市"/>
+      <L3 id="1710" value="来宾市"/>
+      <L3 id="1711" value="其它地区"/>
+    </L2>
+    <L2 id="100" value="海南省">
+      <L3 id="1712" value="海口市"/>
+      <L3 id="1713" value="三亚市"/>
+      <L3 id="1714" value="琼山市"/>
+      <L3 id="1715" value="文昌市"/>
+      <L3 id="1716" value="琼海市"/>
+      <L3 id="1717" value="万宁市"/>
+      <L3 id="1718" value="东方市"/>
+      <L3 id="1719" value="儋州市"/>
+      <L3 id="1720" value="临高县"/>
+      <L3 id="1721" value="澄迈县"/>
+      <L3 id="1722" value="定安县"/>
+      <L3 id="1723" value="屯昌县"/>
+      <L3 id="1724" value="昌江黎族自治县"/>
+      <L3 id="1725" value="白沙黎族自治县"/>
+      <L3 id="1726" value="琼中黎族苗族自治县"/>
+      <L3 id="1727" value="陵水黎族自治县"/>
+      <L3 id="1728" value="保亭黎族苗族自治县"/>
+      <L3 id="1729" value="乐东黎族自治县"/>
+      <L3 id="1730" value="五指山市"/>
+      <L3 id="1731" value="其它地区"/>
+    </L2>
+    <L2 id="101" value="四川省">
+      <L3 id="1732" value="成都市"/>
+      <L3 id="1733" value="广元市"/>
+      <L3 id="1734" value="绵阳市"/>
+      <L3 id="1735" value="德阳市"/>
+      <L3 id="1736" value="南充市"/>
+      <L3 id="1737" value="广安市"/>
+      <L3 id="1738" value="遂宁市"/>
+      <L3 id="1739" value="内江市"/>
+      <L3 id="1740" value="乐山市"/>
+      <L3 id="1741" value="自贡市"/>
+      <L3 id="1742" value="泸州市"/>
+      <L3 id="1743" value="宜宾市"/>
+      <L3 id="1744" value="攀枝花市"/>
+      <L3 id="1745" value="巴中市"/>
+      <L3 id="1746" value="达州市"/>
+      <L3 id="1747" value="资阳市"/>
+      <L3 id="1748" value="眉山市"/>
+      <L3 id="1749" value="雅安市"/>
+      <L3 id="1750" value="阿坝藏族羌族自治州"/>
+      <L3 id="1751" value="甘孜藏族自治州"/>
+      <L3 id="1752" value="凉山彝族自治州"/>
+      <L3 id="1753" value="其它地区"/>
+    </L2>
+    <L2 id="102" value="台湾省">
+      <L3 id="1754" value="台北市"/>
+      <L3 id="1755" value="高雄市"/>
+      <L3 id="1756" value="台南市"/>
+      <L3 id="1757" value="台中市"/>
+      <L3 id="1758" value="基隆市"/>
+      <L3 id="1759" value="新竹市"/>
+      <L3 id="1760" value="嘉义市"/>
+      <L3 id="1761" value="台北县"/>
+      <L3 id="1762" value="宜兰县"/>
+      <L3 id="1763" value="新竹县"/>
+      <L3 id="1764" value="桃园县"/>
+      <L3 id="1765" value="苗栗县"/>
+      <L3 id="1766" value="台中县"/>
+      <L3 id="1767" value="彰化县"/>
+      <L3 id="1768" value="南投县"/>
+      <L3 id="1769" value="嘉义县"/>
+      <L3 id="1770" value="云林县"/>
+      <L3 id="1771" value="台南县"/>
+      <L3 id="1772" value="高雄县"/>
+      <L3 id="1773" value="屏东县"/>
+      <L3 id="1774" value="台东县"/>
+      <L3 id="1775" value="花莲县"/>
+      <L3 id="1776" value="澎湖县"/>
+      <L3 id="1777" value="其它地区"/>
+    </L2>
+    <L2 id="103" value="贵州省">
+      <L3 id="1778" value="贵阳市"/>
+      <L3 id="1779" value="六盘水市"/>
+      <L3 id="1780" value="遵义市"/>
+      <L3 id="1781" value="毕节地区"/>
+      <L3 id="1782" value="铜仁地区"/>
+      <L3 id="1783" value="安顺市"/>
+      <L3 id="1784" value="黔东南苗族侗族自治州"/>
+      <L3 id="1785" value="黔南布依族苗族自治州"/>
+      <L3 id="1786" value="黔西南布依族苗族自治州"/>
+      <L3 id="1787" value="其它地区"/>
+    </L2>
+    <L2 id="104" value="云南省">
+      <L3 id="1788" value="昆明市"/>
+      <L3 id="1789" value="曲靖市"/>
+      <L3 id="1790" value="玉溪市"/>
+      <L3 id="1791" value="丽江市"/>
+      <L3 id="1792" value="昭通市"/>
+      <L3 id="1793" value="思茅市"/>
+      <L3 id="1794" value="临沧地区"/>
+      <L3 id="1795" value="保山市"/>
+      <L3 id="1796" value="德宏傣族景颇族自治州"/>
+      <L3 id="1797" value="怒江傈傈族自治州"/>
+      <L3 id="1798" value="迪庆藏族自治州"/>
+      <L3 id="1799" value="大理白族自治州"/>
+      <L3 id="1800" value="楚雄彝族自治州"/>
+      <L3 id="1801" value="红河哈尼族彝族自治州"/>
+      <L3 id="1802" value="文山壮族苗族自治州"/>
+      <L3 id="1803" value="西双版纳傣族自治州"/>
+      <L3 id="1804" value="其它地区"/>
+    </L2>
+    <L2 id="105" value="陕西省">
+      <L3 id="1805" value="西安市"/>
+      <L3 id="1806" value="延安市"/>
+      <L3 id="1807" value="铜川市"/>
+      <L3 id="1808" value="渭南市"/>
+      <L3 id="1809" value="咸阳市"/>
+      <L3 id="1810" value="宝鸡市"/>
+      <L3 id="1811" value="汉中市"/>
+      <L3 id="1812" value="榆林市"/>
+      <L3 id="1813" value="商洛市"/>
+      <L3 id="1814" value="安康市"/>
+      <L3 id="1815" value="其它地区"/>
+    </L2>
+    <L2 id="106" value="西藏自治区">
+      <L3 id="1816" value="拉萨市"/>
+      <L3 id="1817" value="那曲地区"/>
+      <L3 id="1818" value="昌都地区"/>
+      <L3 id="1819" value="林芝地区"/>
+      <L3 id="1820" value="山南地区"/>
+      <L3 id="1821" value="日喀则地区"/>
+      <L3 id="1822" value="阿里地区"/>
+      <L3 id="1823" value="其它地区"/>
+    </L2>
+    <L2 id="107" value="甘肃省">
+      <L3 id="1824" value="兰州市"/>
+      <L3 id="1825" value="嘉峪关市"/>
+      <L3 id="1826" value="金昌市"/>
+      <L3 id="1827" value="白银市"/>
+      <L3 id="1828" value="天水市"/>
+      <L3 id="1829" value="酒泉市"/>
+      <L3 id="1830" value="张掖市"/>
+      <L3 id="1831" value="武威市"/>
+      <L3 id="1832" value="庆阳市"/>
+      <L3 id="1833" value="平凉市"/>
+      <L3 id="1834" value="定西市"/>
+      <L3 id="1835" value="陇南地区"/>
+      <L3 id="1836" value="临夏回族自治州"/>
+      <L3 id="1837" value="甘南藏族自治州"/>
+      <L3 id="1838" value="玉门市"/>
+      <L3 id="1839" value="敦煌市"/>
+      <L3 id="1840" value="其它地区"/>
+    </L2>
+    <L2 id="108" value="青海省">
+      <L3 id="1841" value="西宁市"/>
+      <L3 id="1842" value="海东地区"/>
+      <L3 id="1843" value="海北藏族自治州"/>
+      <L3 id="1844" value="海南藏族自治州"/>
+      <L3 id="1845" value="黄南藏族自治州"/>
+      <L3 id="1846" value="果洛藏族自治州"/>
+      <L3 id="1847" value="玉树藏族自治州"/>
+      <L3 id="1848" value="海西蒙古族藏族自治州"/>
+      <L3 id="1849" value="其它地区"/>
+    </L2>
+    <L2 id="109" value="宁夏回族自治区">
+      <L3 id="1850" value="银川市"/>
+      <L3 id="1851" value="石嘴山市"/>
+      <L3 id="1852" value="吴忠市"/>
+      <L3 id="1853" value="固原市"/>
+      <L3 id="1854" value="其它地区"/>
+    </L2>
+    <L2 id="110" value="新疆维吾尔族自治区">
+      <L3 id="1855" value="乌鲁木齐市"/>
+      <L3 id="1856" value="克拉玛依市"/>
+      <L3 id="1857" value="石河子市"/>
+      <L3 id="1858" value="喀什地区"/>
+      <L3 id="1859" value="阿克苏地区"/>
+      <L3 id="1860" value="和田地区"/>
+      <L3 id="1861" value="吐鲁番地区"/>
+      <L3 id="1862" value="哈密地区"/>
+      <L3 id="1863" value="克孜勒苏柯尔克孜自治州"/>
+      <L3 id="1864" value="博尔塔拉蒙古自治州"/>
+      <L3 id="1865" value="昌吉回族自治州"/>
+      <L3 id="1866" value="巴音郭楞蒙古自治州"/>
+      <L3 id="1867" value="伊犁哈萨克自治州"/>
+      <L3 id="1868" value="其它地区"/>
+    </L2>
+    <L2 id="111" value="香港特别行政区">
+      <L3 id="1869" value="九龙城区"/>
+      <L3 id="1870" value="中西区"/>
+      <L3 id="1871" value="东区"/>
+      <L3 id="1872" value="观塘区"/>
+      <L3 id="1873" value="南区"/>
+      <L3 id="1874" value="深水埗区"/>
+      <L3 id="1875" value="黄大仙区"/>
+      <L3 id="1876" value="湾仔区"/>
+      <L3 id="1877" value="油尖旺区"/>
+      <L3 id="1878" value="离岛区"/>
+      <L3 id="1879" value="葵青区"/>
+      <L3 id="1880" value="北区"/>
+      <L3 id="1881" value="西贡区"/>
+      <L3 id="1882" value="沙田区"/>
+      <L3 id="1883" value="屯门区"/>
+      <L3 id="1884" value="大埔区"/>
+      <L3 id="1885" value="荃湾区"/>
+      <L3 id="1886" value="元朗区"/>
+      <L3 id="1887" value="其它地区"/>
+    </L2>
+    <L2 id="112" value="澳门特别行政区">
+      <L3 id="1888" value="澳门半岛"/>
+      <L3 id="1889" value="凼仔岛"/>
+      <L3 id="1890" value="路环岛"/>
+      <L3 id="1891" value="其它地区"/>
+    </L2>
+  </L1>
+  <L1 id="6" value="车行天下">
+    <L2 id="113" value="奥迪">
+      <L3 id="3551" value="华北车友会"/>
+      <L3 id="3552" value="华东车友会"/>
+      <L3 id="3553" value="华南车友会"/>
+      <L3 id="3554" value="华中车友会"/>
+      <L3 id="3555" value="东北车友会"/>
+      <L3 id="3556" value="西北车友会"/>
+      <L3 id="3557" value="西南车友会"/>
+    </L2>
+    <L2 id="114" value="桑塔纳">
+      <L3 id="3558" value="华北车友会"/>
+      <L3 id="3559" value="华东车友会"/>
+      <L3 id="3560" value="华南车友会"/>
+      <L3 id="3561" value="华中车友会"/>
+      <L3 id="3562" value="东北车友会"/>
+      <L3 id="3563" value="西北车友会"/>
+      <L3 id="3564" value="西南车友会"/>
+    </L2>
+    <L2 id="115" value="捷达">
+      <L3 id="3565" value="华北车友会"/>
+      <L3 id="3566" value="华东车友会"/>
+      <L3 id="3567" value="华南车友会"/>
+      <L3 id="3568" value="华中车友会"/>
+      <L3 id="3569" value="东北车友会"/>
+      <L3 id="3570" value="西北车友会"/>
+      <L3 id="3571" value="西南车友会"/>
+      <L3 id="3656" value="华北车友会"/>
+      <L3 id="3657" value="华东车友会"/>
+      <L3 id="3658" value="华南车友会"/>
+      <L3 id="3659" value="华中车友会"/>
+      <L3 id="3660" value="东北车友会"/>
+      <L3 id="3661" value="西北车友会"/>
+      <L3 id="3662" value="西南车友会"/>
+    </L2>
+    <L2 id="116" value="帕萨特">
+      <L3 id="3572" value="华北车友会"/>
+      <L3 id="3573" value="华东车友会"/>
+      <L3 id="3574" value="华南车友会"/>
+      <L3 id="3575" value="华中车友会"/>
+      <L3 id="3576" value="东北车友会"/>
+      <L3 id="3577" value="西北车友会"/>
+      <L3 id="3578" value="西南车友会"/>
+    </L2>
+    <L2 id="117" value="奥拓">
+      <L3 id="3579" value="华北车友会"/>
+      <L3 id="3580" value="华东车友会"/>
+      <L3 id="3581" value="华南车友会"/>
+      <L3 id="3582" value="华中车友会"/>
+      <L3 id="3583" value="东北车友会"/>
+      <L3 id="3584" value="西北车友会"/>
+      <L3 id="3585" value="西南车友会"/>
+    </L2>
+    <L2 id="118" value="富康">
+      <L3 id="3586" value="华北车友会"/>
+      <L3 id="3587" value="华东车友会"/>
+      <L3 id="3588" value="华南车友会"/>
+      <L3 id="3589" value="华中车友会"/>
+      <L3 id="3590" value="东北车友会"/>
+      <L3 id="3591" value="西北车友会"/>
+      <L3 id="3592" value="西南车友会"/>
+    </L2>
+    <L2 id="119" value="别克">
+      <L3 id="3593" value="华北车友会"/>
+      <L3 id="3594" value="华东车友会"/>
+      <L3 id="3595" value="华南车友会"/>
+      <L3 id="3596" value="华中车友会"/>
+      <L3 id="3597" value="东北车友会"/>
+      <L3 id="3598" value="西北车友会"/>
+      <L3 id="3599" value="西南车友会"/>
+    </L2>
+    <L2 id="120" value="宝来">
+      <L3 id="3600" value="华北车友会"/>
+      <L3 id="3601" value="华东车友会"/>
+      <L3 id="3602" value="华南车友会"/>
+      <L3 id="3603" value="华中车友会"/>
+      <L3 id="3604" value="东北车友会"/>
+      <L3 id="3605" value="西北车友会"/>
+      <L3 id="3606" value="西南车友会"/>
+    </L2>
+    <L2 id="121" value="英格尔">
+      <L3 id="3607" value="华北车友会"/>
+      <L3 id="3608" value="华东车友会"/>
+      <L3 id="3609" value="华南车友会"/>
+      <L3 id="3610" value="华中车友会"/>
+      <L3 id="3611" value="东北车友会"/>
+      <L3 id="3612" value="西北车友会"/>
+      <L3 id="3613" value="西南车友会"/>
+    </L2>
+    <L2 id="122" value="切诺基">
+      <L3 id="3614" value="华北车友会"/>
+      <L3 id="3615" value="华东车友会"/>
+      <L3 id="3616" value="华南车友会"/>
+      <L3 id="3617" value="华中车友会"/>
+      <L3 id="3618" value="东北车友会"/>
+      <L3 id="3619" value="西北车友会"/>
+      <L3 id="3620" value="西南车友会"/>
+    </L2>
+    <L2 id="123" value="路宝">
+      <L3 id="3621" value="华北车友会"/>
+      <L3 id="3622" value="华东车友会"/>
+      <L3 id="3623" value="华南车友会"/>
+      <L3 id="3624" value="华中车友会"/>
+      <L3 id="3625" value="东北车友会"/>
+      <L3 id="3626" value="西北车友会"/>
+      <L3 id="3627" value="西南车友会"/>
+    </L2>
+    <L2 id="124" value="奇瑞">
+      <L3 id="3628" value="华北车友会"/>
+      <L3 id="3629" value="华东车友会"/>
+      <L3 id="3630" value="华南车友会"/>
+      <L3 id="3631" value="华中车友会"/>
+      <L3 id="3632" value="东北车友会"/>
+      <L3 id="3633" value="西北车友会"/>
+      <L3 id="3634" value="西南车友会"/>
+    </L2>
+    <L2 id="125" value="夏利">
+      <L3 id="3635" value="华北车友会"/>
+      <L3 id="3636" value="华东车友会"/>
+      <L3 id="3637" value="华南车友会"/>
+      <L3 id="3638" value="华中车友会"/>
+      <L3 id="3639" value="东北车友会"/>
+      <L3 id="3640" value="西北车友会"/>
+      <L3 id="3641" value="西南车友会"/>
+    </L2>
+    <L2 id="126" value="赛欧">
+      <L3 id="3642" value="华北车友会"/>
+      <L3 id="3643" value="华东车友会"/>
+      <L3 id="3644" value="华南车友会"/>
+      <L3 id="3645" value="华中车友会"/>
+      <L3 id="3646" value="东北车友会"/>
+      <L3 id="3647" value="西北车友会"/>
+      <L3 id="3648" value="西南车友会"/>
+    </L2>
+    <L2 id="127" value="中华">
+      <L3 id="3649" value="华北车友会"/>
+      <L3 id="3650" value="华东车友会"/>
+      <L3 id="3651" value="华南车友会"/>
+      <L3 id="3652" value="华中车友会"/>
+      <L3 id="3653" value="东北车友会"/>
+      <L3 id="3654" value="西北车友会"/>
+      <L3 id="3655" value="西南车友会"/>
+    </L2>
+    <L2 id="128" value="福莱尔"/>
+    <L2 id="333" value="红旗">
+      <L3 id="3663" value="华北车友会"/>
+      <L3 id="3664" value="华东车友会"/>
+      <L3 id="3665" value="华南车友会"/>
+      <L3 id="3666" value="华中车友会"/>
+      <L3 id="3667" value="东北车友会"/>
+      <L3 id="3668" value="西北车友会"/>
+      <L3 id="3669" value="西南车友会"/>
+    </L2>
+    <L2 id="334" value="波罗">
+      <L3 id="3670" value="华北车友会"/>
+      <L3 id="3671" value="华东车友会"/>
+      <L3 id="3672" value="华南车友会"/>
+      <L3 id="3673" value="华中车友会"/>
+      <L3 id="3674" value="东北车友会"/>
+      <L3 id="3675" value="西北车友会"/>
+      <L3 id="3676" value="西南车友会"/>
+    </L2>
+    <L2 id="335" value="海马">
+      <L3 id="3677" value="华北车友会"/>
+      <L3 id="3678" value="华东车友会"/>
+      <L3 id="3679" value="华南车友会"/>
+      <L3 id="3680" value="华中车友会"/>
+      <L3 id="3681" value="东北车友会"/>
+      <L3 id="3682" value="西北车友会"/>
+      <L3 id="3683" value="西南车友会"/>
+    </L2>
+    <L2 id="336" value="本田">
+      <L3 id="3684" value="华北车友会"/>
+      <L3 id="3685" value="华东车友会"/>
+      <L3 id="3686" value="华南车友会"/>
+      <L3 id="3687" value="华中车友会"/>
+      <L3 id="3688" value="东北车友会"/>
+      <L3 id="3689" value="西北车友会"/>
+      <L3 id="3690" value="西南车友会"/>
+    </L2>
+    <L2 id="337" value="吉利">
+      <L3 id="3691" value="华北车友会"/>
+      <L3 id="3692" value="华东车友会"/>
+      <L3 id="3693" value="华南车友会"/>
+      <L3 id="3694" value="华中车友会"/>
+      <L3 id="3695" value="东北车友会"/>
+      <L3 id="3696" value="西北车友会"/>
+      <L3 id="3697" value="西南车友会"/>
+    </L2>
+    <L2 id="338" value="美日">
+      <L3 id="3698" value="华北车友会"/>
+      <L3 id="3699" value="华东车友会"/>
+      <L3 id="3700" value="华南车友会"/>
+      <L3 id="3701" value="华中车友会"/>
+      <L3 id="3702" value="东北车友会"/>
+      <L3 id="3703" value="西北车友会"/>
+      <L3 id="3704" value="西南车友会"/>
+    </L2>
+    <L2 id="339" value="东风日产">
+      <L3 id="3705" value="华北车友会"/>
+      <L3 id="3706" value="华东车友会"/>
+      <L3 id="3707" value="华南车友会"/>
+      <L3 id="3708" value="华中车友会"/>
+      <L3 id="3709" value="东北车友会"/>
+      <L3 id="3710" value="西北车友会"/>
+      <L3 id="3711" value="西南车友会"/>
+    </L2>
+    <L2 id="340" value="派力奥">
+      <L3 id="3712" value="华北车友会"/>
+      <L3 id="3713" value="华东车友会"/>
+      <L3 id="3714" value="华南车友会"/>
+      <L3 id="3715" value="华中车友会"/>
+      <L3 id="3716" value="东北车友会"/>
+      <L3 id="3717" value="西北车友会"/>
+      <L3 id="3718" value="西南车友会"/>
+    </L2>
+    <L2 id="341" value="悦达">
+      <L3 id="3719" value="华北车友会"/>
+      <L3 id="3720" value="华东车友会"/>
+      <L3 id="3721" value="华南车友会"/>
+      <L3 id="3722" value="华中车友会"/>
+      <L3 id="3723" value="东北车友会"/>
+      <L3 id="3724" value="西北车友会"/>
+      <L3 id="3725" value="西南车友会"/>
+    </L2>
+    <L2 id="342" value="威驰">
+      <L3 id="3726" value="华北车友会"/>
+      <L3 id="3727" value="华东车友会"/>
+      <L3 id="3728" value="华南车友会"/>
+      <L3 id="3729" value="华中车友会"/>
+      <L3 id="3730" value="东北车友会"/>
+      <L3 id="3731" value="西北车友会"/>
+      <L3 id="3732" value="西南车友会"/>
+    </L2>
+    <L2 id="343" value="中兴">
+      <L3 id="3733" value="华北车友会"/>
+      <L3 id="3734" value="华东车友会"/>
+      <L3 id="3735" value="华南车友会"/>
+      <L3 id="3736" value="华中车友会"/>
+      <L3 id="3737" value="东北车友会"/>
+      <L3 id="3738" value="西北车友会"/>
+      <L3 id="3739" value="西南车友会"/>
+    </L2>
+    <L2 id="344" value="长城赛弗">
+      <L3 id="3740" value="华北车友会"/>
+      <L3 id="3741" value="华东车友会"/>
+      <L3 id="3742" value="华南车友会"/>
+      <L3 id="3743" value="华中车友会"/>
+      <L3 id="3744" value="东北车友会"/>
+      <L3 id="3745" value="西北车友会"/>
+      <L3 id="3746" value="西南车友会"/>
+    </L2>
+    <L2 id="345" value="猎豹俱乐部">
+      <L3 id="3747" value="华北车友会"/>
+      <L3 id="3748" value="华东车友会"/>
+      <L3 id="3749" value="华南车友会"/>
+      <L3 id="3750" value="华中车友会"/>
+      <L3 id="3751" value="东北车友会"/>
+      <L3 id="3752" value="西北车友会"/>
+      <L3 id="3753" value="西南车友会"/>
+    </L2>
+    <L2 id="346" value="风行MPV俱乐部">
+      <L3 id="3754" value="华北车友会"/>
+      <L3 id="3755" value="华东车友会"/>
+      <L3 id="3756" value="华南车友会"/>
+      <L3 id="3757" value="华中车友会"/>
+      <L3 id="3758" value="东北车友会"/>
+      <L3 id="3759" value="西北车友会"/>
+      <L3 id="3760" value="西南车友会"/>
+    </L2>
+    <L2 id="347" value="高尔">
+      <L3 id="3761" value="华北车友会"/>
+      <L3 id="3762" value="华东车友会"/>
+      <L3 id="3763" value="华南车友会"/>
+      <L3 id="3764" value="华中车友会"/>
+      <L3 id="3765" value="东北车友会"/>
+      <L3 id="3766" value="西北车友会"/>
+      <L3 id="3767" value="西南车友会"/>
+    </L2>
+    <L2 id="348" value="菱帅">
+      <L3 id="3768" value="华北车友会"/>
+      <L3 id="3769" value="华东车友会"/>
+      <L3 id="3770" value="华南车友会"/>
+      <L3 id="3771" value="华中车友会"/>
+      <L3 id="3772" value="东北车友会"/>
+      <L3 id="3773" value="西北车友会"/>
+      <L3 id="3774" value="西南车友会"/>
+    </L2>
+    <L2 id="349" value="赛纳">
+      <L3 id="3775" value="华北车友会"/>
+      <L3 id="3776" value="华东车友会"/>
+      <L3 id="3777" value="华南车友会"/>
+      <L3 id="3778" value="华中车友会"/>
+      <L3 id="3779" value="东北车友会"/>
+      <L3 id="3780" value="西北车友会"/>
+      <L3 id="3781" value="西南车友会"/>
+    </L2>
+    <L2 id="350" value="马自达6">
+      <L3 id="3782" value="华北车友会"/>
+      <L3 id="3783" value="华东车友会"/>
+      <L3 id="3784" value="华南车友会"/>
+      <L3 id="3785" value="华中车友会"/>
+      <L3 id="3786" value="东北车友会"/>
+      <L3 id="3787" value="西北车友会"/>
+      <L3 id="3788" value="西南车友会"/>
+    </L2>
+    <L2 id="351" value="大众高尔夫">
+      <L3 id="3789" value="华北车友会"/>
+      <L3 id="3790" value="华东车友会"/>
+      <L3 id="3791" value="华南车友会"/>
+      <L3 id="3792" value="华中车友会"/>
+      <L3 id="3793" value="东北车友会"/>
+      <L3 id="3794" value="西北车友会"/>
+      <L3 id="3795" value="西南车友会"/>
+    </L2>
+    <L2 id="352" value="奇瑞QQ">
+      <L3 id="3796" value="华北车友会"/>
+      <L3 id="3797" value="华东车友会"/>
+      <L3 id="3798" value="华南车友会"/>
+      <L3 id="3799" value="华中车友会"/>
+      <L3 id="3800" value="东北车友会"/>
+      <L3 id="3801" value="西北车友会"/>
+      <L3 id="3802" value="西南车友会"/>
+    </L2>
+    <L2 id="353" value="凯越">
+      <L3 id="3803" value="华北车友会"/>
+      <L3 id="3804" value="华东车友会"/>
+      <L3 id="3805" value="华南车友会"/>
+      <L3 id="3806" value="华中车友会"/>
+      <L3 id="3807" value="东北车友会"/>
+      <L3 id="3808" value="西北车友会"/>
+      <L3 id="3809" value="西南车友会"/>
+    </L2>
+    <L2 id="354" value="帕拉丁">
+      <L3 id="3810" value="华北车友会"/>
+      <L3 id="3811" value="华东车友会"/>
+      <L3 id="3812" value="华南车友会"/>
+      <L3 id="3813" value="华中车友会"/>
+      <L3 id="3814" value="东北车友会"/>
+      <L3 id="3815" value="西北车友会"/>
+      <L3 id="3816" value="西南车友会"/>
+    </L2>
+    <L2 id="355" value="飞度">
+      <L3 id="3817" value="华北车友会"/>
+      <L3 id="3818" value="华东车友会"/>
+      <L3 id="3819" value="华南车友会"/>
+      <L3 id="3820" value="华中车友会"/>
+      <L3 id="3821" value="东北车友会"/>
+      <L3 id="3822" value="西北车友会"/>
+      <L3 id="3823" value="西南车友会"/>
+    </L2>
+    <L2 id="356" value="花冠">
+      <L3 id="3824" value="华北车友会"/>
+      <L3 id="3825" value="华东车友会"/>
+      <L3 id="3826" value="华南车友会"/>
+      <L3 id="3827" value="华中车友会"/>
+      <L3 id="3828" value="东北车友会"/>
+      <L3 id="3829" value="西北车友会"/>
+      <L3 id="3830" value="西南车友会"/>
+    </L2>
+    <L2 id="357" value="标致307">
+      <L3 id="3831" value="华北车友会"/>
+      <L3 id="3832" value="华东车友会"/>
+      <L3 id="3833" value="华南车友会"/>
+      <L3 id="3834" value="华中车友会"/>
+      <L3 id="3835" value="东北车友会"/>
+      <L3 id="3836" value="西北车友会"/>
+      <L3 id="3837" value="西南车友会"/>
+    </L2>
+    <L2 id="358" value="蒙迪欧">
+      <L3 id="3838" value="华北车友会"/>
+      <L3 id="3839" value="华东车友会"/>
+      <L3 id="3840" value="华南车友会"/>
+      <L3 id="3841" value="华中车友会"/>
+      <L3 id="3842" value="东北车友会"/>
+      <L3 id="3843" value="西北车友会"/>
+      <L3 id="3844" value="西南车友会"/>
+    </L2>
+    <L2 id="359" value="嘉年华">
+      <L3 id="3845" value="华北车友会"/>
+      <L3 id="3846" value="华东车友会"/>
+      <L3 id="3847" value="华南车友会"/>
+      <L3 id="3848" value="华中车友会"/>
+      <L3 id="3849" value="东北车友会"/>
+      <L3 id="3850" value="西北车友会"/>
+      <L3 id="3851" value="西南车友会"/>
+    </L2>
+    <L2 id="360" value="威姿">
+      <L3 id="3852" value="华北车友会"/>
+      <L3 id="3853" value="华东车友会"/>
+      <L3 id="3854" value="华南车友会"/>
+      <L3 id="3855" value="华中车友会"/>
+      <L3 id="3856" value="东北车友会"/>
+      <L3 id="3857" value="西北车友会"/>
+      <L3 id="3858" value="西南车友会"/>
+    </L2>
+    <L2 id="361" value="威乐">
+      <L3 id="3859" value="华北车友会"/>
+      <L3 id="3860" value="华东车友会"/>
+      <L3 id="3861" value="华南车友会"/>
+      <L3 id="3862" value="华中车友会"/>
+      <L3 id="3863" value="东北车友会"/>
+      <L3 id="3864" value="西北车友会"/>
+      <L3 id="3865" value="西南车友会"/>
+    </L2>
+    <L2 id="362" value="伊兰特">
+      <L3 id="3866" value="华北车友会"/>
+      <L3 id="3867" value="华东车友会"/>
+      <L3 id="3868" value="华南车友会"/>
+      <L3 id="3869" value="华中车友会"/>
+      <L3 id="3870" value="东北车友会"/>
+      <L3 id="3871" value="西北车友会"/>
+      <L3 id="3872" value="西南车友会"/>
+    </L2>
+    <L2 id="363" value="毕加索">
+      <L3 id="3873" value="华北车友会"/>
+      <L3 id="3874" value="华东车友会"/>
+      <L3 id="3875" value="华南车友会"/>
+      <L3 id="3876" value="华中车友会"/>
+      <L3 id="3877" value="东北车友会"/>
+      <L3 id="3878" value="西北车友会"/>
+      <L3 id="3879" value="西南车友会"/>
+    </L2>
+    <L2 id="364" value="欧蓝德">
+      <L3 id="3880" value="华北车友会"/>
+      <L3 id="3881" value="华东车友会"/>
+      <L3 id="3882" value="华南车友会"/>
+      <L3 id="3883" value="华中车友会"/>
+      <L3 id="3884" value="东北车友会"/>
+      <L3 id="3885" value="西北车友会"/>
+      <L3 id="3886" value="西南车友会"/>
+    </L2>
+    <L2 id="365" value="赛马">
+      <L3 id="3887" value="华北车友会"/>
+      <L3 id="3888" value="华东车友会"/>
+      <L3 id="3889" value="华南车友会"/>
+      <L3 id="3890" value="华中车友会"/>
+      <L3 id="3891" value="东北车友会"/>
+      <L3 id="3892" value="西北车友会"/>
+      <L3 id="3893" value="西南车友会"/>
+    </L2>
+    <L2 id="366" value="本田CR-V">
+      <L3 id="3894" value="华北车友会"/>
+      <L3 id="3895" value="华东车友会"/>
+      <L3 id="3896" value="华南车友会"/>
+      <L3 id="3897" value="华中车友会"/>
+      <L3 id="3898" value="东北车友会"/>
+      <L3 id="3899" value="西北车友会"/>
+      <L3 id="3900" value="西南车友会"/>
+    </L2>
+    <L2 id="367" value="幸福使者">
+      <L3 id="3901" value="华北车友会"/>
+      <L3 id="3902" value="华东车友会"/>
+      <L3 id="3903" value="华南车友会"/>
+      <L3 id="3904" value="华中车友会"/>
+      <L3 id="3905" value="东北车友会"/>
+      <L3 id="3906" value="西北车友会"/>
+      <L3 id="3907" value="西南车友会"/>
+    </L2>
+    <L2 id="368" value="宝马">
+      <L3 id="3908" value="华北车友会"/>
+      <L3 id="3909" value="华东车友会"/>
+      <L3 id="3910" value="华南车友会"/>
+      <L3 id="3911" value="华中车友会"/>
+      <L3 id="3912" value="东北车友会"/>
+      <L3 id="3913" value="西北车友会"/>
+      <L3 id="3914" value="西南车友会"/>
+    </L2>
+  </L1>
+  <L1 id="7" value="星座缘分">
+    <L2 id="129" value="同年月日"/>
+    <L2 id="130" value="血型"/>
+    <L2 id="131" value="魔法占卜"/>
+    <L2 id="132" value="牧羊座"/>
+    <L2 id="133" value="金牛座"/>
+    <L2 id="134" value="双子座"/>
+    <L2 id="135" value="巨蟹座"/>
+    <L2 id="136" value="狮子座"/>
+    <L2 id="137" value="处女座"/>
+    <L2 id="138" value="天枰座"/>
+    <L2 id="139" value="天蝎座"/>
+    <L2 id="140" value="射手座"/>
+    <L2 id="141" value="魔羯座"/>
+    <L2 id="142" value="水瓶座"/>
+    <L2 id="143" value="双鱼座"/>
+    <L2 id="144" value="其他"/>
+  </L1>
+  <L1 id="8" value="动漫">
+    <L2 id="145" value="动漫家族"/>
+    <L2 id="146" value="动漫周边"/>
+    <L2 id="147" value="动漫音乐"/>
+    <L2 id="148" value="cosplay"/>
+    <L2 id="149" value="动漫原创"/>
+    <L2 id="150" value="动漫文学"/>
+  </L1>
+  <L1 id="9" value="考试/培训">
+    <L2 id="151" value="大学英语四/六级"/>
+    <L2 id="152" value="高考"/>
+    <L2 id="153" value="考研"/>
+    <L2 id="154" value="公务员"/>
+    <L2 id="155" value="MBA"/>
+    <L2 id="156" value="新东方"/>
+    <L2 id="157" value="注册会计师"/>
+    <L2 id="158" value="国家司法考试"/>
+    <L2 id="159" value="留学">
+      <L3 id="1892" value="TOFEL"/>
+      <L3 id="1893" value="IELTS"/>
+      <L3 id="1894" value="GRE"/>
+      <L3 id="1895" value="GMAT"/>
+    </L2>
+    <L2 id="160" value="IT认证">
+      <L3 id="1896" value="微软"/>
+      <L3 id="1897" value="思科"/>
+      <L3 id="1898" value="oracle"/>
+      <L3 id="1899" value="SUN"/>
+      <L3 id="1900" value="IBM"/>
+      <L3 id="1901" value="华为"/>
+      <L3 id="1902" value="HP"/>
+    </L2>
+    <L2 id="161" value="其他考试"/>
+  </L1>
+  <L1 id="10" value="体育联盟">
+    <L2 id="162" value="篮球"/>
+    <L2 id="163" value="足球"/>
+    <L2 id="164" value="排球"/>
+    <L2 id="165" value="网球"/>
+    <L2 id="166" value="乒乓球"/>
+    <L2 id="167" value="羽毛球"/>
+    <L2 id="168" value="健身爱好"/>
+    <L2 id="169" value="户外运动"/>
+    <L2 id="170" value="水上运动"/>
+    <L2 id="171" value="棋类"/>
+    <L2 id="172" value="极限运动"/>
+    <L2 id="173" value="其他"/>
+  </L1>
+  <L1 id="11" value="职业交流">
+    <L2 id="174" value="求职"/>
+    <L2 id="175" value="IT族"/>
+    <L2 id="176" value="打工一族"/>
+    <L2 id="177" value="自由职业"/>
+    <L2 id="178" value="市场营销"/>
+    <L2 id="179" value="广告人"/>
+    <L2 id="180" value="公务员"/>
+    <L2 id="181" value="服务行业"/>
+    <L2 id="182" value="教师"/>
+    <L2 id="183" value="律师"/>
+    <L2 id="184" value="其他行业"/>
+  </L1>
+  <L1 id="12" value="技术联盟">
+    <L2 id="185" value="电脑DIY"/>
+    <L2 id="186" value="硬件研究"/>
+    <L2 id="187" value="软件交流"/>
+    <L2 id="188" value="网络技术"/>
+    <L2 id="189" value="玩转手机"/>
+    <L2 id="190" value="数码产品"/>
+    <L2 id="191" value="黑客技术"/>
+    <L2 id="192" value="网页制作"/>
+    <L2 id="193" value="其他"/>
+  </L1>
+  <L1 id="13" value="同事录">
+    <L2 id="194" value="北京市">
+      <L3 id="1903" value="东城区"/>
+      <L3 id="1904" value="西城区"/>
+      <L3 id="1905" value="崇文区"/>
+      <L3 id="1906" value="宣武区"/>
+      <L3 id="1907" value="朝阳区"/>
+      <L3 id="1908" value="丰台区"/>
+      <L3 id="1909" value="石景山区"/>
+      <L3 id="1910" value="海淀区"/>
+      <L3 id="1911" value="门头沟区"/>
+      <L3 id="1912" value="房山区"/>
+      <L3 id="1913" value="通州区"/>
+      <L3 id="1914" value="顺义区"/>
+      <L3 id="1915" value="延庆县"/>
+      <L3 id="1916" value="昌平区"/>
+      <L3 id="1917" value="怀柔区"/>
+      <L3 id="1918" value="密云县"/>
+      <L3 id="1919" value="平谷区"/>
+      <L3 id="1920" value="大兴区"/>
+      <L3 id="1921" value="其它地区"/>
+    </L2>
+    <L2 id="195" value="天津市">
+      <L3 id="1922" value="和平区"/>
+      <L3 id="1923" value="河东区"/>
+      <L3 id="1924" value="河西区"/>
+      <L3 id="1925" value="南开区"/>
+      <L3 id="1926" value="河北区"/>
+      <L3 id="1927" value="红桥区"/>
+      <L3 id="1928" value="塘沽区"/>
+      <L3 id="1929" value="大港区"/>
+      <L3 id="1930" value="东丽区"/>
+      <L3 id="1931" value="西青区"/>
+      <L3 id="1932" value="津南区"/>
+      <L3 id="1933" value="北辰区"/>
+      <L3 id="1934" value="蓟县"/>
+      <L3 id="1935" value="宝坻区"/>
+      <L3 id="1936" value="武清区"/>
+      <L3 id="1937" value="宁河县"/>
+      <L3 id="1938" value="静海县"/>
+      <L3 id="1939" value="汉沽区"/>
+      <L3 id="1940" value="其它地区"/>
+    </L2>
+    <L2 id="196" value="上海市">
+      <L3 id="1941" value="黄浦区"/>
+      <L3 id="1942" value="卢湾区"/>
+      <L3 id="1943" value="徐汇区"/>
+      <L3 id="1944" value="长宁区"/>
+      <L3 id="1945" value="静安区"/>
+      <L3 id="1946" value="普陀区"/>
+      <L3 id="1947" value="闸北区"/>
+      <L3 id="1948" value="虹口区"/>
+      <L3 id="1949" value="杨浦区"/>
+      <L3 id="1950" value="闵行区"/>
+      <L3 id="1951" value="宝山区"/>
+      <L3 id="1952" value="嘉定区"/>
+      <L3 id="1953" value="浦东新区"/>
+      <L3 id="1954" value="金山区"/>
+      <L3 id="1955" value="松江区"/>
+      <L3 id="1956" value="崇明县"/>
+      <L3 id="1957" value="青浦区"/>
+      <L3 id="1958" value="南汇区"/>
+      <L3 id="1959" value="奉贤区"/>
+      <L3 id="1960" value="其它地区"/>
+    </L2>
+    <L2 id="197" value="重庆市">
+      <L3 id="1961" value="渝中区"/>
+      <L3 id="1962" value="大渡口区"/>
+      <L3 id="1963" value="江北区"/>
+      <L3 id="1964" value="沙坪坝区"/>
+      <L3 id="1965" value="九龙坡区"/>
+      <L3 id="1966" value="南岸区"/>
+      <L3 id="1967" value="北碚区"/>
+      <L3 id="1968" value="万盛区"/>
+      <L3 id="1969" value="双桥区"/>
+      <L3 id="1970" value="渝北区"/>
+      <L3 id="1971" value="巴南区"/>
+      <L3 id="1972" value="万州区"/>
+      <L3 id="1973" value="涪陵区"/>
+      <L3 id="1974" value="合川市"/>
+      <L3 id="1975" value="永川市"/>
+      <L3 id="1976" value="江津市"/>
+      <L3 id="1977" value="南川市"/>
+      <L3 id="1978" value="长寿区"/>
+      <L3 id="1979" value="綦江县"/>
+      <L3 id="1980" value="潼南县"/>
+      <L3 id="1981" value="铜梁县"/>
+      <L3 id="1982" value="大足县"/>
+      <L3 id="1983" value="荣昌县"/>
+      <L3 id="1984" value="璧山县"/>
+      <L3 id="1985" value="垫江县"/>
+      <L3 id="1986" value="武隆县"/>
+      <L3 id="1987" value="丰都县"/>
+      <L3 id="1988" value="城口县"/>
+      <L3 id="1989" value="梁平县"/>
+      <L3 id="1990" value="黔江区"/>
+      <L3 id="1991" value="奉节县"/>
+      <L3 id="1992" value="开县"/>
+      <L3 id="1993" value="云阳县"/>
+      <L3 id="1994" value="忠县"/>
+      <L3 id="1995" value="巫溪县"/>
+      <L3 id="1996" value="巫山县"/>
+      <L3 id="1997" value="石柱土家族自治县"/>
+      <L3 id="1998" value="秀山土家族苗族自治县"/>
+      <L3 id="1999" value="酉阳土家族苗族自治县"/>
+      <L3 id="2000" value="彭水苗族土家族自治县"/>
+      <L3 id="2001" value="其它地区"/>
+    </L2>
+    <L2 id="198" value="河北省">
+      <L3 id="2002" value="石家庄市"/>
+      <L3 id="2003" value="张家口市"/>
+      <L3 id="2004" value="承德市"/>
+      <L3 id="2005" value="秦皇岛市"/>
+      <L3 id="2006" value="唐山市"/>
+      <L3 id="2007" value="廊坊市"/>
+      <L3 id="2008" value="保定市"/>
+      <L3 id="2009" value="沧州市"/>
+      <L3 id="2010" value="衡水市"/>
+      <L3 id="2011" value="邢台市"/>
+      <L3 id="2012" value="邯郸市"/>
+      <L3 id="2013" value="其它地区"/>
+    </L2>
+    <L2 id="199" value="山西省">
+      <L3 id="2014" value="太原市"/>
+      <L3 id="2015" value="大同市"/>
+      <L3 id="2016" value="朔州市"/>
+      <L3 id="2017" value="阳泉市"/>
+      <L3 id="2018" value="长治市"/>
+      <L3 id="2019" value="晋城市"/>
+      <L3 id="2020" value="忻州市"/>
+      <L3 id="2021" value="吕梁市"/>
+      <L3 id="2022" value="晋中市"/>
+      <L3 id="2023" value="临汾市"/>
+      <L3 id="2024" value="运城市"/>
+      <L3 id="2025" value="其它地区"/>
+    </L2>
+    <L2 id="200" value="辽宁省">
+      <L3 id="2026" value="沈阳市"/>
+      <L3 id="2027" value="朝阳市"/>
+      <L3 id="2028" value="阜新市"/>
+      <L3 id="2029" value="铁岭市"/>
+      <L3 id="2030" value="抚顺市"/>
+      <L3 id="2031" value="本溪市"/>
+      <L3 id="2032" value="辽阳市"/>
+      <L3 id="2033" value="鞍山市"/>
+      <L3 id="2034" value="丹东市"/>
+      <L3 id="2035" value="大连市"/>
+      <L3 id="2036" value="营口市"/>
+      <L3 id="2037" value="盘锦市"/>
+      <L3 id="2038" value="锦州市"/>
+      <L3 id="2039" value="葫芦岛市"/>
+      <L3 id="2040" value="其它地区"/>
+    </L2>
+    <L2 id="201" value="吉林省">
+      <L3 id="2041" value="长春市"/>
+      <L3 id="2042" value="白城市"/>
+      <L3 id="2043" value="松原市"/>
+      <L3 id="2044" value="吉林市"/>
+      <L3 id="2045" value="四平市"/>
+      <L3 id="2046" value="辽源市"/>
+      <L3 id="2047" value="通化市"/>
+      <L3 id="2048" value="白山市"/>
+      <L3 id="2049" value="延边朝鲜族自治州"/>
+      <L3 id="2050" value="其它地区"/>
+    </L2>
+    <L2 id="202" value="江苏省">
+      <L3 id="2051" value="南京市"/>
+      <L3 id="2052" value="徐州市"/>
+      <L3 id="2053" value="连云港市"/>
+      <L3 id="2054" value="宿迁市"/>
+      <L3 id="2055" value="淮阴市"/>
+      <L3 id="2056" value="盐城市"/>
+      <L3 id="2057" value="扬州市"/>
+      <L3 id="2058" value="泰州市"/>
+      <L3 id="2059" value="南通市"/>
+      <L3 id="2060" value="镇江市"/>
+      <L3 id="2061" value="常州市"/>
+      <L3 id="2062" value="无锡市"/>
+      <L3 id="2063" value="苏州市"/>
+      <L3 id="2064" value="淮安市"/>
+      <L3 id="2065" value="其它地区"/>
+    </L2>
+    <L2 id="203" value="浙江省">
+      <L3 id="2066" value="杭州市"/>
+      <L3 id="2067" value="湖州市"/>
+      <L3 id="2068" value="嘉兴市"/>
+      <L3 id="2069" value="舟山市"/>
+      <L3 id="2070" value="宁波市"/>
+      <L3 id="2071" value="绍兴市"/>
+      <L3 id="2072" value="金华市"/>
+      <L3 id="2073" value="台州市"/>
+      <L3 id="2074" value="温州市"/>
+      <L3 id="2075" value="丽水市"/>
+      <L3 id="2076" value="衢州市"/>
+      <L3 id="2077" value="其它地区"/>
+    </L2>
+    <L2 id="204" value="安徽省">
+      <L3 id="2078" value="合肥市"/>
+      <L3 id="2079" value="宿州市"/>
+      <L3 id="2080" value="淮北市"/>
+      <L3 id="2081" value="阜阳市"/>
+      <L3 id="2082" value="蚌埠市"/>
+      <L3 id="2083" value="淮南市"/>
+      <L3 id="2084" value="滁州市"/>
+      <L3 id="2085" value="马鞍山市"/>
+      <L3 id="2086" value="芜湖市"/>
+      <L3 id="2087" value="铜陵市"/>
+      <L3 id="2088" value="安庆市"/>
+      <L3 id="2089" value="黄山市"/>
+      <L3 id="2090" value="六安市"/>
+      <L3 id="2091" value="巢湖市"/>
+      <L3 id="2092" value="池州市"/>
+      <L3 id="2093" value="宣城市"/>
+      <L3 id="2094" value="亳州市"/>
+      <L3 id="2095" value="其它地区"/>
+    </L2>
+    <L2 id="205" value="福建省">
+      <L3 id="2096" value="福州市"/>
+      <L3 id="2097" value="南平市"/>
+      <L3 id="2098" value="三明市"/>
+      <L3 id="2099" value="莆田市"/>
+      <L3 id="2100" value="泉州市"/>
+      <L3 id="2101" value="厦门市"/>
+      <L3 id="2102" value="漳州市"/>
+      <L3 id="2103" value="龙岩市"/>
+      <L3 id="2104" value="宁德市"/>
+      <L3 id="2105" value="其它地区"/>
+    </L2>
+    <L2 id="206" value="江西省">
+      <L3 id="2106" value="南昌市"/>
+      <L3 id="2107" value="九江市"/>
+      <L3 id="2108" value="景德镇市"/>
+      <L3 id="2109" value="鹰潭市"/>
+      <L3 id="2110" value="新余市"/>
+      <L3 id="2111" value="萍乡市"/>
+      <L3 id="2112" value="赣州市"/>
+      <L3 id="2113" value="上饶市"/>
+      <L3 id="2114" value="抚州市"/>
+      <L3 id="2115" value="宜春市"/>
+      <L3 id="2116" value="吉安市"/>
+      <L3 id="2117" value="其它地区"/>
+    </L2>
+    <L2 id="207" value="山东省">
+      <L3 id="2118" value="济南市"/>
+      <L3 id="2119" value="聊城市"/>
+      <L3 id="2120" value="德州市"/>
+      <L3 id="2121" value="东营市"/>
+      <L3 id="2122" value="淄博市"/>
+      <L3 id="2123" value="潍坊市"/>
+      <L3 id="2124" value="烟台市"/>
+      <L3 id="2125" value="威海市"/>
+      <L3 id="2126" value="青岛市"/>
+      <L3 id="2127" value="日照市"/>
+      <L3 id="2128" value="临沂市"/>
+      <L3 id="2129" value="枣庄市"/>
+      <L3 id="2130" value="济宁市"/>
+      <L3 id="2131" value="泰安市"/>
+      <L3 id="2132" value="莱芜市"/>
+      <L3 id="2133" value="滨州市"/>
+      <L3 id="2134" value="菏泽市"/>
+      <L3 id="2135" value="其它地区"/>
+    </L2>
+    <L2 id="208" value="河南省">
+      <L3 id="2136" value="郑州市"/>
+      <L3 id="2137" value="三门峡市"/>
+      <L3 id="2138" value="洛阳市"/>
+      <L3 id="2139" value="焦作市"/>
+      <L3 id="2140" value="新乡市"/>
+      <L3 id="2141" value="鹤壁市"/>
+      <L3 id="2142" value="安阳市"/>
+      <L3 id="2143" value="濮阳市"/>
+      <L3 id="2144" value="开封市"/>
+      <L3 id="2145" value="商丘市"/>
+      <L3 id="2146" value="许昌市"/>
+      <L3 id="2147" value="漯河市"/>
+      <L3 id="2148" value="平顶山市"/>
+      <L3 id="2149" value="南阳市"/>
+      <L3 id="2150" value="信阳市"/>
+      <L3 id="2151" value="济源市"/>
+      <L3 id="2152" value="周口市"/>
+      <L3 id="2153" value="驻马店市"/>
+      <L3 id="2154" value="其它地区"/>
+    </L2>
+    <L2 id="209" value="内蒙古自治区">
+      <L3 id="2155" value="呼和浩特市"/>
+      <L3 id="2156" value="包头市"/>
+      <L3 id="2157" value="乌海市"/>
+      <L3 id="2158" value="赤峰市"/>
+      <L3 id="2159" value="呼伦贝尔"/>
+      <L3 id="2160" value="兴安盟"/>
+      <L3 id="2161" value="锡林郭勒盟"/>
+      <L3 id="2162" value="乌兰察布市"/>
+      <L3 id="2163" value="巴彦淖尔市"/>
+      <L3 id="2164" value="阿拉善盟"/>
+      <L3 id="2165" value="鄂尔多斯市"/>
+      <L3 id="2166" value="通辽市"/>
+      <L3 id="2167" value="其它地区"/>
+    </L2>
+    <L2 id="210" value="黑龙江省">
+      <L3 id="2168" value="哈尔滨市"/>
+      <L3 id="2169" value="齐齐哈尔市"/>
+      <L3 id="2170" value="黑河市"/>
+      <L3 id="2171" value="大庆市"/>
+      <L3 id="2172" value="伊春市"/>
+      <L3 id="2173" value="鹤岗市"/>
+      <L3 id="2174" value="佳木斯市"/>
+      <L3 id="2175" value="双鸭山市"/>
+      <L3 id="2176" value="七台河市"/>
+      <L3 id="2177" value="鸡西市"/>
+      <L3 id="2178" value="牡丹江市"/>
+      <L3 id="2179" value="绥化地区"/>
+      <L3 id="2180" value="大兴安岭地区"/>
+      <L3 id="2181" value="其它地区"/>
+    </L2>
+    <L2 id="211" value="湖北省">
+      <L3 id="2182" value="武汉市"/>
+      <L3 id="2183" value="十堰市"/>
+      <L3 id="2184" value="襄樊市"/>
+      <L3 id="2185" value="荆门市"/>
+      <L3 id="2186" value="孝感市"/>
+      <L3 id="2187" value="黄冈市"/>
+      <L3 id="2188" value="鄂州市"/>
+      <L3 id="2189" value="黄石市"/>
+      <L3 id="2190" value="咸宁市"/>
+      <L3 id="2191" value="荆州市"/>
+      <L3 id="2192" value="宜昌市"/>
+      <L3 id="2193" value="随州市"/>
+      <L3 id="2194" value="仙桃市"/>
+      <L3 id="2195" value="天门市"/>
+      <L3 id="2196" value="潜江市"/>
+      <L3 id="2197" value="神农架林区"/>
+      <L3 id="2198" value="恩施土家族苗族自治州"/>
+      <L3 id="2199" value="其它地区"/>
+    </L2>
+    <L2 id="212" value="湖南省">
+      <L3 id="2200" value="长沙市"/>
+      <L3 id="2201" value="张家界市"/>
+      <L3 id="2202" value="常德市"/>
+      <L3 id="2203" value="益阳市"/>
+      <L3 id="2204" value="岳阳市"/>
+      <L3 id="2205" value="株洲市"/>
+      <L3 id="2206" value="湘潭市"/>
+      <L3 id="2207" value="衡阳市"/>
+      <L3 id="2208" value="郴州市"/>
+      <L3 id="2209" value="永州市"/>
+      <L3 id="2210" value="邵阳市"/>
+      <L3 id="2211" value="怀化市"/>
+      <L3 id="2212" value="娄底市"/>
+      <L3 id="2213" value="湘西土家族苗族自治州"/>
+      <L3 id="2214" value="其它地区"/>
+    </L2>
+    <L2 id="213" value="广东省">
+      <L3 id="2215" value="广州市"/>
+      <L3 id="2216" value="清远市"/>
+      <L3 id="2217" value="韶关市"/>
+      <L3 id="2218" value="河源市"/>
+      <L3 id="2219" value="梅州市"/>
+      <L3 id="2220" value="潮州市"/>
+      <L3 id="2221" value="汕头市"/>
+      <L3 id="2222" value="揭阳市"/>
+      <L3 id="2223" value="汕尾市"/>
+      <L3 id="2224" value="惠州市"/>
+      <L3 id="2225" value="东莞市"/>
+      <L3 id="2226" value="深圳市"/>
+      <L3 id="2227" value="珠海市"/>
+      <L3 id="2228" value="中山市"/>
+      <L3 id="2229" value="江门市"/>
+      <L3 id="2230" value="佛山市"/>
+      <L3 id="2231" value="肇庆市"/>
+      <L3 id="2232" value="云浮市"/>
+      <L3 id="2233" value="阳江市"/>
+      <L3 id="2234" value="茂名市"/>
+      <L3 id="2235" value="湛江市"/>
+      <L3 id="2236" value="其它地区"/>
+    </L2>
+    <L2 id="214" value="广西壮族自治区">
+      <L3 id="2237" value="南宁市"/>
+      <L3 id="2238" value="桂林市"/>
+      <L3 id="2239" value="柳州市"/>
+      <L3 id="2240" value="梧州市"/>
+      <L3 id="2241" value="贵港市"/>
+      <L3 id="2242" value="玉林市"/>
+      <L3 id="2243" value="钦州市"/>
+      <L3 id="2244" value="北海市"/>
+      <L3 id="2245" value="防城港市"/>
+      <L3 id="2246" value="百色市"/>
+      <L3 id="2247" value="河池地区"/>
+      <L3 id="2248" value="贺州地区"/>
+      <L3 id="2249" value="崇左市"/>
+      <L3 id="2250" value="凭祥市"/>
+      <L3 id="2251" value="来宾市"/>
+      <L3 id="2252" value="其它地区"/>
+    </L2>
+    <L2 id="215" value="海南省">
+      <L3 id="2253" value="海口市"/>
+      <L3 id="2254" value="三亚市"/>
+      <L3 id="2255" value="琼山市"/>
+      <L3 id="2256" value="文昌市"/>
+      <L3 id="2257" value="琼海市"/>
+      <L3 id="2258" value="万宁市"/>
+      <L3 id="2259" value="东方市"/>
+      <L3 id="2260" value="儋州市"/>
+      <L3 id="2261" value="临高县"/>
+      <L3 id="2262" value="澄迈县"/>
+      <L3 id="2263" value="定安县"/>
+      <L3 id="2264" value="屯昌县"/>
+      <L3 id="2265" value="昌江黎族自治县"/>
+      <L3 id="2266" value="白沙黎族自治县"/>
+      <L3 id="2267" value="琼中黎族苗族自治县"/>
+      <L3 id="2268" value="陵水黎族自治县"/>
+      <L3 id="2269" value="保亭黎族苗族自治县"/>
+      <L3 id="2270" value="乐东黎族自治县"/>
+      <L3 id="2271" value="五指山市"/>
+      <L3 id="2272" value="其它地区"/>
+    </L2>
+    <L2 id="216" value="四川省">
+      <L3 id="2273" value="成都市"/>
+      <L3 id="2274" value="广元市"/>
+      <L3 id="2275" value="绵阳市"/>
+      <L3 id="2276" value="德阳市"/>
+      <L3 id="2277" value="南充市"/>
+      <L3 id="2278" value="广安市"/>
+      <L3 id="2279" value="遂宁市"/>
+      <L3 id="2280" value="内江市"/>
+      <L3 id="2281" value="乐山市"/>
+      <L3 id="2282" value="自贡市"/>
+      <L3 id="2283" value="泸州市"/>
+      <L3 id="2284" value="宜宾市"/>
+      <L3 id="2285" value="攀枝花市"/>
+      <L3 id="2286" value="巴中市"/>
+      <L3 id="2287" value="达州市"/>
+      <L3 id="2288" value="资阳市"/>
+      <L3 id="2289" value="眉山市"/>
+      <L3 id="2290" value="雅安市"/>
+      <L3 id="2291" value="阿坝藏族羌族自治州"/>
+      <L3 id="2292" value="甘孜藏族自治州"/>
+      <L3 id="2293" value="凉山彝族自治州"/>
+      <L3 id="2294" value="其它地区"/>
+    </L2>
+    <L2 id="217" value="台湾省">
+      <L3 id="2295" value="台北市"/>
+      <L3 id="2296" value="高雄市"/>
+      <L3 id="2297" value="台南市"/>
+      <L3 id="2298" value="台中市"/>
+      <L3 id="2299" value="基隆市"/>
+      <L3 id="2300" value="新竹市"/>
+      <L3 id="2301" value="嘉义市"/>
+      <L3 id="2302" value="台北县"/>
+      <L3 id="2303" value="宜兰县"/>
+      <L3 id="2304" value="新竹县"/>
+      <L3 id="2305" value="桃园县"/>
+      <L3 id="2306" value="苗栗县"/>
+      <L3 id="2307" value="台中县"/>
+      <L3 id="2308" value="彰化县"/>
+      <L3 id="2309" value="南投县"/>
+      <L3 id="2310" value="嘉义县"/>
+      <L3 id="2311" value="云林县"/>
+      <L3 id="2312" value="台南县"/>
+      <L3 id="2313" value="高雄县"/>
+      <L3 id="2314" value="屏东县"/>
+      <L3 id="2315" value="台东县"/>
+      <L3 id="2316" value="花莲县"/>
+      <L3 id="2317" value="澎湖县"/>
+      <L3 id="2318" value="其它地区"/>
+    </L2>
+    <L2 id="218" value="贵州省">
+      <L3 id="2319" value="贵阳市"/>
+      <L3 id="2320" value="六盘水市"/>
+      <L3 id="2321" value="遵义市"/>
+      <L3 id="2322" value="毕节地区"/>
+      <L3 id="2323" value="铜仁地区"/>
+      <L3 id="2324" value="安顺市"/>
+      <L3 id="2325" value="黔东南苗族侗族自治州"/>
+      <L3 id="2326" value="黔南布依族苗族自治州"/>
+      <L3 id="2327" value="黔西南布依族苗族自治州"/>
+      <L3 id="2328" value="其它地区"/>
+    </L2>
+    <L2 id="219" value="云南省">
+      <L3 id="2329" value="昆明市"/>
+      <L3 id="2330" value="曲靖市"/>
+      <L3 id="2331" value="玉溪市"/>
+      <L3 id="2332" value="丽江市"/>
+      <L3 id="2333" value="昭通市"/>
+      <L3 id="2334" value="思茅市"/>
+      <L3 id="2335" value="临沧地区"/>
+      <L3 id="2336" value="保山市"/>
+      <L3 id="2337" value="德宏傣族景颇族自治州"/>
+      <L3 id="2338" value="怒江傈傈族自治州"/>
+      <L3 id="2339" value="迪庆藏族自治州"/>
+      <L3 id="2340" value="大理白族自治州"/>
+      <L3 id="2341" value="楚雄彝族自治州"/>
+      <L3 id="2342" value="红河哈尼族彝族自治州"/>
+      <L3 id="2343" value="文山壮族苗族自治州"/>
+      <L3 id="2344" value="西双版纳傣族自治州"/>
+      <L3 id="2345" value="其它地区"/>
+    </L2>
+    <L2 id="220" value="陕西省">
+      <L3 id="2346" value="西安市"/>
+      <L3 id="2347" value="延安市"/>
+      <L3 id="2348" value="铜川市"/>
+      <L3 id="2349" value="渭南市"/>
+      <L3 id="2350" value="咸阳市"/>
+      <L3 id="2351" value="宝鸡市"/>
+      <L3 id="2352" value="汉中市"/>
+      <L3 id="2353" value="榆林市"/>
+      <L3 id="2354" value="商洛市"/>
+      <L3 id="2355" value="安康市"/>
+      <L3 id="2356" value="其它地区"/>
+    </L2>
+    <L2 id="221" value="西藏自治区">
+      <L3 id="2357" value="拉萨市"/>
+      <L3 id="2358" value="那曲地区"/>
+      <L3 id="2359" value="昌都地区"/>
+      <L3 id="2360" value="林芝地区"/>
+      <L3 id="2361" value="山南地区"/>
+      <L3 id="2362" value="日喀则地区"/>
+      <L3 id="2363" value="阿里地区"/>
+      <L3 id="2364" value="其它地区"/>
+    </L2>
+    <L2 id="222" value="甘肃省">
+      <L3 id="2365" value="兰州市"/>
+      <L3 id="2366" value="嘉峪关市"/>
+      <L3 id="2367" value="金昌市"/>
+      <L3 id="2368" value="白银市"/>
+      <L3 id="2369" value="天水市"/>
+      <L3 id="2370" value="酒泉市"/>
+      <L3 id="2371" value="张掖市"/>
+      <L3 id="2372" value="武威市"/>
+      <L3 id="2373" value="庆阳市"/>
+      <L3 id="2374" value="平凉市"/>
+      <L3 id="2375" value="定西市"/>
+      <L3 id="2376" value="陇南地区"/>
+      <L3 id="2377" value="临夏回族自治州"/>
+      <L3 id="2378" value="甘南藏族自治州"/>
+      <L3 id="2379" value="玉门市"/>
+      <L3 id="2380" value="敦煌市"/>
+      <L3 id="2381" value="其它地区"/>
+    </L2>
+    <L2 id="223" value="青海省">
+      <L3 id="2382" value="西宁市"/>
+      <L3 id="2383" value="海东地区"/>
+      <L3 id="2384" value="海北藏族自治州"/>
+      <L3 id="2385" value="海南藏族自治州"/>
+      <L3 id="2386" value="黄南藏族自治州"/>
+      <L3 id="2387" value="果洛藏族自治州"/>
+      <L3 id="2388" value="玉树藏族自治州"/>
+      <L3 id="2389" value="海西蒙古族藏族自治州"/>
+      <L3 id="2390" value="其它地区"/>
+    </L2>
+    <L2 id="224" value="宁夏回族自治区">
+      <L3 id="2391" value="银川市"/>
+      <L3 id="2392" value="石嘴山市"/>
+      <L3 id="2393" value="吴忠市"/>
+      <L3 id="2394" value="固原市"/>
+      <L3 id="2395" value="其它地区"/>
+    </L2>
+    <L2 id="225" value="新疆维吾尔族自治区">
+      <L3 id="2396" value="乌鲁木齐市"/>
+      <L3 id="2397" value="克拉玛依市"/>
+      <L3 id="2398" value="石河子市"/>
+      <L3 id="2399" value="喀什地区"/>
+      <L3 id="2400" value="阿克苏地区"/>
+      <L3 id="2401" value="和田地区"/>
+      <L3 id="2402" value="吐鲁番地区"/>
+      <L3 id="2403" value="哈密地区"/>
+      <L3 id="2404" value="克孜勒苏柯尔克孜自治州"/>
+      <L3 id="2405" value="博尔塔拉蒙古自治州"/>
+      <L3 id="2406" value="昌吉回族自治州"/>
+      <L3 id="2407" value="巴音郭楞蒙古自治州"/>
+      <L3 id="2408" value="伊犁哈萨克自治州"/>
+      <L3 id="2409" value="其它地区"/>
+    </L2>
+    <L2 id="226" value="香港特别行政区">
+      <L3 id="2410" value="九龙城区"/>
+      <L3 id="2411" value="中西区"/>
+      <L3 id="2412" value="东区"/>
+      <L3 id="2413" value="观塘区"/>
+      <L3 id="2414" value="南区"/>
+      <L3 id="2415" value="深水埗区"/>
+      <L3 id="2416" value="黄大仙区"/>
+      <L3 id="2417" value="湾仔区"/>
+      <L3 id="2418" value="油尖旺区"/>
+      <L3 id="2419" value="离岛区"/>
+      <L3 id="2420" value="葵青区"/>
+      <L3 id="2421" value="北区"/>
+      <L3 id="2422" value="西贡区"/>
+      <L3 id="2423" value="沙田区"/>
+      <L3 id="2424" value="屯门区"/>
+      <L3 id="2425" value="大埔区"/>
+      <L3 id="2426" value="荃湾区"/>
+      <L3 id="2427" value="元朗区"/>
+      <L3 id="2428" value="其它地区"/>
+    </L2>
+    <L2 id="227" value="澳门特别行政区">
+      <L3 id="2429" value="澳门半岛"/>
+      <L3 id="2430" value="凼仔岛"/>
+      <L3 id="2431" value="路环岛"/>
+      <L3 id="2432" value="其它地区"/>
+    </L2>
+  </L1>
+  <L1 id="14" value="老乡会">
+    <L2 id="228" value="北京市">
+      <L3 id="2433" value="东城区"/>
+      <L3 id="2434" value="西城区"/>
+      <L3 id="2435" value="崇文区"/>
+      <L3 id="2436" value="宣武区"/>
+      <L3 id="2437" value="朝阳区"/>
+      <L3 id="2438" value="丰台区"/>
+      <L3 id="2439" value="石景山区"/>
+      <L3 id="2440" value="海淀区"/>
+      <L3 id="2441" value="门头沟区"/>
+      <L3 id="2442" value="房山区"/>
+      <L3 id="2443" value="通州区"/>
+      <L3 id="2444" value="顺义区"/>
+      <L3 id="2445" value="延庆县"/>
+      <L3 id="2446" value="昌平区"/>
+      <L3 id="2447" value="怀柔区"/>
+      <L3 id="2448" value="密云县"/>
+      <L3 id="2449" value="平谷区"/>
+      <L3 id="2450" value="大兴区"/>
+      <L3 id="2451" value="其它地区"/>
+    </L2>
+    <L2 id="229" value="天津市">
+      <L3 id="2452" value="和平区"/>
+      <L3 id="2453" value="河东区"/>
+      <L3 id="2454" value="河西区"/>
+      <L3 id="2455" value="南开区"/>
+      <L3 id="2456" value="河北区"/>
+      <L3 id="2457" value="红桥区"/>
+      <L3 id="2458" value="塘沽区"/>
+      <L3 id="2459" value="大港区"/>
+      <L3 id="2460" value="东丽区"/>
+      <L3 id="2461" value="西青区"/>
+      <L3 id="2462" value="津南区"/>
+      <L3 id="2463" value="北辰区"/>
+      <L3 id="2464" value="蓟县"/>
+      <L3 id="2465" value="宝坻区"/>
+      <L3 id="2466" value="武清区"/>
+      <L3 id="2467" value="宁河县"/>
+      <L3 id="2468" value="静海县"/>
+      <L3 id="2469" value="汉沽区"/>
+      <L3 id="2470" value="其它地区"/>
+    </L2>
+    <L2 id="230" value="上海市">
+      <L3 id="2471" value="黄浦区"/>
+      <L3 id="2472" value="卢湾区"/>
+      <L3 id="2473" value="徐汇区"/>
+      <L3 id="2474" value="长宁区"/>
+      <L3 id="2475" value="静安区"/>
+      <L3 id="2476" value="普陀区"/>
+      <L3 id="2477" value="闸北区"/>
+      <L3 id="2478" value="虹口区"/>
+      <L3 id="2479" value="杨浦区"/>
+      <L3 id="2480" value="闵行区"/>
+      <L3 id="2481" value="宝山区"/>
+      <L3 id="2482" value="嘉定区"/>
+      <L3 id="2483" value="浦东新区"/>
+      <L3 id="2484" value="金山区"/>
+      <L3 id="2485" value="松江区"/>
+      <L3 id="2486" value="崇明县"/>
+      <L3 id="2487" value="青浦区"/>
+      <L3 id="2488" value="南汇区"/>
+      <L3 id="2489" value="奉贤区"/>
+      <L3 id="2490" value="其它地区"/>
+    </L2>
+    <L2 id="231" value="重庆市">
+      <L3 id="2491" value="渝中区"/>
+      <L3 id="2492" value="大渡口区"/>
+      <L3 id="2493" value="江北区"/>
+      <L3 id="2494" value="沙坪坝区"/>
+      <L3 id="2495" value="九龙坡区"/>
+      <L3 id="2496" value="南岸区"/>
+      <L3 id="2497" value="北碚区"/>
+      <L3 id="2498" value="万盛区"/>
+      <L3 id="2499" value="双桥区"/>
+      <L3 id="2500" value="渝北区"/>
+      <L3 id="2501" value="巴南区"/>
+      <L3 id="2502" value="万州区"/>
+      <L3 id="2503" value="涪陵区"/>
+      <L3 id="2504" value="合川市"/>
+      <L3 id="2505" value="永川市"/>
+      <L3 id="2506" value="江津市"/>
+      <L3 id="2507" value="南川市"/>
+      <L3 id="2508" value="长寿区"/>
+      <L3 id="2509" value="綦江县"/>
+      <L3 id="2510" value="潼南县"/>
+      <L3 id="2511" value="铜梁县"/>
+      <L3 id="2512" value="大足县"/>
+      <L3 id="2513" value="荣昌县"/>
+      <L3 id="2514" value="璧山县"/>
+      <L3 id="2515" value="垫江县"/>
+      <L3 id="2516" value="武隆县"/>
+      <L3 id="2517" value="丰都县"/>
+      <L3 id="2518" value="城口县"/>
+      <L3 id="2519" value="梁平县"/>
+      <L3 id="2520" value="黔江区"/>
+      <L3 id="2521" value="奉节县"/>
+      <L3 id="2522" value="开县"/>
+      <L3 id="2523" value="云阳县"/>
+      <L3 id="2524" value="忠县"/>
+      <L3 id="2525" value="巫溪县"/>
+      <L3 id="2526" value="巫山县"/>
+      <L3 id="2527" value="石柱土家族自治县"/>
+      <L3 id="2528" value="秀山土家族苗族自治县"/>
+      <L3 id="2529" value="酉阳土家族苗族自治县"/>
+      <L3 id="2530" value="彭水苗族土家族自治县"/>
+      <L3 id="2531" value="其它地区"/>
+    </L2>
+    <L2 id="232" value="河北省">
+      <L3 id="2532" value="石家庄市"/>
+      <L3 id="2533" value="张家口市"/>
+      <L3 id="2534" value="承德市"/>
+      <L3 id="2535" value="秦皇岛市"/>
+      <L3 id="2536" value="唐山市"/>
+      <L3 id="2537" value="廊坊市"/>
+      <L3 id="2538" value="保定市"/>
+      <L3 id="2539" value="沧州市"/>
+      <L3 id="2540" value="衡水市"/>
+      <L3 id="2541" value="邢台市"/>
+      <L3 id="2542" value="邯郸市"/>
+      <L3 id="2543" value="其它地区"/>
+    </L2>
+    <L2 id="233" value="山西省">
+      <L3 id="2544" value="太原市"/>
+      <L3 id="2545" value="大同市"/>
+      <L3 id="2546" value="朔州市"/>
+      <L3 id="2547" value="阳泉市"/>
+      <L3 id="2548" value="长治市"/>
+      <L3 id="2549" value="晋城市"/>
+      <L3 id="2550" value="忻州市"/>
+      <L3 id="2551" value="吕梁市"/>
+      <L3 id="2552" value="晋中市"/>
+      <L3 id="2553" value="临汾市"/>
+      <L3 id="2554" value="运城市"/>
+      <L3 id="2555" value="其它地区"/>
+    </L2>
+    <L2 id="234" value="辽宁省">
+      <L3 id="2556" value="沈阳市"/>
+      <L3 id="2557" value="朝阳市"/>
+      <L3 id="2558" value="阜新市"/>
+      <L3 id="2559" value="铁岭市"/>
+      <L3 id="2560" value="抚顺市"/>
+      <L3 id="2561" value="本溪市"/>
+      <L3 id="2562" value="辽阳市"/>
+      <L3 id="2563" value="鞍山市"/>
+      <L3 id="2564" value="丹东市"/>
+      <L3 id="2565" value="大连市"/>
+      <L3 id="2566" value="营口市"/>
+      <L3 id="2567" value="盘锦市"/>
+      <L3 id="2568" value="锦州市"/>
+      <L3 id="2569" value="葫芦岛市"/>
+      <L3 id="2570" value="其它地区"/>
+    </L2>
+    <L2 id="235" value="吉林省">
+      <L3 id="2571" value="长春市"/>
+      <L3 id="2572" value="白城市"/>
+      <L3 id="2573" value="松原市"/>
+      <L3 id="2574" value="吉林市"/>
+      <L3 id="2575" value="四平市"/>
+      <L3 id="2576" value="辽源市"/>
+      <L3 id="2577" value="通化市"/>
+      <L3 id="2578" value="白山市"/>
+      <L3 id="2579" value="延边朝鲜族自治州"/>
+      <L3 id="2580" value="其它地区"/>
+    </L2>
+    <L2 id="236" value="江苏省">
+      <L3 id="2581" value="南京市"/>
+      <L3 id="2582" value="徐州市"/>
+      <L3 id="2583" value="连云港市"/>
+      <L3 id="2584" value="宿迁市"/>
+      <L3 id="2585" value="淮阴市"/>
+      <L3 id="2586" value="盐城市"/>
+      <L3 id="2587" value="扬州市"/>
+      <L3 id="2588" value="泰州市"/>
+      <L3 id="2589" value="南通市"/>
+      <L3 id="2590" value="镇江市"/>
+      <L3 id="2591" value="常州市"/>
+      <L3 id="2592" value="无锡市"/>
+      <L3 id="2593" value="苏州市"/>
+      <L3 id="2594" value="淮安市"/>
+      <L3 id="2595" value="其它地区"/>
+    </L2>
+    <L2 id="237" value="浙江省">
+      <L3 id="2596" value="杭州市"/>
+      <L3 id="2597" value="湖州市"/>
+      <L3 id="2598" value="嘉兴市"/>
+      <L3 id="2599" value="舟山市"/>
+      <L3 id="2600" value="宁波市"/>
+      <L3 id="2601" value="绍兴市"/>
+      <L3 id="2602" value="金华市"/>
+      <L3 id="2603" value="台州市"/>
+      <L3 id="2604" value="温州市"/>
+      <L3 id="2605" value="丽水市"/>
+      <L3 id="2606" value="衢州市"/>
+      <L3 id="2607" value="其它地区"/>
+    </L2>
+    <L2 id="238" value="安徽省">
+      <L3 id="2608" value="合肥市"/>
+      <L3 id="2609" value="宿州市"/>
+      <L3 id="2610" value="淮北市"/>
+      <L3 id="2611" value="阜阳市"/>
+      <L3 id="2612" value="蚌埠市"/>
+      <L3 id="2613" value="淮南市"/>
+      <L3 id="2614" value="滁州市"/>
+      <L3 id="2615" value="马鞍山市"/>
+      <L3 id="2616" value="芜湖市"/>
+      <L3 id="2617" value="铜陵市"/>
+      <L3 id="2618" value="安庆市"/>
+      <L3 id="2619" value="黄山市"/>
+      <L3 id="2620" value="六安市"/>
+      <L3 id="2621" value="巢湖市"/>
+      <L3 id="2622" value="池州市"/>
+      <L3 id="2623" value="宣城市"/>
+      <L3 id="2624" value="亳州市"/>
+      <L3 id="2625" value="其它地区"/>
+    </L2>
+    <L2 id="239" value="福建省">
+      <L3 id="2626" value="福州市"/>
+      <L3 id="2627" value="南平市"/>
+      <L3 id="2628" value="三明市"/>
+      <L3 id="2629" value="莆田市"/>
+      <L3 id="2630" value="泉州市"/>
+      <L3 id="2631" value="厦门市"/>
+      <L3 id="2632" value="漳州市"/>
+      <L3 id="2633" value="龙岩市"/>
+      <L3 id="2634" value="宁德市"/>
+      <L3 id="2635" value="其它地区"/>
+    </L2>
+    <L2 id="240" value="江西省">
+      <L3 id="2636" value="南昌市"/>
+      <L3 id="2637" value="九江市"/>
+      <L3 id="2638" value="景德镇市"/>
+      <L3 id="2639" value="鹰潭市"/>
+      <L3 id="2640" value="新余市"/>
+      <L3 id="2641" value="萍乡市"/>
+      <L3 id="2642" value="赣州市"/>
+      <L3 id="2643" value="上饶市"/>
+      <L3 id="2644" value="抚州市"/>
+      <L3 id="2645" value="宜春市"/>
+      <L3 id="2646" value="吉安市"/>
+      <L3 id="2647" value="其它地区"/>
+    </L2>
+    <L2 id="241" value="山东省">
+      <L3 id="2648" value="济南市"/>
+      <L3 id="2649" value="聊城市"/>
+      <L3 id="2650" value="德州市"/>
+      <L3 id="2651" value="东营市"/>
+      <L3 id="2652" value="淄博市"/>
+      <L3 id="2653" value="潍坊市"/>
+      <L3 id="2654" value="烟台市"/>
+      <L3 id="2655" value="威海市"/>
+      <L3 id="2656" value="青岛市"/>
+      <L3 id="2657" value="日照市"/>
+      <L3 id="2658" value="临沂市"/>
+      <L3 id="2659" value="枣庄市"/>
+      <L3 id="2660" value="济宁市"/>
+      <L3 id="2661" value="泰安市"/>
+      <L3 id="2662" value="莱芜市"/>
+      <L3 id="2663" value="滨州市"/>
+      <L3 id="2664" value="菏泽市"/>
+      <L3 id="2665" value="其它地区"/>
+    </L2>
+    <L2 id="242" value="河南省">
+      <L3 id="2666" value="郑州市"/>
+      <L3 id="2667" value="三门峡市"/>
+      <L3 id="2668" value="洛阳市"/>
+      <L3 id="2669" value="焦作市"/>
+      <L3 id="2670" value="新乡市"/>
+      <L3 id="2671" value="鹤壁市"/>
+      <L3 id="2672" value="安阳市"/>
+      <L3 id="2673" value="濮阳市"/>
+      <L3 id="2674" value="开封市"/>
+      <L3 id="2675" value="商丘市"/>
+      <L3 id="2676" value="许昌市"/>
+      <L3 id="2677" value="漯河市"/>
+      <L3 id="2678" value="平顶山市"/>
+      <L3 id="2679" value="南阳市"/>
+      <L3 id="2680" value="信阳市"/>
+      <L3 id="2681" value="济源市"/>
+      <L3 id="2682" value="周口市"/>
+      <L3 id="2683" value="驻马店市"/>
+      <L3 id="2684" value="其它地区"/>
+    </L2>
+    <L2 id="243" value="内蒙古自治区">
+      <L3 id="2685" value="呼和浩特市"/>
+      <L3 id="2686" value="包头市"/>
+      <L3 id="2687" value="乌海市"/>
+      <L3 id="2688" value="赤峰市"/>
+      <L3 id="2689" value="呼伦贝尔"/>
+      <L3 id="2690" value="兴安盟"/>
+      <L3 id="2691" value="锡林郭勒盟"/>
+      <L3 id="2692" value="乌兰察布市"/>
+      <L3 id="2693" value="巴彦淖尔市"/>
+      <L3 id="2694" value="阿拉善盟"/>
+      <L3 id="2695" value="鄂尔多斯市"/>
+      <L3 id="2696" value="通辽市"/>
+      <L3 id="2697" value="其它地区"/>
+    </L2>
+    <L2 id="244" value="黑龙江省">
+      <L3 id="2698" value="哈尔滨市"/>
+      <L3 id="2699" value="齐齐哈尔市"/>
+      <L3 id="2700" value="黑河市"/>
+      <L3 id="2701" value="大庆市"/>
+      <L3 id="2702" value="伊春市"/>
+      <L3 id="2703" value="鹤岗市"/>
+      <L3 id="2704" value="佳木斯市"/>
+      <L3 id="2705" value="双鸭山市"/>
+      <L3 id="2706" value="七台河市"/>
+      <L3 id="2707" value="鸡西市"/>
+      <L3 id="2708" value="牡丹江市"/>
+      <L3 id="2709" value="绥化地区"/>
+      <L3 id="2710" value="大兴安岭地区"/>
+      <L3 id="2711" value="其它地区"/>
+    </L2>
+    <L2 id="245" value="湖北省">
+      <L3 id="2712" value="武汉市"/>
+      <L3 id="2713" value="十堰市"/>
+      <L3 id="2714" value="襄樊市"/>
+      <L3 id="2715" value="荆门市"/>
+      <L3 id="2716" value="孝感市"/>
+      <L3 id="2717" value="黄冈市"/>
+      <L3 id="2718" value="鄂州市"/>
+      <L3 id="2719" value="黄石市"/>
+      <L3 id="2720" value="咸宁市"/>
+      <L3 id="2721" value="荆州市"/>
+      <L3 id="2722" value="宜昌市"/>
+      <L3 id="2723" value="随州市"/>
+      <L3 id="2724" value="仙桃市"/>
+      <L3 id="2725" value="天门市"/>
+      <L3 id="2726" value="潜江市"/>
+      <L3 id="2727" value="神农架林区"/>
+      <L3 id="2728" value="恩施土家族苗族自治州"/>
+      <L3 id="2729" value="其它地区"/>
+    </L2>
+    <L2 id="246" value="湖南省">
+      <L3 id="2730" value="长沙市"/>
+      <L3 id="2731" value="张家界市"/>
+      <L3 id="2732" value="常德市"/>
+      <L3 id="2733" value="益阳市"/>
+      <L3 id="2734" value="岳阳市"/>
+      <L3 id="2735" value="株洲市"/>
+      <L3 id="2736" value="湘潭市"/>
+      <L3 id="2737" value="衡阳市"/>
+      <L3 id="2738" value="郴州市"/>
+      <L3 id="2739" value="永州市"/>
+      <L3 id="2740" value="邵阳市"/>
+      <L3 id="2741" value="怀化市"/>
+      <L3 id="2742" value="娄底市"/>
+      <L3 id="2743" value="湘西土家族苗族自治州"/>
+      <L3 id="2744" value="其它地区"/>
+    </L2>
+    <L2 id="247" value="广东省">
+      <L3 id="2745" value="广州市"/>
+      <L3 id="2746" value="清远市"/>
+      <L3 id="2747" value="韶关市"/>
+      <L3 id="2748" value="河源市"/>
+      <L3 id="2749" value="梅州市"/>
+      <L3 id="2750" value="潮州市"/>
+      <L3 id="2751" value="汕头市"/>
+      <L3 id="2752" value="揭阳市"/>
+      <L3 id="2753" value="汕尾市"/>
+      <L3 id="2754" value="惠州市"/>
+      <L3 id="2755" value="东莞市"/>
+      <L3 id="2756" value="深圳市"/>
+      <L3 id="2757" value="珠海市"/>
+      <L3 id="2758" value="中山市"/>
+      <L3 id="2759" value="江门市"/>
+      <L3 id="2760" value="佛山市"/>
+      <L3 id="2761" value="肇庆市"/>
+      <L3 id="2762" value="云浮市"/>
+      <L3 id="2763" value="阳江市"/>
+      <L3 id="2764" value="茂名市"/>
+      <L3 id="2765" value="湛江市"/>
+      <L3 id="2766" value="其它地区"/>
+    </L2>
+    <L2 id="248" value="广西壮族自治区">
+      <L3 id="2767" value="南宁市"/>
+      <L3 id="2768" value="桂林市"/>
+      <L3 id="2769" value="柳州市"/>
+      <L3 id="2770" value="梧州市"/>
+      <L3 id="2771" value="贵港市"/>
+      <L3 id="2772" value="玉林市"/>
+      <L3 id="2773" value="钦州市"/>
+      <L3 id="2774" value="北海市"/>
+      <L3 id="2775" value="防城港市"/>
+      <L3 id="2776" value="百色市"/>
+      <L3 id="2777" value="河池地区"/>
+      <L3 id="2778" value="贺州地区"/>
+      <L3 id="2779" value="崇左市"/>
+      <L3 id="2780" value="凭祥市"/>
+      <L3 id="2781" value="来宾市"/>
+      <L3 id="2782" value="其它地区"/>
+    </L2>
+    <L2 id="249" value="海南省">
+      <L3 id="2783" value="海口市"/>
+      <L3 id="2784" value="三亚市"/>
+      <L3 id="2785" value="琼山市"/>
+      <L3 id="2786" value="文昌市"/>
+      <L3 id="2787" value="琼海市"/>
+      <L3 id="2788" value="万宁市"/>
+      <L3 id="2789" value="东方市"/>
+      <L3 id="2790" value="儋州市"/>
+      <L3 id="2791" value="临高县"/>
+      <L3 id="2792" value="澄迈县"/>
+      <L3 id="2793" value="定安县"/>
+      <L3 id="2794" value="屯昌县"/>
+      <L3 id="2795" value="昌江黎族自治县"/>
+      <L3 id="2796" value="白沙黎族自治县"/>
+      <L3 id="2797" value="琼中黎族苗族自治县"/>
+      <L3 id="2798" value="陵水黎族自治县"/>
+      <L3 id="2799" value="保亭黎族苗族自治县"/>
+      <L3 id="2800" value="乐东黎族自治县"/>
+      <L3 id="2801" value="五指山市"/>
+      <L3 id="2802" value="其它地区"/>
+    </L2>
+    <L2 id="250" value="四川省">
+      <L3 id="2803" value="成都市"/>
+      <L3 id="2804" value="广元市"/>
+      <L3 id="2805" value="绵阳市"/>
+      <L3 id="2806" value="德阳市"/>
+      <L3 id="2807" value="南充市"/>
+      <L3 id="2808" value="广安市"/>
+      <L3 id="2809" value="遂宁市"/>
+      <L3 id="2810" value="内江市"/>
+      <L3 id="2811" value="乐山市"/>
+      <L3 id="2812" value="自贡市"/>
+      <L3 id="2813" value="泸州市"/>
+      <L3 id="2814" value="宜宾市"/>
+      <L3 id="2815" value="攀枝花市"/>
+      <L3 id="2816" value="巴中市"/>
+      <L3 id="2817" value="达州市"/>
+      <L3 id="2818" value="资阳市"/>
+      <L3 id="2819" value="眉山市"/>
+      <L3 id="2820" value="雅安市"/>
+      <L3 id="2821" value="阿坝藏族羌族自治州"/>
+      <L3 id="2822" value="甘孜藏族自治州"/>
+      <L3 id="2823" value="凉山彝族自治州"/>
+      <L3 id="2824" value="其它地区"/>
+    </L2>
+    <L2 id="251" value="台湾省">
+      <L3 id="2825" value="台北市"/>
+      <L3 id="2826" value="高雄市"/>
+      <L3 id="2827" value="台南市"/>
+      <L3 id="2828" value="台中市"/>
+      <L3 id="2829" value="基隆市"/>
+      <L3 id="2830" value="新竹市"/>
+      <L3 id="2831" value="嘉义市"/>
+      <L3 id="2832" value="台北县"/>
+      <L3 id="2833" value="宜兰县"/>
+      <L3 id="2834" value="新竹县"/>
+      <L3 id="2835" value="桃园县"/>
+      <L3 id="2836" value="苗栗县"/>
+      <L3 id="2837" value="台中县"/>
+      <L3 id="2838" value="彰化县"/>
+      <L3 id="2839" value="南投县"/>
+      <L3 id="2840" value="嘉义县"/>
+      <L3 id="2841" value="云林县"/>
+      <L3 id="2842" value="台南县"/>
+      <L3 id="2843" value="高雄县"/>
+      <L3 id="2844" value="屏东县"/>
+      <L3 id="2845" value="台东县"/>
+      <L3 id="2846" value="花莲县"/>
+      <L3 id="2847" value="澎湖县"/>
+      <L3 id="2848" value="其它地区"/>
+    </L2>
+    <L2 id="252" value="贵州省">
+      <L3 id="2849" value="贵阳市"/>
+      <L3 id="2850" value="六盘水市"/>
+      <L3 id="2851" value="遵义市"/>
+      <L3 id="2852" value="毕节地区"/>
+      <L3 id="2853" value="铜仁地区"/>
+      <L3 id="2854" value="安顺市"/>
+      <L3 id="2855" value="黔东南苗族侗族自治州"/>
+      <L3 id="2856" value="黔南布依族苗族自治州"/>
+      <L3 id="2857" value="黔西南布依族苗族自治州"/>
+      <L3 id="2858" value="其它地区"/>
+    </L2>
+    <L2 id="253" value="云南省">
+      <L3 id="2859" value="昆明市"/>
+      <L3 id="2860" value="曲靖市"/>
+      <L3 id="2861" value="玉溪市"/>
+      <L3 id="2862" value="丽江市"/>
+      <L3 id="2863" value="昭通市"/>
+      <L3 id="2864" value="思茅市"/>
+      <L3 id="2865" value="临沧地区"/>
+      <L3 id="2866" value="保山市"/>
+      <L3 id="2867" value="德宏傣族景颇族自治州"/>
+      <L3 id="2868" value="怒江傈傈族自治州"/>
+      <L3 id="2869" value="迪庆藏族自治州"/>
+      <L3 id="2870" value="大理白族自治州"/>
+      <L3 id="2871" value="楚雄彝族自治州"/>
+      <L3 id="2872" value="红河哈尼族彝族自治州"/>
+      <L3 id="2873" value="文山壮族苗族自治州"/>
+      <L3 id="2874" value="西双版纳傣族自治州"/>
+      <L3 id="2875" value="其它地区"/>
+    </L2>
+    <L2 id="254" value="陕西省">
+      <L3 id="2876" value="西安市"/>
+      <L3 id="2877" value="延安市"/>
+      <L3 id="2878" value="铜川市"/>
+      <L3 id="2879" value="渭南市"/>
+      <L3 id="2880" value="咸阳市"/>
+      <L3 id="2881" value="宝鸡市"/>
+      <L3 id="2882" value="汉中市"/>
+      <L3 id="2883" value="榆林市"/>
+      <L3 id="2884" value="商洛市"/>
+      <L3 id="2885" value="安康市"/>
+      <L3 id="2886" value="其它地区"/>
+    </L2>
+    <L2 id="255" value="西藏自治区">
+      <L3 id="2887" value="拉萨市"/>
+      <L3 id="2888" value="那曲地区"/>
+      <L3 id="2889" value="昌都地区"/>
+      <L3 id="2890" value="林芝地区"/>
+      <L3 id="2891" value="山南地区"/>
+      <L3 id="2892" value="日喀则地区"/>
+      <L3 id="2893" value="阿里地区"/>
+      <L3 id="2894" value="其它地区"/>
+    </L2>
+    <L2 id="256" value="甘肃省">
+      <L3 id="2895" value="兰州市"/>
+      <L3 id="2896" value="嘉峪关市"/>
+      <L3 id="2897" value="金昌市"/>
+      <L3 id="2898" value="白银市"/>
+      <L3 id="2899" value="天水市"/>
+      <L3 id="2900" value="酒泉市"/>
+      <L3 id="2901" value="张掖市"/>
+      <L3 id="2902" value="武威市"/>
+      <L3 id="2903" value="庆阳市"/>
+      <L3 id="2904" value="平凉市"/>
+      <L3 id="2905" value="定西市"/>
+      <L3 id="2906" value="陇南地区"/>
+      <L3 id="2907" value="临夏回族自治州"/>
+      <L3 id="2908" value="甘南藏族自治州"/>
+      <L3 id="2909" value="玉门市"/>
+      <L3 id="2910" value="敦煌市"/>
+      <L3 id="2911" value="其它地区"/>
+    </L2>
+    <L2 id="257" value="青海省">
+      <L3 id="2912" value="西宁市"/>
+      <L3 id="2913" value="海东地区"/>
+      <L3 id="2914" value="海北藏族自治州"/>
+      <L3 id="2915" value="海南藏族自治州"/>
+      <L3 id="2916" value="黄南藏族自治州"/>
+      <L3 id="2917" value="果洛藏族自治州"/>
+      <L3 id="2918" value="玉树藏族自治州"/>
+      <L3 id="2919" value="海西蒙古族藏族自治州"/>
+      <L3 id="2920" value="其它地区"/>
+    </L2>
+    <L2 id="258" value="宁夏回族自治区">
+      <L3 id="2921" value="银川市"/>
+      <L3 id="2922" value="石嘴山市"/>
+      <L3 id="2923" value="吴忠市"/>
+      <L3 id="2924" value="固原市"/>
+      <L3 id="2925" value="其它地区"/>
+    </L2>
+    <L2 id="259" value="新疆维吾尔族自治区">
+      <L3 id="2926" value="乌鲁木齐市"/>
+      <L3 id="2927" value="克拉玛依市"/>
+      <L3 id="2928" value="石河子市"/>
+      <L3 id="2929" value="喀什地区"/>
+      <L3 id="2930" value="阿克苏地区"/>
+      <L3 id="2931" value="和田地区"/>
+      <L3 id="2932" value="吐鲁番地区"/>
+      <L3 id="2933" value="哈密地区"/>
+      <L3 id="2934" value="克孜勒苏柯尔克孜自治州"/>
+      <L3 id="2935" value="博尔塔拉蒙古自治州"/>
+      <L3 id="2936" value="昌吉回族自治州"/>
+      <L3 id="2937" value="巴音郭楞蒙古自治州"/>
+      <L3 id="2938" value="伊犁哈萨克自治州"/>
+      <L3 id="2939" value="其它地区"/>
+    </L2>
+    <L2 id="260" value="香港特别行政区">
+      <L3 id="2940" value="九龙城区"/>
+      <L3 id="2941" value="中西区"/>
+      <L3 id="2942" value="东区"/>
+      <L3 id="2943" value="观塘区"/>
+      <L3 id="2944" value="南区"/>
+      <L3 id="2945" value="深水埗区"/>
+      <L3 id="2946" value="黄大仙区"/>
+      <L3 id="2947" value="湾仔区"/>
+      <L3 id="2948" value="油尖旺区"/>
+      <L3 id="2949" value="离岛区"/>
+      <L3 id="2950" value="葵青区"/>
+      <L3 id="2951" value="北区"/>
+      <L3 id="2952" value="西贡区"/>
+      <L3 id="2953" value="沙田区"/>
+      <L3 id="2954" value="屯门区"/>
+      <L3 id="2955" value="大埔区"/>
+      <L3 id="2956" value="荃湾区"/>
+      <L3 id="2957" value="元朗区"/>
+      <L3 id="2958" value="其它地区"/>
+    </L2>
+    <L2 id="261" value="澳门特别行政区">
+      <L3 id="2959" value="澳门半岛"/>
+      <L3 id="2960" value="凼仔岛"/>
+      <L3 id="2961" value="路环岛"/>
+      <L3 id="2962" value="其它地区"/>
+    </L2>
+  </L1>
+  <L1 id="15" value="旅游">
+    <L2 id="262" value="自助游"/>
+    <L2 id="263" value="自驾游"/>
+    <L2 id="264" value="探险猎奇"/>
+    <L2 id="265" value="驴友"/>
+    <L2 id="266" value="景点"/>
+    <L2 id="267" value="其他"/>
+  </L1>
+  <L1 id="16" value="同城对碰">
+    <L2 id="268" value="北京市">
+      <L3 id="2963" value="东城区"/>
+      <L3 id="2964" value="西城区"/>
+      <L3 id="2965" value="崇文区"/>
+      <L3 id="2966" value="宣武区"/>
+      <L3 id="2967" value="朝阳区"/>
+      <L3 id="2968" value="丰台区"/>
+      <L3 id="2969" value="石景山区"/>
+      <L3 id="2970" value="海淀区"/>
+      <L3 id="2971" value="门头沟区"/>
+      <L3 id="2972" value="房山区"/>
+      <L3 id="2973" value="通州区"/>
+      <L3 id="2974" value="顺义区"/>
+      <L3 id="2975" value="延庆县"/>
+      <L3 id="2976" value="昌平区"/>
+      <L3 id="2977" value="怀柔区"/>
+      <L3 id="2978" value="密云县"/>
+      <L3 id="2979" value="平谷区"/>
+      <L3 id="2980" value="大兴区"/>
+      <L3 id="2981" value="其它地区"/>
+      <L3 id="4219" value="QQ交友"/>
+    </L2>
+    <L2 id="269" value="天津市">
+      <L3 id="2982" value="和平区"/>
+      <L3 id="2983" value="河东区"/>
+      <L3 id="2984" value="河西区"/>
+      <L3 id="2985" value="南开区"/>
+      <L3 id="2986" value="河北区"/>
+      <L3 id="2987" value="红桥区"/>
+      <L3 id="2988" value="塘沽区"/>
+      <L3 id="2989" value="大港区"/>
+      <L3 id="2990" value="东丽区"/>
+      <L3 id="2991" value="西青区"/>
+      <L3 id="2992" value="津南区"/>
+      <L3 id="2993" value="北辰区"/>
+      <L3 id="2994" value="蓟县"/>
+      <L3 id="2995" value="宝坻区"/>
+      <L3 id="2996" value="武清区"/>
+      <L3 id="2997" value="宁河县"/>
+      <L3 id="2998" value="静海县"/>
+      <L3 id="2999" value="汉沽区"/>
+      <L3 id="3000" value="其它地区"/>
+      <L3 id="4220" value="QQ交友"/>
+    </L2>
+    <L2 id="270" value="上海市">
+      <L3 id="3001" value="黄浦区"/>
+      <L3 id="3002" value="卢湾区"/>
+      <L3 id="3003" value="徐汇区"/>
+      <L3 id="3004" value="长宁区"/>
+      <L3 id="3005" value="静安区"/>
+      <L3 id="3006" value="普陀区"/>
+      <L3 id="3007" value="闸北区"/>
+      <L3 id="3008" value="虹口区"/>
+      <L3 id="3009" value="杨浦区"/>
+      <L3 id="3010" value="闵行区"/>
+      <L3 id="3011" value="宝山区"/>
+      <L3 id="3012" value="嘉定区"/>
+      <L3 id="3013" value="浦东新区"/>
+      <L3 id="3014" value="金山区"/>
+      <L3 id="3015" value="松江区"/>
+      <L3 id="3016" value="崇明县"/>
+      <L3 id="3017" value="青浦区"/>
+      <L3 id="3018" value="南汇区"/>
+      <L3 id="3019" value="奉贤区"/>
+      <L3 id="3020" value="其它地区"/>
+      <L3 id="4221" value="QQ交友"/>
+    </L2>
+    <L2 id="271" value="重庆市">
+      <L3 id="3021" value="渝中区"/>
+      <L3 id="3022" value="大渡口区"/>
+      <L3 id="3023" value="江北区"/>
+      <L3 id="3024" value="沙坪坝区"/>
+      <L3 id="3025" value="九龙坡区"/>
+      <L3 id="3026" value="南岸区"/>
+      <L3 id="3027" value="北碚区"/>
+      <L3 id="3028" value="万盛区"/>
+      <L3 id="3029" value="双桥区"/>
+      <L3 id="3030" value="渝北区"/>
+      <L3 id="3031" value="巴南区"/>
+      <L3 id="3032" value="万州区"/>
+      <L3 id="3033" value="涪陵区"/>
+      <L3 id="3034" value="合川市"/>
+      <L3 id="3035" value="永川市"/>
+      <L3 id="3036" value="江津市"/>
+      <L3 id="3037" value="南川市"/>
+      <L3 id="3038" value="长寿区"/>
+      <L3 id="3039" value="綦江县"/>
+      <L3 id="3040" value="潼南县"/>
+      <L3 id="3041" value="铜梁县"/>
+      <L3 id="3042" value="大足县"/>
+      <L3 id="3043" value="荣昌县"/>
+      <L3 id="3044" value="璧山县"/>
+      <L3 id="3045" value="垫江县"/>
+      <L3 id="3046" value="武隆县"/>
+      <L3 id="3047" value="丰都县"/>
+      <L3 id="3048" value="城口县"/>
+      <L3 id="3049" value="梁平县"/>
+      <L3 id="3050" value="黔江区"/>
+      <L3 id="3051" value="奉节县"/>
+      <L3 id="3052" value="开县"/>
+      <L3 id="3053" value="云阳县"/>
+      <L3 id="3054" value="忠县"/>
+      <L3 id="3055" value="巫溪县"/>
+      <L3 id="3056" value="巫山县"/>
+      <L3 id="3057" value="石柱土家族自治县"/>
+      <L3 id="3058" value="秀山土家族苗族自治县"/>
+      <L3 id="3059" value="酉阳土家族苗族自治县"/>
+      <L3 id="3060" value="彭水苗族土家族自治县"/>
+      <L3 id="3061" value="其它地区"/>
+      <L3 id="4222" value="QQ交友"/>
+    </L2>
+    <L2 id="272" value="河北省">
+      <L3 id="3062" value="石家庄市"/>
+      <L3 id="3063" value="张家口市"/>
+      <L3 id="3064" value="承德市"/>
+      <L3 id="3065" value="秦皇岛市"/>
+      <L3 id="3066" value="唐山市"/>
+      <L3 id="3067" value="廊坊市"/>
+      <L3 id="3068" value="保定市"/>
+      <L3 id="3069" value="沧州市"/>
+      <L3 id="3070" value="衡水市"/>
+      <L3 id="3071" value="邢台市"/>
+      <L3 id="3072" value="邯郸市"/>
+      <L3 id="3073" value="其它地区"/>
+      <L3 id="4223" value="QQ交友"/>
+    </L2>
+    <L2 id="273" value="山西省">
+      <L3 id="3074" value="太原市"/>
+      <L3 id="3075" value="大同市"/>
+      <L3 id="3076" value="朔州市"/>
+      <L3 id="3077" value="阳泉市"/>
+      <L3 id="3078" value="长治市"/>
+      <L3 id="3079" value="晋城市"/>
+      <L3 id="3080" value="忻州市"/>
+      <L3 id="3081" value="吕梁市"/>
+      <L3 id="3082" value="晋中市"/>
+      <L3 id="3083" value="临汾市"/>
+      <L3 id="3084" value="运城市"/>
+      <L3 id="3085" value="其它地区"/>
+      <L3 id="4224" value="QQ交友"/>
+    </L2>
+    <L2 id="274" value="辽宁省">
+      <L3 id="3086" value="沈阳市"/>
+      <L3 id="3087" value="朝阳市"/>
+      <L3 id="3088" value="阜新市"/>
+      <L3 id="3089" value="铁岭市"/>
+      <L3 id="3090" value="抚顺市"/>
+      <L3 id="3091" value="本溪市"/>
+      <L3 id="3092" value="辽阳市"/>
+      <L3 id="3093" value="鞍山市"/>
+      <L3 id="3094" value="丹东市"/>
+      <L3 id="3095" value="大连市"/>
+      <L3 id="3096" value="营口市"/>
+      <L3 id="3097" value="盘锦市"/>
+      <L3 id="3098" value="锦州市"/>
+      <L3 id="3099" value="葫芦岛市"/>
+      <L3 id="3100" value="其它地区"/>
+      <L3 id="4225" value="QQ交友"/>
+    </L2>
+    <L2 id="275" value="吉林省">
+      <L3 id="3101" value="长春市"/>
+      <L3 id="3102" value="白城市"/>
+      <L3 id="3103" value="松原市"/>
+      <L3 id="3104" value="吉林市"/>
+      <L3 id="3105" value="四平市"/>
+      <L3 id="3106" value="辽源市"/>
+      <L3 id="3107" value="通化市"/>
+      <L3 id="3108" value="白山市"/>
+      <L3 id="3109" value="延边朝鲜族自治州"/>
+      <L3 id="3110" value="其它地区"/>
+      <L3 id="4226" value="QQ交友"/>
+    </L2>
+    <L2 id="276" value="江苏省">
+      <L3 id="3111" value="南京市"/>
+      <L3 id="3112" value="徐州市"/>
+      <L3 id="3113" value="连云港市"/>
+      <L3 id="3114" value="宿迁市"/>
+      <L3 id="3115" value="淮阴市"/>
+      <L3 id="3116" value="盐城市"/>
+      <L3 id="3117" value="扬州市"/>
+      <L3 id="3118" value="泰州市"/>
+      <L3 id="3119" value="南通市"/>
+      <L3 id="3120" value="镇江市"/>
+      <L3 id="3121" value="常州市"/>
+      <L3 id="3122" value="无锡市"/>
+      <L3 id="3123" value="苏州市"/>
+      <L3 id="3124" value="淮安市"/>
+      <L3 id="3125" value="其它地区"/>
+      <L3 id="4227" value="QQ交友"/>
+    </L2>
+    <L2 id="277" value="浙江省">
+      <L3 id="3126" value="杭州市"/>
+      <L3 id="3127" value="湖州市"/>
+      <L3 id="3128" value="嘉兴市"/>
+      <L3 id="3129" value="舟山市"/>
+      <L3 id="3130" value="宁波市"/>
+      <L3 id="3131" value="绍兴市"/>
+      <L3 id="3132" value="金华市"/>
+      <L3 id="3133" value="台州市"/>
+      <L3 id="3134" value="温州市"/>
+      <L3 id="3135" value="丽水市"/>
+      <L3 id="3136" value="衢州市"/>
+      <L3 id="3137" value="其它地区"/>
+      <L3 id="4228" value="QQ交友"/>
+    </L2>
+    <L2 id="278" value="安徽省">
+      <L3 id="3138" value="合肥市"/>
+      <L3 id="3139" value="宿州市"/>
+      <L3 id="3140" value="淮北市"/>
+      <L3 id="3141" value="阜阳市"/>
+      <L3 id="3142" value="蚌埠市"/>
+      <L3 id="3143" value="淮南市"/>
+      <L3 id="3144" value="滁州市"/>
+      <L3 id="3145" value="马鞍山市"/>
+      <L3 id="3146" value="芜湖市"/>
+      <L3 id="3147" value="铜陵市"/>
+      <L3 id="3148" value="安庆市"/>
+      <L3 id="3149" value="黄山市"/>
+      <L3 id="3150" value="六安市"/>
+      <L3 id="3151" value="巢湖市"/>
+      <L3 id="3152" value="池州市"/>
+      <L3 id="3153" value="宣城市"/>
+      <L3 id="3154" value="亳州市"/>
+      <L3 id="3155" value="其它地区"/>
+      <L3 id="4229" value="QQ交友"/>
+    </L2>
+    <L2 id="279" value="福建省">
+      <L3 id="3156" value="福州市"/>
+      <L3 id="3157" value="南平市"/>
+      <L3 id="3158" value="三明市"/>
+      <L3 id="3159" value="莆田市"/>
+      <L3 id="3160" value="泉州市"/>
+      <L3 id="3161" value="厦门市"/>
+      <L3 id="3162" value="漳州市"/>
+      <L3 id="3163" value="龙岩市"/>
+      <L3 id="3164" value="宁德市"/>
+      <L3 id="3165" value="其它地区"/>
+      <L3 id="4230" value="QQ交友"/>
+    </L2>
+    <L2 id="280" value="江西省">
+      <L3 id="3166" value="南昌市"/>
+      <L3 id="3167" value="九江市"/>
+      <L3 id="3168" value="景德镇市"/>
+      <L3 id="3169" value="鹰潭市"/>
+      <L3 id="3170" value="新余市"/>
+      <L3 id="3171" value="萍乡市"/>
+      <L3 id="3172" value="赣州市"/>
+      <L3 id="3173" value="上饶市"/>
+      <L3 id="3174" value="抚州市"/>
+      <L3 id="3175" value="宜春市"/>
+      <L3 id="3176" value="吉安市"/>
+      <L3 id="3177" value="其它地区"/>
+      <L3 id="4231" value="QQ交友"/>
+    </L2>
+    <L2 id="281" value="山东省">
+      <L3 id="3178" value="济南市"/>
+      <L3 id="3179" value="聊城市"/>
+      <L3 id="3180" value="德州市"/>
+      <L3 id="3181" value="东营市"/>
+      <L3 id="3182" value="淄博市"/>
+      <L3 id="3183" value="潍坊市"/>
+      <L3 id="3184" value="烟台市"/>
+      <L3 id="3185" value="威海市"/>
+      <L3 id="3186" value="青岛市"/>
+      <L3 id="3187" value="日照市"/>
+      <L3 id="3188" value="临沂市"/>
+      <L3 id="3189" value="枣庄市"/>
+      <L3 id="3190" value="济宁市"/>
+      <L3 id="3191" value="泰安市"/>
+      <L3 id="3192" value="莱芜市"/>
+      <L3 id="3193" value="滨州市"/>
+      <L3 id="3194" value="菏泽市"/>
+      <L3 id="3195" value="其它地区"/>
+      <L3 id="4232" value="QQ交友"/>
+    </L2>
+    <L2 id="282" value="河南省">
+      <L3 id="3196" value="郑州市"/>
+      <L3 id="3197" value="三门峡市"/>
+      <L3 id="3198" value="洛阳市"/>
+      <L3 id="3199" value="焦作市"/>
+      <L3 id="3200" value="新乡市"/>
+      <L3 id="3201" value="鹤壁市"/>
+      <L3 id="3202" value="安阳市"/>
+      <L3 id="3203" value="濮阳市"/>
+      <L3 id="3204" value="开封市"/>
+      <L3 id="3205" value="商丘市"/>
+      <L3 id="3206" value="许昌市"/>
+      <L3 id="3207" value="漯河市"/>
+      <L3 id="3208" value="平顶山市"/>
+      <L3 id="3209" value="南阳市"/>
+      <L3 id="3210" value="信阳市"/>
+      <L3 id="3211" value="济源市"/>
+      <L3 id="3212" value="周口市"/>
+      <L3 id="3213" value="驻马店市"/>
+      <L3 id="3214" value="其它地区"/>
+      <L3 id="4233" value="QQ交友"/>
+    </L2>
+    <L2 id="283" value="内蒙古自治区">
+      <L3 id="3215" value="呼和浩特市"/>
+      <L3 id="3216" value="包头市"/>
+      <L3 id="3217" value="乌海市"/>
+      <L3 id="3218" value="赤峰市"/>
+      <L3 id="3219" value="呼伦贝尔"/>
+      <L3 id="3220" value="兴安盟"/>
+      <L3 id="3221" value="锡林郭勒盟"/>
+      <L3 id="3222" value="乌兰察布市"/>
+      <L3 id="3223" value="巴彦淖尔市"/>
+      <L3 id="3224" value="阿拉善盟"/>
+      <L3 id="3225" value="鄂尔多斯市"/>
+      <L3 id="3226" value="通辽市"/>
+      <L3 id="3227" value="其它地区"/>
+      <L3 id="4234" value="QQ交友"/>
+    </L2>
+    <L2 id="284" value="黑龙江省">
+      <L3 id="3228" value="哈尔滨市"/>
+      <L3 id="3229" value="齐齐哈尔市"/>
+      <L3 id="3230" value="黑河市"/>
+      <L3 id="3231" value="大庆市"/>
+      <L3 id="3232" value="伊春市"/>
+      <L3 id="3233" value="鹤岗市"/>
+      <L3 id="3234" value="佳木斯市"/>
+      <L3 id="3235" value="双鸭山市"/>
+      <L3 id="3236" value="七台河市"/>
+      <L3 id="3237" value="鸡西市"/>
+      <L3 id="3238" value="牡丹江市"/>
+      <L3 id="3239" value="绥化地区"/>
+      <L3 id="3240" value="大兴安岭地区"/>
+      <L3 id="3241" value="其它地区"/>
+      <L3 id="4235" value="QQ交友"/>
+    </L2>
+    <L2 id="285" value="湖北省">
+      <L3 id="3242" value="武汉市"/>
+      <L3 id="3243" value="十堰市"/>
+      <L3 id="3244" value="襄樊市"/>
+      <L3 id="3245" value="荆门市"/>
+      <L3 id="3246" value="孝感市"/>
+      <L3 id="3247" value="黄冈市"/>
+      <L3 id="3248" value="鄂州市"/>
+      <L3 id="3249" value="黄石市"/>
+      <L3 id="3250" value="咸宁市"/>
+      <L3 id="3251" value="荆州市"/>
+      <L3 id="3252" value="宜昌市"/>
+      <L3 id="3253" value="随州市"/>
+      <L3 id="3254" value="仙桃市"/>
+      <L3 id="3255" value="天门市"/>
+      <L3 id="3256" value="潜江市"/>
+      <L3 id="3257" value="神农架林区"/>
+      <L3 id="3258" value="恩施土家族苗族自治州"/>
+      <L3 id="3259" value="其它地区"/>
+      <L3 id="4236" value="QQ交友"/>
+    </L2>
+    <L2 id="286" value="湖南省">
+      <L3 id="3260" value="长沙市"/>
+      <L3 id="3261" value="张家界市"/>
+      <L3 id="3262" value="常德市"/>
+      <L3 id="3263" value="益阳市"/>
+      <L3 id="3264" value="岳阳市"/>
+      <L3 id="3265" value="株洲市"/>
+      <L3 id="3266" value="湘潭市"/>
+      <L3 id="3267" value="衡阳市"/>
+      <L3 id="3268" value="郴州市"/>
+      <L3 id="3269" value="永州市"/>
+      <L3 id="3270" value="邵阳市"/>
+      <L3 id="3271" value="怀化市"/>
+      <L3 id="3272" value="娄底市"/>
+      <L3 id="3273" value="湘西土家族苗族自治州"/>
+      <L3 id="3274" value="其它地区"/>
+      <L3 id="4237" value="QQ交友"/>
+    </L2>
+    <L2 id="287" value="广东省">
+      <L3 id="3275" value="广州市"/>
+      <L3 id="3276" value="清远市"/>
+      <L3 id="3277" value="韶关市"/>
+      <L3 id="3278" value="河源市"/>
+      <L3 id="3279" value="梅州市"/>
+      <L3 id="3280" value="潮州市"/>
+      <L3 id="3281" value="汕头市"/>
+      <L3 id="3282" value="揭阳市"/>
+      <L3 id="3283" value="汕尾市"/>
+      <L3 id="3284" value="惠州市"/>
+      <L3 id="3285" value="东莞市"/>
+      <L3 id="3286" value="深圳市"/>
+      <L3 id="3287" value="珠海市"/>
+      <L3 id="3288" value="中山市"/>
+      <L3 id="3289" value="江门市"/>
+      <L3 id="3290" value="佛山市"/>
+      <L3 id="3291" value="肇庆市"/>
+      <L3 id="3292" value="云浮市"/>
+      <L3 id="3293" value="阳江市"/>
+      <L3 id="3294" value="茂名市"/>
+      <L3 id="3295" value="湛江市"/>
+      <L3 id="3296" value="其它地区"/>
+      <L3 id="4238" value="QQ交友"/>
+    </L2>
+    <L2 id="288" value="广西壮族自治区">
+      <L3 id="3297" value="南宁市"/>
+      <L3 id="3298" value="桂林市"/>
+      <L3 id="3299" value="柳州市"/>
+      <L3 id="3300" value="梧州市"/>
+      <L3 id="3301" value="贵港市"/>
+      <L3 id="3302" value="玉林市"/>
+      <L3 id="3303" value="钦州市"/>
+      <L3 id="3304" value="北海市"/>
+      <L3 id="3305" value="防城港市"/>
+      <L3 id="3306" value="百色市"/>
+      <L3 id="3307" value="河池地区"/>
+      <L3 id="3308" value="贺州地区"/>
+      <L3 id="3309" value="崇左市"/>
+      <L3 id="3310" value="凭祥市"/>
+      <L3 id="3311" value="来宾市"/>
+      <L3 id="3312" value="其它地区"/>
+      <L3 id="4239" value="QQ交友"/>
+    </L2>
+    <L2 id="289" value="海南省">
+      <L3 id="3313" value="海口市"/>
+      <L3 id="3314" value="三亚市"/>
+      <L3 id="3315" value="琼山市"/>
+      <L3 id="3316" value="文昌市"/>
+      <L3 id="3317" value="琼海市"/>
+      <L3 id="3318" value="万宁市"/>
+      <L3 id="3319" value="东方市"/>
+      <L3 id="3320" value="儋州市"/>
+      <L3 id="3321" value="临高县"/>
+      <L3 id="3322" value="澄迈县"/>
+      <L3 id="3323" value="定安县"/>
+      <L3 id="3324" value="屯昌县"/>
+      <L3 id="3325" value="昌江黎族自治县"/>
+      <L3 id="3326" value="白沙黎族自治县"/>
+      <L3 id="3327" value="琼中黎族苗族自治县"/>
+      <L3 id="3328" value="陵水黎族自治县"/>
+      <L3 id="3329" value="保亭黎族苗族自治县"/>
+      <L3 id="3330" value="乐东黎族自治县"/>
+      <L3 id="3331" value="五指山市"/>
+      <L3 id="3332" value="其它地区"/>
+      <L3 id="4240" value="QQ交友"/>
+    </L2>
+    <L2 id="290" value="四川省">
+      <L3 id="3333" value="成都市"/>
+      <L3 id="3334" value="广元市"/>
+      <L3 id="3335" value="绵阳市"/>
+      <L3 id="3336" value="德阳市"/>
+      <L3 id="3337" value="南充市"/>
+      <L3 id="3338" value="广安市"/>
+      <L3 id="3339" value="遂宁市"/>
+      <L3 id="3340" value="内江市"/>
+      <L3 id="3341" value="乐山市"/>
+      <L3 id="3342" value="自贡市"/>
+      <L3 id="3343" value="泸州市"/>
+      <L3 id="3344" value="宜宾市"/>
+      <L3 id="3345" value="攀枝花市"/>
+      <L3 id="3346" value="巴中市"/>
+      <L3 id="3347" value="达州市"/>
+      <L3 id="3348" value="资阳市"/>
+      <L3 id="3349" value="眉山市"/>
+      <L3 id="3350" value="雅安市"/>
+      <L3 id="3351" value="阿坝藏族羌族自治州"/>
+      <L3 id="3352" value="甘孜藏族自治州"/>
+      <L3 id="3353" value="凉山彝族自治州"/>
+      <L3 id="3354" value="其它地区"/>
+      <L3 id="4241" value="QQ交友"/>
+    </L2>
+    <L2 id="291" value="台湾省">
+      <L3 id="3355" value="台北市"/>
+      <L3 id="3356" value="高雄市"/>
+      <L3 id="3357" value="台南市"/>
+      <L3 id="3358" value="台中市"/>
+      <L3 id="3359" value="基隆市"/>
+      <L3 id="3360" value="新竹市"/>
+      <L3 id="3361" value="嘉义市"/>
+      <L3 id="3362" value="台北县"/>
+      <L3 id="3363" value="宜兰县"/>
+      <L3 id="3364" value="新竹县"/>
+      <L3 id="3365" value="桃园县"/>
+      <L3 id="3366" value="苗栗县"/>
+      <L3 id="3367" value="台中县"/>
+      <L3 id="3368" value="彰化县"/>
+      <L3 id="3369" value="南投县"/>
+      <L3 id="3370" value="嘉义县"/>
+      <L3 id="3371" value="云林县"/>
+      <L3 id="3372" value="台南县"/>
+      <L3 id="3373" value="高雄县"/>
+      <L3 id="3374" value="屏东县"/>
+      <L3 id="3375" value="台东县"/>
+      <L3 id="3376" value="花莲县"/>
+      <L3 id="3377" value="澎湖县"/>
+      <L3 id="3378" value="其它地区"/>
+      <L3 id="4242" value="QQ交友"/>
+    </L2>
+    <L2 id="292" value="贵州省">
+      <L3 id="3379" value="贵阳市"/>
+      <L3 id="3380" value="六盘水市"/>
+      <L3 id="3381" value="遵义市"/>
+      <L3 id="3382" value="毕节地区"/>
+      <L3 id="3383" value="铜仁地区"/>
+      <L3 id="3384" value="安顺市"/>
+      <L3 id="3385" value="黔东南苗族侗族自治州"/>
+      <L3 id="3386" value="黔南布依族苗族自治州"/>
+      <L3 id="3387" value="黔西南布依族苗族自治州"/>
+      <L3 id="3388" value="其它地区"/>
+      <L3 id="4243" value="QQ交友"/>
+    </L2>
+    <L2 id="293" value="云南省">
+      <L3 id="3389" value="昆明市"/>
+      <L3 id="3390" value="曲靖市"/>
+      <L3 id="3391" value="玉溪市"/>
+      <L3 id="3392" value="丽江市"/>
+      <L3 id="3393" value="昭通市"/>
+      <L3 id="3394" value="思茅市"/>
+      <L3 id="3395" value="临沧地区"/>
+      <L3 id="3396" value="保山市"/>
+      <L3 id="3397" value="德宏傣族景颇族自治州"/>
+      <L3 id="3398" value="怒江傈傈族自治州"/>
+      <L3 id="3399" value="迪庆藏族自治州"/>
+      <L3 id="3400" value="大理白族自治州"/>
+      <L3 id="3401" value="楚雄彝族自治州"/>
+      <L3 id="3402" value="红河哈尼族彝族自治州"/>
+      <L3 id="3403" value="文山壮族苗族自治州"/>
+      <L3 id="3404" value="西双版纳傣族自治州"/>
+      <L3 id="3405" value="其它地区"/>
+      <L3 id="4244" value="QQ交友"/>
+    </L2>
+    <L2 id="294" value="陕西省">
+      <L3 id="3406" value="西安市"/>
+      <L3 id="3407" value="延安市"/>
+      <L3 id="3408" value="铜川市"/>
+      <L3 id="3409" value="渭南市"/>
+      <L3 id="3410" value="咸阳市"/>
+      <L3 id="3411" value="宝鸡市"/>
+      <L3 id="3412" value="汉中市"/>
+      <L3 id="3413" value="榆林市"/>
+      <L3 id="3414" value="商洛市"/>
+      <L3 id="3415" value="安康市"/>
+      <L3 id="3416" value="其它地区"/>
+      <L3 id="4245" value="QQ交友"/>
+    </L2>
+    <L2 id="295" value="西藏自治区">
+      <L3 id="3417" value="拉萨市"/>
+      <L3 id="3418" value="那曲地区"/>
+      <L3 id="3419" value="昌都地区"/>
+      <L3 id="3420" value="林芝地区"/>
+      <L3 id="3421" value="山南地区"/>
+      <L3 id="3422" value="日喀则地区"/>
+      <L3 id="3423" value="阿里地区"/>
+      <L3 id="3424" value="其它地区"/>
+      <L3 id="4246" value="QQ交友"/>
+    </L2>
+    <L2 id="296" value="甘肃省">
+      <L3 id="3425" value="兰州市"/>
+      <L3 id="3426" value="嘉峪关市"/>
+      <L3 id="3427" value="金昌市"/>
+      <L3 id="3428" value="白银市"/>
+      <L3 id="3429" value="天水市"/>
+      <L3 id="3430" value="酒泉市"/>
+      <L3 id="3431" value="张掖市"/>
+      <L3 id="3432" value="武威市"/>
+      <L3 id="3433" value="庆阳市"/>
+      <L3 id="3434" value="平凉市"/>
+      <L3 id="3435" value="定西市"/>
+      <L3 id="3436" value="陇南地区"/>
+      <L3 id="3437" value="临夏回族自治州"/>
+      <L3 id="3438" value="甘南藏族自治州"/>
+      <L3 id="3439" value="玉门市"/>
+      <L3 id="3440" value="敦煌市"/>
+      <L3 id="3441" value="其它地区"/>
+      <L3 id="4247" value="QQ交友"/>
+    </L2>
+    <L2 id="297" value="青海省">
+      <L3 id="3442" value="西宁市"/>
+      <L3 id="3443" value="海东地区"/>
+      <L3 id="3444" value="海北藏族自治州"/>
+      <L3 id="3445" value="海南藏族自治州"/>
+      <L3 id="3446" value="黄南藏族自治州"/>
+      <L3 id="3447" value="果洛藏族自治州"/>
+      <L3 id="3448" value="玉树藏族自治州"/>
+      <L3 id="3449" value="海西蒙古族藏族自治州"/>
+      <L3 id="3450" value="其它地区"/>
+      <L3 id="4248" value="QQ交友"/>
+    </L2>
+    <L2 id="298" value="宁夏回族自治区">
+      <L3 id="3451" value="银川市"/>
+      <L3 id="3452" value="石嘴山市"/>
+      <L3 id="3453" value="吴忠市"/>
+      <L3 id="3454" value="固原市"/>
+      <L3 id="3455" value="其它地区"/>
+      <L3 id="4249" value="QQ交友"/>
+    </L2>
+    <L2 id="299" value="新疆维吾尔族自治区">
+      <L3 id="3456" value="乌鲁木齐市"/>
+      <L3 id="3457" value="克拉玛依市"/>
+      <L3 id="3458" value="石河子市"/>
+      <L3 id="3459" value="喀什地区"/>
+      <L3 id="3460" value="阿克苏地区"/>
+      <L3 id="3461" value="和田地区"/>
+      <L3 id="3462" value="吐鲁番地区"/>
+      <L3 id="3463" value="哈密地区"/>
+      <L3 id="3464" value="克孜勒苏柯尔克孜自治州"/>
+      <L3 id="3465" value="博尔塔拉蒙古自治州"/>
+      <L3 id="3466" value="昌吉回族自治州"/>
+      <L3 id="3467" value="巴音郭楞蒙古自治州"/>
+      <L3 id="3468" value="伊犁哈萨克自治州"/>
+      <L3 id="3469" value="其它地区"/>
+      <L3 id="4250" value="QQ交友"/>
+    </L2>
+    <L2 id="300" value="香港特别行政区">
+      <L3 id="3470" value="九龙城区"/>
+      <L3 id="3471" value="中西区"/>
+      <L3 id="3472" value="东区"/>
+      <L3 id="3473" value="观塘区"/>
+      <L3 id="3474" value="南区"/>
+      <L3 id="3475" value="深水埗区"/>
+      <L3 id="3476" value="黄大仙区"/>
+      <L3 id="3477" value="湾仔区"/>
+      <L3 id="3478" value="油尖旺区"/>
+      <L3 id="3479" value="离岛区"/>
+      <L3 id="3480" value="葵青区"/>
+      <L3 id="3481" value="北区"/>
+      <L3 id="3482" value="西贡区"/>
+      <L3 id="3483" value="沙田区"/>
+      <L3 id="3484" value="屯门区"/>
+      <L3 id="3485" value="大埔区"/>
+      <L3 id="3486" value="荃湾区"/>
+      <L3 id="3487" value="元朗区"/>
+      <L3 id="3488" value="其它地区"/>
+      <L3 id="4251" value="QQ交友"/>
+    </L2>
+    <L2 id="301" value="澳门特别行政区">
+      <L3 id="3489" value="澳门半岛"/>
+      <L3 id="3490" value="凼仔岛"/>
+      <L3 id="3491" value="路环岛"/>
+      <L3 id="3492" value="其它地区"/>
+      <L3 id="4252" value="QQ交友"/>
+    </L2>
+  </L1>
+  <L1 id="17" value="读书会">
+    <L2 id="302" value="武侠迷"/>
+    <L2 id="303" value="言情迷"/>
+    <L2 id="304" value="现代文学"/>
+    <L2 id="305" value="钟爱网文"/>
+    <L2 id="306" value="侦探迷"/>
+    <L2 id="307" value="科幻奇幻"/>
+    <L2 id="308" value="不忘经典"/>
+  </L1>
+  <L1 id="18" value="生活休闲">
+    <L2 id="309" value="天下美食"/>
+    <L2 id="310" value="shopping族"/>
+    <L2 id="311" value="护肤美容"/>
+    <L2 id="312" value="摄影玩家"/>
+    <L2 id="313" value="家有宠物"/>
+    <L2 id="314" value="夜生活"/>
+    <L2 id="315" value="小资情趣"/>
+    <L2 id="316" value="健康生活"/>
+    <L2 id="317" value="个人爱好">
+      <L3 id="3493" value="园林花卉"/>
+      <L3 id="3494" value="茶道"/>
+      <L3 id="3495" value="垂钓"/>
+      <L3 id="3496" value="收藏"/>
+      <L3 id="3497" value="绘画"/>
+      <L3 id="3498" value="雕塑"/>
+      <L3 id="3499" value="其他"/>
+    </L2>
+    <L2 id="318" value="表演天地"/>
+    <L2 id="319" value="情感区"/>
+    <L2 id="320" value="家居潮流"/>
+    <L2 id="396" value="婴幼宝贝"/>
+  </L1>
+  <L1 id="19" value="商业金融">
+    <L2 id="321" value="公司">
+      <L3 id="3500" value="航空"/>
+      <L3 id="3501" value="农业"/>
+      <L3 id="3502" value="服装"/>
+      <L3 id="3503" value="建筑"/>
+      <L3 id="3504" value="艺术"/>
+      <L3 id="3505" value="汽车"/>
+      <L3 id="3506" value="化工"/>
+      <L3 id="3507" value="通信"/>
+      <L3 id="3508" value="计算机"/>
+      <L3 id="3509" value="消费电器"/>
+      <L3 id="3510" value="国防"/>
+      <L3 id="3511" value="设计院"/>
+      <L3 id="3512" value="电子"/>
+      <L3 id="3513" value="能源"/>
+      <L3 id="3514" value="工程"/>
+      <L3 id="3515" value="娱乐和媒体"/>
+      <L3 id="3516" value="金融服务"/>
+      <L3 id="3517" value="餐饮业"/>
+      <L3 id="3518" value="园艺"/>
+      <L3 id="3519" value="医疗卫生"/>
+      <L3 id="3520" value="工业"/>
+      <L3 id="3521" value="制造业"/>
+      <L3 id="3522" value="营销广告业"/>
+      <L3 id="3523" value="矿物勘探"/>
+      <L3 id="3524" value="商业组织"/>
+      <L3 id="3525" value="印刷业"/>
+      <L3 id="3526" value="零售业"/>
+      <L3 id="3527" value="安全用品"/>
+      <L3 id="3528" value="船舶航运"/>
+      <L3 id="3529" value="纺织业"/>
+      <L3 id="3530" value="贸易"/>
+      <L3 id="3531" value="电信"/>
+      <L3 id="3532" value="其他"/>
+    </L2>
+    <L2 id="322" value="工作和就业">
+      <L3 id="3533" value="商业机会"/>
+      <L3 id="3534" value="人力资源"/>
+      <L3 id="3535" value="职位"/>
+      <L3 id="3536" value="职业规划"/>
+      <L3 id="3537" value="其他"/>
+    </L2>
+    <L2 id="323" value="金融专才">
+      <L3 id="3538" value="注册会计师"/>
+      <L3 id="3539" value="注册审计师"/>
+      <L3 id="3540" value="注册税务师"/>
+      <L3 id="3541" value="ACCA"/>
+      <L3 id="3542" value="保险经纪"/>
+      <L3 id="3543" value="金融分析师"/>
+      <L3 id="3544" value="其他"/>
+    </L2>
+    <L2 id="324" value="自由职业者"/>
+    <L2 id="325" value="行业协会"/>
+    <L2 id="326" value="商学院"/>
+    <L2 id="327" value="投资">
+      <L3 id="3545" value="货币流通"/>
+      <L3 id="3546" value="期货期权"/>
+      <L3 id="3547" value="IPO"/>
+      <L3 id="3548" value="国际投资"/>
+      <L3 id="3549" value="共同基金"/>
+      <L3 id="3550" value="炒股"/>
+    </L2>
+    <L2 id="328" value="营销和广告"/>
+    <L2 id="329" value="新闻媒体"/>
+    <L2 id="330" value="公共关系"/>
+    <L2 id="331" value="房地产"/>
+    <L2 id="332" value="小生意"/>
+  </L1>
+  <L1 id="20" value="其他">
+    <L2 id="394" value="腾讯服务"/>
+    <L2 id="395" value="其他"/>
+    <L2 id="397" value="企鹅之家"/>
+  </L1>
+  <L1 id="21" value="原创空间">
+    <L2 id="388" value="音乐原创"/>
+    <L2 id="389" value="DV原创"/>
+    <L2 id="390" value="动漫原创"/>
+    <L2 id="391" value="闪客原创"/>
+    <L2 id="392" value="文学原创"/>
+    <L2 id="393" value="其他"/>
+  </L1>
+</Parent>
+

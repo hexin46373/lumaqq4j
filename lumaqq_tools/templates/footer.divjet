@@ -1,0 +1,7 @@
+<%@ jet package="edu.tsinghua.lumaqq.template" class="FooterDivGenerator" skeleton="generator.skeleton" %>
+<DIV class=clear><HR></HR></DIV>
+	<DIV id=footer>
+		<DIV class=xright>2004-2006, LumaQQ Project, http://lumaqq.linuxsir.org</DIV>
+		<DIV class=clear><HR></HR></DIV>
+	</DIV>
+</DIV>

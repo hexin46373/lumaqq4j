@@ -1,0 +1,78 @@
+#!/bin/bash
+
+# 判断执行文件的类型，如果是一个符号链接，得到这个链接的目的路径，在以前的版本中，这个任务是用
+# readlink -f 命令完成的。这种作法稍微有些问题，比如你的系统里面可能没有readlink命令，或者低版本的
+# readlink还不支持-f参数，所以在这里先采用readlink，如果readlink失败，则再用file命令和一个
+# 模式匹配来得到目的路径。目前我不确定是否每个平台上的file命令都是返回symbolic link to 这种字符串，
+# 如果不是，把symbolic link to 替换成你的file命令返回的那样
+CONFIG=.lumaqq2006
+PREFIX=
+if [ -L "$0" ]; then
+	PREFIX=`readlink -f "$0"`
+	if [ $? -eq 0 ]; then
+		PREFIX=`dirname "$PREFIX"`		
+	else 
+        	PREFIX=`file "$0"`
+        	PREFIX=${PREFIX##*symbolic link to }
+        	PREFIX=`dirname "$PREFIX"`
+	fi
+else
+        PREFIX=`dirname "$0"`
+fi
+
+# 在这里我判断得到的路径是否是绝对路径，如果不是绝对
+# 路径，我要再做一些处理得到绝对路径
+OLD_DIR=`pwd`
+case $PREFIX in
+        /*)
+        ;;
+        *)
+        cd "$PREFIX"
+        PREFIX=`pwd`
+        ;;
+esac
+
+# 这里检查你的用户目录下是否有.lumaqq2006目录，如果没有，
+# 会自动建立一个，用户的所有QQ相关信息将保存在这个
+# 目录下，所以在多用户的机器上，你应该把这个目录设置
+# 成唯你可读
+if [ ! -e "$HOME/$CONFIG" ]; then
+        mkdir "$HOME/$CONFIG"
+fi
+
+# 这里对LumaQQ的一些目录和文件做一些链接，这个地方使用
+# 了-f参数，所以即使你挪动了LumaQQ的目录到另外一次地方
+# 下次运行也不会受影响
+cd $HOME/$CONFIG
+ln -sf "$PREFIX/log4j.properties" "$HOME/$CONFIG/log4j.properties"
+ln -sf "$PREFIX/xml"
+ln -sf "$PREFIX/sound"
+ln -sf "$PREFIX/QQWry.dat" "$HOME/$CONFIG/QQWry.dat"
+
+# 这里我设置Java到类路径，LumaQQ安装目录下面的lib目录
+# 包含了所有需要用到的jar文件，这些都必须加到类路径中
+cp=
+cd "$PREFIX"
+for i in ./lib/*.jar; do
+        cp="$i":$cp
+done
+
+
+# 搜索JRE，首先查看是否是自带JRE版本，然后检查JAVA_HOME是否设置，最后使用which java，如果都失败
+# 显示提示信息
+if [ -e "$PREFIX/java" ]; then
+	"$PREFIX/java/bin/java" -Djava.library.path="$PREFIX/swt" -classpath $cp edu.tsinghua.lumaqq.LumaQQ "$HOME/$CONFIG" &
+elif [ -n "$JAVA_HOME" ] && [ -x "$JAVA_HOME/bin/java" ]; then
+	"$JAVA_HOME/bin/java" -Djava.library.path="$PREFIX/swt" -classpath $cp edu.tsinghua.lumaqq.LumaQQ "$HOME/$CONFIG" &
+else
+	JAVACMD=`which java`
+	if [ -n "$JAVACMD" ] && [ -x "$JAVACMD" ]; then
+		"$JAVACMD" -Djava.library.path="$PREFIX/swt" -classpath $cp edu.tsinghua.lumaqq.LumaQQ "$HOME/$CONFIG" &
+	elif [ -x /usr/bin/java ]; then
+		/usr/bin/java -Djava.library.path="$PREFIX/swt" -classpath $cp edu.tsinghua.lumaqq.LumaQQ "$HOME/$CONFIG" &
+	else
+		echo "No JRE can be found, please set JAVA_HOME environment"
+	fi
+fi
+
+cd "$OLD_DIR"

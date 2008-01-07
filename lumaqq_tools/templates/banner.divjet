@@ -1,0 +1,7 @@
+<%@ jet package="edu.tsinghua.lumaqq.template" class="BannerDivGenerator" skeleton="generator.skeleton" %>
+<DIV id=banner>
+<A id=organizationLogo href="http://lumaqq.linuxsir.org/"><IMG alt="LumaQQ" src="../images/lumaqq.gif"></IMG></A>
+	<DIV class=clear>
+	<HR></HR>
+	</DIV>
+</DIV>

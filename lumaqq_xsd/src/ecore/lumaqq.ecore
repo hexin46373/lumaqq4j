@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="edu"
+    nsURI="http://lumaqq.tsinghua.edu/ecore/edu" nsPrefix="edu">
+  <eSubpackages name="tsinghua" nsURI="http://lumaqq.tsinghua.edu/ecore/edu/tsinghua"
+      nsPrefix="tsinghua">
+    <eSubpackages name="lumaqq" nsURI="http://lumaqq.tsinghua.edu/ecore/edu/tsinghua/lumaqq"
+        nsPrefix="lumaqq">
+      <eSubpackages name="ecore" nsURI="http://lumaqq.tsinghua.edu/ecore/edu/tsinghua/lumaqq/ecore"
+          nsPrefix="ecore">
+        <eClassifiers xsi:type="ecore:EEnum" name="ProxyType">
+          <eLiterals name="None"/>
+          <eLiterals name="Http" value="1"/>
+          <eLiterals name="Socks5" value="2"/>
+        </eClassifiers>
+        <eClassifiers xsi:type="ecore:EClass" name="LoginOption">
+          <eStructuralFeatures xsi:type="ecore:EAttribute" name="autoSelect" unique="false"
+              lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+              unsettable="true"/>
+          <eStructuralFeatures xsi:type="ecore:EAttribute" name="proxyPassword" unique="false"
+              lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+          <eStructuralFeatures xsi:type="ecore:EAttribute" name="proxyPort" unique="false"
+              lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"
+              unsettable="true"/>
+          <eStructuralFeatures xsi:type="ecore:EAttribute" name="proxyServer" unique="false"
+              lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+          <eStructuralFeatures xsi:type="ecore:EAttribute" name="proxyType" unique="false"
+              lowerBound="1" eType="#//tsinghua/lumaqq/ecore/ProxyType" defaultValueLiteral="None"
+              unsettable="true"/>
+          <eStructuralFeatures xsi:type="ecore:EAttribute" name="proxyUsername" unique="false"
+              lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+          <eStructuralFeatures xsi:type="ecore:EAttribute" name="server" unique="false"
+              lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+          <eStructuralFeatures xsi:type="ecore:EAttribute" name="tcpPort" unique="false"
+              lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"
+              unsettable="true"/>
+          <eStructuralFeatures xsi:type="ecore:EAttribute" name="useTcp" unique="false"
+              lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+              unsettable="true"/>
+        </eClassifiers>
+        <eSubpackages name="global" nsURI="http://lumaqq.tsinghua.edu/ecore/edu/tsinghua/lumaqq/ecore/global"
+            nsPrefix="global">
+          <eClassifiers xsi:type="ecore:EClass" name="GlobalSetting">
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="language" unique="false"
+                lowerBound="1" eType="#//tsinghua/lumaqq/ecore/global/LanguageType"
+                defaultValueLiteral="zh" unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EReference" name="servers" lowerBound="1"
+                eType="#//tsinghua/lumaqq/ecore/global/Servers" containment="true"
+                resolveProxies="false"/>
+            <eStructuralFeatures xsi:type="ecore:EReference" name="robots" lowerBound="1"
+                eType="#//tsinghua/lumaqq/ecore/global/Robots" containment="true"
+                resolveProxies="false"/>
+          </eClassifiers>
+          <eClassifiers xsi:type="ecore:EEnum" name="LanguageType">
+            <eLiterals name="zh"/>
+            <eLiterals name="en" value="1"/>
+          </eClassifiers>
+          <eClassifiers xsi:type="ecore:EClass" name="Servers">
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="TCPServer" upperBound="-1"
+                eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="UDPServer" upperBound="-1"
+                eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+          </eClassifiers>
+          <eClassifiers xsi:type="ecore:EClass" name="Robot">
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="class" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+          </eClassifiers>
+          <eClassifiers xsi:type="ecore:EClass" name="Robots">
+            <eStructuralFeatures xsi:type="ecore:EReference" name="robot" upperBound="-1"
+                eType="#//tsinghua/lumaqq/ecore/global/Robot" containment="true"/>
+          </eClassifiers>
+        </eSubpackages>
+        <eSubpackages name="face" nsURI="http://lumaqq.tsinghua.edu/ecore/edu/tsinghua/lumaqq/ecore/face"
+            nsPrefix="face">
+          <eClassifiers xsi:type="ecore:EClass" name="Face">
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="filename" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="md5" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+          </eClassifiers>
+          <eClassifiers xsi:type="ecore:EClass" name="FaceGroup">
+            <eStructuralFeatures xsi:type="ecore:EReference" name="face" upperBound="-1"
+                eType="#//tsinghua/lumaqq/ecore/face/Face" containment="true" resolveProxies="false"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+          </eClassifiers>
+          <eClassifiers xsi:type="ecore:EClass" name="Faces">
+            <eStructuralFeatures xsi:type="ecore:EReference" name="group" upperBound="-1"
+                eType="#//tsinghua/lumaqq/ecore/face/FaceGroup" containment="true"
+                resolveProxies="false"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="nextGroupId" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="nextId" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"
+                unsettable="true"/>
+          </eClassifiers>
+          <eClassifiers xsi:type="ecore:EEnum" name="FaceConstant">
+            <eLiterals name="DEFAULT_GROUP_ID"/>
+            <eLiterals name="RECEIVED_GROUP_ID" value="1"/>
+            <eLiterals name="CUSTOM_HEAD_GROUP_ID" value="2"/>
+          </eClassifiers>
+        </eSubpackages>
+        <eSubpackages name="group" nsURI="http://lumaqq.tsinghua.edu/ecore/edu/tsinghua/lumaqq/ecore/group"
+            nsPrefix="group">
+          <eClassifiers xsi:type="ecore:EClass" name="XCluster">
+            <eStructuralFeatures xsi:type="ecore:EReference" name="user" upperBound="-1"
+                eType="#//tsinghua/lumaqq/ecore/group/XUser" containment="true" resolveProxies="false"/>
+            <eStructuralFeatures xsi:type="ecore:EReference" name="organization" upperBound="-1"
+                eType="#//tsinghua/lumaqq/ecore/group/XOrganization" containment="true"
+                resolveProxies="false"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="admins" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="authType" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="category" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="clusterId" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="creator" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" unique="false"
+                eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"
+                defaultValueLiteral="" unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="externalId" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="headId" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="lastMessageTime"
+                unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Long"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="messageSetting"
+                unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="notice" unique="false"
+                eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"
+                defaultValueLiteral="" unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="oldCategory" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="parentClusterId"
+                unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="stockholders" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+          </eClassifiers>
+          <eClassifiers xsi:type="ecore:EClass" name="XGroup">
+            <eStructuralFeatures xsi:type="ecore:EReference" name="user" upperBound="-1"
+                eType="#//tsinghua/lumaqq/ecore/group/XUser" containment="true" resolveProxies="false"/>
+            <eStructuralFeatures xsi:type="ecore:EReference" name="cluster" upperBound="-1"
+                eType="#//tsinghua/lumaqq/ecore/group/XCluster" containment="true"
+                resolveProxies="false"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+          </eClassifiers>
+          <eClassifiers xsi:type="ecore:EClass" name="XGroups">
+            <eStructuralFeatures xsi:type="ecore:EReference" name="group" upperBound="-1"
+                eType="#//tsinghua/lumaqq/ecore/group/XGroup" containment="true" resolveProxies="false"/>
+          </eClassifiers>
+          <eClassifiers xsi:type="ecore:EClass" name="XOrganization">
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="path" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"
+                unsettable="true"/>
+          </eClassifiers>
+          <eClassifiers xsi:type="ecore:EClass" name="XUser">
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="cardName" unique="false"
+                eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"
+                defaultValueLiteral="" unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="female" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="headId" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="lastMessageTime"
+                unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Long"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="level" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="member" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="nick" unique="false"
+                eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"
+                defaultValueLiteral="" unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="organizationId"
+                unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="pinned" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="qq" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="signature" unique="false"
+                eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"
+                defaultValueLiteral="" unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="talkMode" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasCustomHead"
+                unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="customHeadId" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="userFlag" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="customHeadTimestamp"
+                unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="windowX" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="windowY" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"
+                unsettable="true"/>
+          </eClassifiers>
+        </eSubpackages>
+        <eSubpackages name="login" nsURI="http://lumaqq.tsinghua.edu/ecore/edu/tsinghua/lumaqq/ecore/login"
+            nsPrefix="login">
+          <eClassifiers xsi:type="ecore:EClass" name="Login">
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="autoLogin" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="loginHidden" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="password" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="qq" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="rememberPassword"
+                unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+                unsettable="true"/>
+          </eClassifiers>
+          <eClassifiers xsi:type="ecore:EClass" name="Logins">
+            <eStructuralFeatures xsi:type="ecore:EReference" name="login" upperBound="-1"
+                eType="#//tsinghua/lumaqq/ecore/login/Login" containment="true" resolveProxies="false"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="lastLogin" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+            <eStructuralFeatures xsi:type="ecore:EReference" name="network" lowerBound="1"
+                eType="#//tsinghua/lumaqq/ecore/LoginOption" containment="true"/>
+          </eClassifiers>
+        </eSubpackages>
+        <eSubpackages name="option" nsURI="http://lumaqq.tsinghua.edu/ecore/edu/tsinghua/lumaqq/ecore/option"
+            nsPrefix="option">
+          <eClassifiers xsi:type="ecore:EClass" name="GUIOption">
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="autoDock" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="bold" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="fontColor" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="fontName" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="fontSize" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="groupBackground"
+                unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="height" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="hideWhenMinimize"
+                unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="imOnTop" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="italic" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="locationX" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="locationY" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="minimizeWhenClose"
+                unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="onlineTipLocationX"
+                unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="onlineTipLocationY"
+                unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="onTop" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="showBlacklist"
+                unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="showFriendTip"
+                unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="showNick" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="showOnlineOnly"
+                unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="showOnlineTip"
+                unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="showLastLoginTip"
+                unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="showSignature"
+                unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="showCustomHead"
+                unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="showSmallHead"
+                unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="treeMode" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="useTabIMWindow"
+                unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="barExpanded" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="width" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"
+                unsettable="true"/>
+          </eClassifiers>
+          <eClassifiers xsi:type="ecore:EClass" name="KeyOption">
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="messageKey" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+          </eClassifiers>
+          <eClassifiers xsi:type="ecore:EClass" name="MessageOption">
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="autoEject" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="enableSound" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="rejectStranger"
+                unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="rejectTempSessionIM"
+                unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="useEnterInMessageMode"
+                unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="useEnterInTalkMode"
+                unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+                unsettable="true"/>
+          </eClassifiers>
+          <eClassifiers xsi:type="ecore:EClass" name="Options">
+            <eStructuralFeatures xsi:type="ecore:EReference" name="loginOption" lowerBound="1"
+                eType="#//tsinghua/lumaqq/ecore/LoginOption" containment="true" resolveProxies="false"/>
+            <eStructuralFeatures xsi:type="ecore:EReference" name="guiOption" lowerBound="1"
+                eType="#//tsinghua/lumaqq/ecore/option/GUIOption" containment="true"
+                resolveProxies="false"/>
+            <eStructuralFeatures xsi:type="ecore:EReference" name="messageOption"
+                lowerBound="1" eType="#//tsinghua/lumaqq/ecore/option/MessageOption"
+                containment="true" resolveProxies="false"/>
+            <eStructuralFeatures xsi:type="ecore:EReference" name="otherOption" lowerBound="1"
+                eType="#//tsinghua/lumaqq/ecore/option/OtherOption" containment="true"
+                resolveProxies="false"/>
+            <eStructuralFeatures xsi:type="ecore:EReference" name="syncOption" lowerBound="1"
+                eType="#//tsinghua/lumaqq/ecore/option/SyncOption" containment="true"
+                resolveProxies="false"/>
+            <eStructuralFeatures xsi:type="ecore:EReference" name="keyOption" lowerBound="1"
+                eType="#//tsinghua/lumaqq/ecore/option/KeyOption" containment="true"
+                resolveProxies="false"/>
+          </eClassifiers>
+          <eClassifiers xsi:type="ecore:EEnum" name="OpType">
+            <eLiterals name="Always"/>
+            <eLiterals name="Never" value="1"/>
+            <eLiterals name="Prompt" value="2"/>
+          </eClassifiers>
+          <eClassifiers xsi:type="ecore:EClass" name="OtherOption">
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="browser" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="enableLatest" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="keepStrangerInLatest"
+                unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="latestSize" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="showFakeCam" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+                unsettable="true"/>
+          </eClassifiers>
+          <eClassifiers xsi:type="ecore:EClass" name="SyncOption">
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="autoCheckUpdate"
+                unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="autoDownloadFriendRemark"
+                unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="autoDownloadGroup"
+                unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="autoUploadGroup"
+                unique="false" lowerBound="1" eType="#//tsinghua/lumaqq/ecore/option/OpType"
+                defaultValueLiteral="Always" unsettable="true"/>
+          </eClassifiers>
+        </eSubpackages>
+        <eSubpackages name="proxy" nsURI="http://lumaqq.tsinghua.edu/ecore/edu/tsinghua/lumaqq/ecore/proxy"
+            nsPrefix="proxy">
+          <eClassifiers xsi:type="ecore:EClass" name="HttpProxy">
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="password" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="port" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="server" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="username" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+          </eClassifiers>
+          <eClassifiers xsi:type="ecore:EClass" name="Proxies">
+            <eStructuralFeatures xsi:type="ecore:EReference" name="socks5Proxy" upperBound="-1"
+                eType="#//tsinghua/lumaqq/ecore/proxy/Socks5Proxy" containment="true"
+                resolveProxies="false"/>
+            <eStructuralFeatures xsi:type="ecore:EReference" name="httpProxy" upperBound="-1"
+                eType="#//tsinghua/lumaqq/ecore/proxy/HttpProxy" containment="true"
+                resolveProxies="false"/>
+          </eClassifiers>
+          <eClassifiers xsi:type="ecore:EClass" name="Socks5Proxy">
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="password" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="port" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="server" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="username" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+          </eClassifiers>
+        </eSubpackages>
+        <eSubpackages name="remark" nsURI="http://lumaqq.tsinghua.edu/ecore/edu/tsinghua/lumaqq/ecore/remark"
+            nsPrefix="remark">
+          <eClassifiers xsi:type="ecore:EClass" name="Remark">
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="address" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="email" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="mobile" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="note" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="qq" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="telephone" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="zipcode" unique="false"
+                lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+          </eClassifiers>
+          <eClassifiers xsi:type="ecore:EClass" name="Remarks">
+            <eStructuralFeatures xsi:type="ecore:EReference" name="remark" upperBound="-1"
+                eType="#//tsinghua/lumaqq/ecore/remark/Remark" containment="true"
+                resolveProxies="false"/>
+          </eClassifiers>
+        </eSubpackages>
+        <eSubpackages name="reply" nsURI="http://lumaqq.tsinghua.edu/ecore/edu/tsinghua/lumaqq/ecore/reply"
+            nsPrefix="reply">
+          <eClassifiers xsi:type="ecore:EClass" name="Replies">
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="quickReply" unique="false"
+                upperBound="-1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="autoReply" unique="false"
+                upperBound="-1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="currentAutoReply"
+                unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"
+                unsettable="true"/>
+            <eStructuralFeatures xsi:type="ecore:EAttribute" name="currentQuickReply"
+                unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"
+                unsettable="true"/>
+          </eClassifiers>
+        </eSubpackages>
+      </eSubpackages>
+    </eSubpackages>
+  </eSubpackages>
+</ecore:EPackage>

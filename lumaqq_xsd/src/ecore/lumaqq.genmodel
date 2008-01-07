@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/LumaQQ_xsd_2006/src"
+    modelPluginID="LumaQQ_xsd_2006" modelName="Lumaqq" importerID="org.eclipse.emf.importer.ecore">
+  <foreignModel>lumaqq.ecore</foreignModel>
+  <genPackages prefix="Edu" disposableProviderFactory="true" ecorePackage="lumaqq.ecore#/">
+    <nestedGenPackages prefix="Tsinghua" basePackage="edu" disposableProviderFactory="true"
+        ecorePackage="lumaqq.ecore#//tsinghua">
+      <nestedGenPackages prefix="Lumaqq" basePackage="edu.tsinghua" disposableProviderFactory="true"
+          ecorePackage="lumaqq.ecore#//tsinghua/lumaqq">
+        <nestedGenPackages prefix="Ecore" basePackage="edu.tsinghua.lumaqq" disposableProviderFactory="true"
+            ecorePackage="lumaqq.ecore#//tsinghua/lumaqq/ecore">
+          <genEnums ecoreEnum="lumaqq.ecore#//tsinghua/lumaqq/ecore/ProxyType">
+            <genEnumLiterals ecoreEnumLiteral="lumaqq.ecore#//tsinghua/lumaqq/ecore/ProxyType/None"/>
+            <genEnumLiterals ecoreEnumLiteral="lumaqq.ecore#//tsinghua/lumaqq/ecore/ProxyType/Http"/>
+            <genEnumLiterals ecoreEnumLiteral="lumaqq.ecore#//tsinghua/lumaqq/ecore/ProxyType/Socks5"/>
+          </genEnums>
+          <genClasses ecoreClass="lumaqq.ecore#//tsinghua/lumaqq/ecore/LoginOption">
+            <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/LoginOption/autoSelect"/>
+            <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/LoginOption/proxyPassword"/>
+            <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/LoginOption/proxyPort"/>
+            <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/LoginOption/proxyServer"/>
+            <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/LoginOption/proxyType"/>
+            <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/LoginOption/proxyUsername"/>
+            <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/LoginOption/server"/>
+            <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/LoginOption/tcpPort"/>
+            <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/LoginOption/useTcp"/>
+          </genClasses>
+          <nestedGenPackages prefix="Global" basePackage="edu.tsinghua.lumaqq.ecore"
+              disposableProviderFactory="true" ecorePackage="lumaqq.ecore#//tsinghua/lumaqq/ecore/global">
+            <genEnums ecoreEnum="lumaqq.ecore#//tsinghua/lumaqq/ecore/global/LanguageType">
+              <genEnumLiterals ecoreEnumLiteral="lumaqq.ecore#//tsinghua/lumaqq/ecore/global/LanguageType/zh"/>
+              <genEnumLiterals ecoreEnumLiteral="lumaqq.ecore#//tsinghua/lumaqq/ecore/global/LanguageType/en"/>
+            </genEnums>
+            <genClasses ecoreClass="lumaqq.ecore#//tsinghua/lumaqq/ecore/global/GlobalSetting">
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/global/GlobalSetting/language"/>
+              <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference lumaqq.ecore#//tsinghua/lumaqq/ecore/global/GlobalSetting/servers"/>
+              <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference lumaqq.ecore#//tsinghua/lumaqq/ecore/global/GlobalSetting/robots"/>
+            </genClasses>
+            <genClasses ecoreClass="lumaqq.ecore#//tsinghua/lumaqq/ecore/global/Servers">
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/global/Servers/TCPServer"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/global/Servers/UDPServer"/>
+            </genClasses>
+            <genClasses ecoreClass="lumaqq.ecore#//tsinghua/lumaqq/ecore/global/Robot">
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/global/Robot/class"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/global/Robot/name"/>
+            </genClasses>
+            <genClasses ecoreClass="lumaqq.ecore#//tsinghua/lumaqq/ecore/global/Robots">
+              <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference lumaqq.ecore#//tsinghua/lumaqq/ecore/global/Robots/robot"/>
+            </genClasses>
+          </nestedGenPackages>
+          <nestedGenPackages prefix="Face" basePackage="edu.tsinghua.lumaqq.ecore"
+              disposableProviderFactory="true" ecorePackage="lumaqq.ecore#//tsinghua/lumaqq/ecore/face">
+            <genEnums ecoreEnum="lumaqq.ecore#//tsinghua/lumaqq/ecore/face/FaceConstant">
+              <genEnumLiterals ecoreEnumLiteral="lumaqq.ecore#//tsinghua/lumaqq/ecore/face/FaceConstant/DEFAULT_GROUP_ID"/>
+              <genEnumLiterals ecoreEnumLiteral="lumaqq.ecore#//tsinghua/lumaqq/ecore/face/FaceConstant/RECEIVED_GROUP_ID"/>
+              <genEnumLiterals ecoreEnumLiteral="lumaqq.ecore#//tsinghua/lumaqq/ecore/face/FaceConstant/CUSTOM_HEAD_GROUP_ID"/>
+            </genEnums>
+            <genClasses ecoreClass="lumaqq.ecore#//tsinghua/lumaqq/ecore/face/Face">
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/face/Face/filename"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/face/Face/id"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/face/Face/md5"/>
+            </genClasses>
+            <genClasses ecoreClass="lumaqq.ecore#//tsinghua/lumaqq/ecore/face/FaceGroup">
+              <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference lumaqq.ecore#//tsinghua/lumaqq/ecore/face/FaceGroup/face"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/face/FaceGroup/id"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/face/FaceGroup/name"/>
+            </genClasses>
+            <genClasses ecoreClass="lumaqq.ecore#//tsinghua/lumaqq/ecore/face/Faces">
+              <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference lumaqq.ecore#//tsinghua/lumaqq/ecore/face/Faces/group"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/face/Faces/nextGroupId"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/face/Faces/nextId"/>
+            </genClasses>
+          </nestedGenPackages>
+          <nestedGenPackages prefix="Group" basePackage="edu.tsinghua.lumaqq.ecore"
+              disposableProviderFactory="true" ecorePackage="lumaqq.ecore#//tsinghua/lumaqq/ecore/group">
+            <genClasses ecoreClass="lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XCluster">
+              <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XCluster/user"/>
+              <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XCluster/organization"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XCluster/admins"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XCluster/authType"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XCluster/category"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XCluster/clusterId"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XCluster/creator"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XCluster/description"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XCluster/externalId"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XCluster/headId"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XCluster/lastMessageTime"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XCluster/messageSetting"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XCluster/name"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XCluster/notice"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XCluster/oldCategory"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XCluster/parentClusterId"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XCluster/stockholders"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XCluster/type"/>
+            </genClasses>
+            <genClasses ecoreClass="lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XGroup">
+              <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XGroup/user"/>
+              <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XGroup/cluster"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XGroup/name"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XGroup/type"/>
+            </genClasses>
+            <genClasses ecoreClass="lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XGroups">
+              <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XGroups/group"/>
+            </genClasses>
+            <genClasses ecoreClass="lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XOrganization">
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XOrganization/id"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XOrganization/name"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XOrganization/path"/>
+            </genClasses>
+            <genClasses ecoreClass="lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XUser">
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XUser/cardName"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XUser/female"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XUser/headId"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XUser/lastMessageTime"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XUser/level"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XUser/member"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XUser/nick"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XUser/organizationId"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XUser/pinned"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XUser/qq"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XUser/signature"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XUser/talkMode"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XUser/hasCustomHead"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XUser/customHeadId"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XUser/userFlag"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XUser/customHeadTimestamp"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XUser/windowX"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/group/XUser/windowY"/>
+            </genClasses>
+          </nestedGenPackages>
+          <nestedGenPackages prefix="Login" basePackage="edu.tsinghua.lumaqq.ecore"
+              disposableProviderFactory="true" ecorePackage="lumaqq.ecore#//tsinghua/lumaqq/ecore/login">
+            <genClasses ecoreClass="lumaqq.ecore#//tsinghua/lumaqq/ecore/login/Login">
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/login/Login/autoLogin"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/login/Login/loginHidden"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/login/Login/password"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/login/Login/qq"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/login/Login/rememberPassword"/>
+            </genClasses>
+            <genClasses ecoreClass="lumaqq.ecore#//tsinghua/lumaqq/ecore/login/Logins">
+              <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference lumaqq.ecore#//tsinghua/lumaqq/ecore/login/Logins/login"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/login/Logins/lastLogin"/>
+              <genFeatures notify="false" createChild="false" ecoreFeature="ecore:EReference lumaqq.ecore#//tsinghua/lumaqq/ecore/login/Logins/network"/>
+            </genClasses>
+          </nestedGenPackages>
+          <nestedGenPackages prefix="Option" basePackage="edu.tsinghua.lumaqq.ecore"
+              disposableProviderFactory="true" ecorePackage="lumaqq.ecore#//tsinghua/lumaqq/ecore/option">
+            <genEnums ecoreEnum="lumaqq.ecore#//tsinghua/lumaqq/ecore/option/OpType">
+              <genEnumLiterals ecoreEnumLiteral="lumaqq.ecore#//tsinghua/lumaqq/ecore/option/OpType/Always"/>
+              <genEnumLiterals ecoreEnumLiteral="lumaqq.ecore#//tsinghua/lumaqq/ecore/option/OpType/Never"/>
+              <genEnumLiterals ecoreEnumLiteral="lumaqq.ecore#//tsinghua/lumaqq/ecore/option/OpType/Prompt"/>
+            </genEnums>
+            <genClasses ecoreClass="lumaqq.ecore#//tsinghua/lumaqq/ecore/option/GUIOption">
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/GUIOption/autoDock"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/GUIOption/bold"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/GUIOption/fontColor"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/GUIOption/fontName"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/GUIOption/fontSize"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/GUIOption/groupBackground"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/GUIOption/height"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/GUIOption/hideWhenMinimize"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/GUIOption/imOnTop"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/GUIOption/italic"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/GUIOption/locationX"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/GUIOption/locationY"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/GUIOption/minimizeWhenClose"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/GUIOption/onlineTipLocationX"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/GUIOption/onlineTipLocationY"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/GUIOption/onTop"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/GUIOption/showBlacklist"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/GUIOption/showFriendTip"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/GUIOption/showNick"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/GUIOption/showOnlineOnly"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/GUIOption/showOnlineTip"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/GUIOption/showLastLoginTip"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/GUIOption/showSignature"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/GUIOption/showCustomHead"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/GUIOption/showSmallHead"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/GUIOption/treeMode"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/GUIOption/useTabIMWindow"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/GUIOption/barExpanded"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/GUIOption/width"/>
+            </genClasses>
+            <genClasses ecoreClass="lumaqq.ecore#//tsinghua/lumaqq/ecore/option/KeyOption">
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/KeyOption/messageKey"/>
+            </genClasses>
+            <genClasses ecoreClass="lumaqq.ecore#//tsinghua/lumaqq/ecore/option/MessageOption">
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/MessageOption/autoEject"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/MessageOption/enableSound"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/MessageOption/rejectStranger"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/MessageOption/rejectTempSessionIM"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/MessageOption/useEnterInMessageMode"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/MessageOption/useEnterInTalkMode"/>
+            </genClasses>
+            <genClasses ecoreClass="lumaqq.ecore#//tsinghua/lumaqq/ecore/option/Options">
+              <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference lumaqq.ecore#//tsinghua/lumaqq/ecore/option/Options/loginOption"/>
+              <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference lumaqq.ecore#//tsinghua/lumaqq/ecore/option/Options/guiOption"/>
+              <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference lumaqq.ecore#//tsinghua/lumaqq/ecore/option/Options/messageOption"/>
+              <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference lumaqq.ecore#//tsinghua/lumaqq/ecore/option/Options/otherOption"/>
+              <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference lumaqq.ecore#//tsinghua/lumaqq/ecore/option/Options/syncOption"/>
+              <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference lumaqq.ecore#//tsinghua/lumaqq/ecore/option/Options/keyOption"/>
+            </genClasses>
+            <genClasses ecoreClass="lumaqq.ecore#//tsinghua/lumaqq/ecore/option/OtherOption">
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/OtherOption/browser"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/OtherOption/enableLatest"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/OtherOption/keepStrangerInLatest"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/OtherOption/latestSize"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/OtherOption/showFakeCam"/>
+            </genClasses>
+            <genClasses ecoreClass="lumaqq.ecore#//tsinghua/lumaqq/ecore/option/SyncOption">
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/SyncOption/autoCheckUpdate"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/SyncOption/autoDownloadFriendRemark"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/SyncOption/autoDownloadGroup"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/option/SyncOption/autoUploadGroup"/>
+            </genClasses>
+          </nestedGenPackages>
+          <nestedGenPackages prefix="Proxy" basePackage="edu.tsinghua.lumaqq.ecore"
+              disposableProviderFactory="true" ecorePackage="lumaqq.ecore#//tsinghua/lumaqq/ecore/proxy">
+            <genClasses ecoreClass="lumaqq.ecore#//tsinghua/lumaqq/ecore/proxy/HttpProxy">
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/proxy/HttpProxy/password"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/proxy/HttpProxy/port"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/proxy/HttpProxy/server"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/proxy/HttpProxy/username"/>
+            </genClasses>
+            <genClasses ecoreClass="lumaqq.ecore#//tsinghua/lumaqq/ecore/proxy/Proxies">
+              <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference lumaqq.ecore#//tsinghua/lumaqq/ecore/proxy/Proxies/socks5Proxy"/>
+              <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference lumaqq.ecore#//tsinghua/lumaqq/ecore/proxy/Proxies/httpProxy"/>
+            </genClasses>
+            <genClasses ecoreClass="lumaqq.ecore#//tsinghua/lumaqq/ecore/proxy/Socks5Proxy">
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/proxy/Socks5Proxy/password"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/proxy/Socks5Proxy/port"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/proxy/Socks5Proxy/server"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/proxy/Socks5Proxy/username"/>
+            </genClasses>
+          </nestedGenPackages>
+          <nestedGenPackages prefix="Remark" basePackage="edu.tsinghua.lumaqq.ecore"
+              disposableProviderFactory="true" ecorePackage="lumaqq.ecore#//tsinghua/lumaqq/ecore/remark">
+            <genClasses ecoreClass="lumaqq.ecore#//tsinghua/lumaqq/ecore/remark/Remark">
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/remark/Remark/address"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/remark/Remark/email"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/remark/Remark/mobile"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/remark/Remark/name"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/remark/Remark/note"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/remark/Remark/qq"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/remark/Remark/telephone"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/remark/Remark/zipcode"/>
+            </genClasses>
+            <genClasses ecoreClass="lumaqq.ecore#//tsinghua/lumaqq/ecore/remark/Remarks">
+              <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference lumaqq.ecore#//tsinghua/lumaqq/ecore/remark/Remarks/remark"/>
+            </genClasses>
+          </nestedGenPackages>
+          <nestedGenPackages prefix="Reply" basePackage="edu.tsinghua.lumaqq.ecore"
+              disposableProviderFactory="true" ecorePackage="lumaqq.ecore#//tsinghua/lumaqq/ecore/reply">
+            <genClasses ecoreClass="lumaqq.ecore#//tsinghua/lumaqq/ecore/reply/Replies">
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/reply/Replies/quickReply"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/reply/Replies/autoReply"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/reply/Replies/currentAutoReply"/>
+              <genFeatures createChild="false" ecoreFeature="ecore:EAttribute lumaqq.ecore#//tsinghua/lumaqq/ecore/reply/Replies/currentQuickReply"/>
+            </genClasses>
+          </nestedGenPackages>
+        </nestedGenPackages>
+      </nestedGenPackages>
+    </nestedGenPackages>
+  </genPackages>
+</genmodel:GenModel>

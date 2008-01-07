@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="lumaqq" default="compileWithoutDebug" basedir=".">
+	<description>LumaQQ 主项目，具体请看 http://www.lumaqq.cn 。</description>
+	<tstamp>
+		<format property="touch.day" pattern="yyyyMMdd" />
+	</tstamp>
+	<property name="src" value="src" />
+	<property name="temp" value="temp" />
+	<property name="build" value="${temp}/build" />
+	<property name="dist" value="dist/LumaQQ" />
+	<property name="dist_parent" value="dist" />
+	<property name="dist_all" value="dist-all" />
+	<property name="version" value="2006" />
+	<property name="system-dependent" value="system-dependent" />
+	<property name="jar" value="${ant.project.name}.jar" />
+
+	<!-- jql_protocol 项目的编译目标文件夹 -->
+	<property name="jql_protocol_project" location="D:\LumaQQWorkspace\jql_protocol_2006" />
+	<!-- jql_net 项目的编译目标文件夹 -->
+	<property name="jql_net_project" location="D:\LumaQQWorkspace\jql_net_2006" />
+	<!-- lumaqq_template 项目的编译目标文件夹 -->
+	<property name="lumaqq_template_project" location="D:\LumaQQWorkspace\LumaQQ_template_2006" />
+	<!-- lumaqq_xsd 项目的编译目标文件夹 -->
+	<property name="lumaqq_xsd_project" location="D:\LumaQQWorkspace\LumaQQ_xsd_2006" />
+	<!-- LumaQQ 项目需要依赖的库文件夹 -->
+	<property name="lib" location="D:\LumaQQWorkspace\lib" />
+
+	<path id="depends_lib">
+		<fileset dir="${lib}">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+
+	<!-- 编译所有其他项目，并且将他们的 jar 包发布到 lib 目录下 -->
+	<target name="buildAllOtherProject" description="编译所有其他项目，并且将他们的 jar 包发布到 lib 目录下，如果自己修改了其他项目的源码，先运行这个再发布">
+		<ant antfile="${jql_protocol_project}/build.xml" inheritall="false" target="jarToLib" />
+		<ant antfile="${jql_net_project}/build.xml" inheritall="false" target="jarToLib" />
+		<ant antfile="${lumaqq_xsd_project}/build.xml" inheritall="false" target="jarToLib" />
+		<ant antfile="${lumaqq_template_project}/build.xml" inheritall="false" target="jarToLib" />
+	</target>
+
+	<!-- 建立临时文件夹 -->
+	<target name="mkTempDir">
+		<mkdir dir="${temp}" />
+	</target>
+
+	<!-- 建立编译目标文件夹 -->
+	<target name="mkBuildDir">
+		<mkdir dir="${build}" />
+	</target>
+
+	<!-- 编译此项目的所有源码，使用 -g:none 参数编译 -->
+	<target name="compileWithoutDebug" description="编译此项目不带调试信息的版本" depends="mkBuildDir">
+		<javac srcdir="${src}" destdir="${build}" debug="off" deprecation="on" optimize="on" target="1.5" source="1.5" encoding="UTF8">
+			<classpath refid="depends_lib" />
+		</javac>
+	</target>
+
+	<!-- 使用全部调试信息的编译 -->
+	<target name="compileWithDebug" description="编译此项目带调试信息的版本" depends="mkBuildDir">
+		<javac srcdir="${src}" destdir="${build}" debug="on" deprecation="on" target="1.5" source="1.5" listfiles="yes" encoding="UTF8">
+			<classpath refid="depends_lib" />
+		</javac>
+	</target>
+
+	<!-- 清除所有因为发布建立的目录和资源 -->
+	<target name="clean" description="清除因为发布建立的临时文件夹">
+		<delete dir="${temp}" includeEmptyDirs="true" />
+		<delete dir="${dist_parent}" includeEmptyDirs="true" />
+	</target>
+
+	<!-- 发布此项目为 jar 文件 -->
+	<target name="jar" depends="compileWithoutDebug, mkTempDir" description="发布此项目为 jar 文件">
+		<property name="tempJar" value="${temp}/jar" />
+		<mkdir dir="${tempJar}" />
+		<copy includeemptydirs="false" todir="${tempJar}">
+			<fileset dir="${src}" excludes="**/*.MF,**/*.dtd,**/*.java" />
+			<fileset dir="${basedir}" includes="AUTHORS,COPYING,COPYRIGHT" />
+			<fileset dir="${build}" includes="**/*.class" />
+		</copy>
+		<jar jarfile="${temp}/${jar}"
+		     basedir="${tempJar}"
+		     excludes="log4j.properties,edu/tsinghua/lumaqq/test/**,edu/tsinghua/lumaqq/auxiliary/**,edu/tsinghua/lumaqq/demo/**,edu/tsinghua/lumaqq/hotkey/linux/**"
+		     manifest="${src}/META-INF/MANIFEST.MF" />
+		<delete dir="${tempJar}" includeemptydirs="true" />
+	</target>
+
+	<!-- 不同平台的公共文件，可以跨平台使用的文件 -->
+	<target name="dist-common">
+		<copy todir="${dist}/xml">
+			<fileset dir="xml" excludes="CVS,.svn" />
+		</copy>
+		<copy todir="${dist}/sound">
+			<fileset dir="sound" excludes="CVS,.svn" />
+		</copy>
+		<copy todir="${dist}/lib">
+			<fileset dir="${lib}" />
+		</copy>
+		<copy todir="${dist}/lib">
+			<fileset dir="${temp}" includes="${jar}" />
+		</copy>
+		<copy todir="${dist}">
+			<fileset dir="${system-dependent}/common" excludes="CVS,.svn" />
+		</copy>
+		<copy todir="${dist}">
+			<fileset dir="." includes="QQWry.dat, cluster_category.db" excludes="CVS,.svn" />
+		</copy>
+	</target>
+
+	<!-- Linux 平台下面的公共文件 -->
+	<target name="dist-common-linux">
+		<copy todir="${dist}">
+			<fileset dir="${system-dependent}/common_linux" excludes="CVS,.svn" />
+		</copy>
+	</target>
+
+	<!-- 发布一个可以在 Windows 平台下使用的发布包 -->
+	<target name="dist-win32-x86" depends="jar, dist-common" description="发布一个可以在 Windows 平台下使用的发布包">
+		<copy todir="${dist}" overwrite="true">
+			<fileset dir="${system-dependent}/win32_x86" excludes="CVS,.svn" />
+		</copy>
+		<zip destfile="${temp}/${ant.project.name}_${version}_${touch.day}-win32_x86_no_jre.zip" basedir="${dist_parent}">
+		</zip>
+	</target>
+
+	<!-- 发布一个可以在 Linux (x86/GTK 2) 平台下使用的发布包 -->
+	<target name="dist-linux-gtk2-x86" depends="jar, dist-common, dist-common-linux" description="发布一个可以在 Linux (x86/GTK 2) 平台下使用的发布包">
+		<copy todir="${dist}" overwrite="true">
+			<fileset dir="${system-dependent}/linux_gtk2_x86" excludes="CVS,.svn" />
+		</copy>
+		<antcall target="tar.gz" />
+		<move file="${temp}/temp.tar.gz" tofile="${temp}/${ant.project.name}_${version}_${touch.day}-linux_gtk2_x86_no_jre.tar.gz" />
+	</target>
+
+	<!-- 发布一个可以在 Linux (PPC/GTK 2) 平台下使用的发布包 -->
+	<target name="dist-linux-gtk2-ppc" depends="jar, dist-common, dist-common-linux" description="发布一个可以在 Linux (PPC/GTK 2) 平台下使用的发布包">
+		<copy todir="${dist}" overwrite="true">
+			<fileset dir="${system-dependent}/linux_gtk2_ppc" excludes="CVS,.svn" />
+		</copy>
+		<antcall target="tar.gz" />
+		<move file="${temp}/temp.tar.gz" tofile="${temp}/${ant.project.name}_${version}_${touch.day}-linux_gtk2_ppc_no_jre.tar.gz" />
+	</target>
+
+	<!-- 发布一个可以在 Linux (x86_64/GTK 2) 平台下使用的发布包 -->
+	<target name="dist-linux-gtk2-x86-64"
+	        depends="jar, dist-common, dist-common-linux"
+	        description="发布一个可以在 Linux (x86_64/GTK 2) 平台下使用的发布包">
+		<copy todir="${dist}" overwrite="true">
+			<fileset dir="${system-dependent}/linux_gtk2_x86_64" excludes="CVS,.svn" />
+		</copy>
+		<antcall target="tar.gz" />
+		<move file="${temp}/temp.tar.gz" tofile="${temp}/${ant.project.name}_${version}_${touch.day}-linux_gtk2_x86_64_no_jre.tar.gz" />
+	</target>
+
+	<!-- 发布一个可以在 Solaris 8 (SPARC/GTK 2) 平台下使用的发布包 -->
+	<target name="dist-solaris-gtk2-sparc"
+	        depends="jar, dist-common, dist-common-linux"
+	        description="发布一个可以在 Solaris 8 (SPARC/GTK 2) 平台下使用的发布包">
+		<copy todir="${dist}" overwrite="true">
+			<fileset dir="${system-dependent}/solaris_gtk2_sparc" excludes="CVS,.svn" />
+		</copy>
+		<antcall target="tar.gz" />
+		<move file="${temp}/temp.tar.gz" tofile="${temp}/${ant.project.name}_${version}_${touch.day}-solaris_gtk2_sparc_no_jre.tar.gz" />
+	</target>
+
+	<!-- 打包 tar.gz 文件 -->
+	<target name="tar.gz">
+		<tar destfile="${temp}/temp.tar.gz" compression="gzip">
+			<tarfileset dir="${dist_parent}" mode="777" username="root" group="root">
+				<include name="**" />
+				<exclude name="**/*.properties" />
+				<exclude name="**/*.png" />
+				<exclude name="**/*.dat" />
+				<exclude name="**/*.db" />
+			</tarfileset>
+			<tarfileset dir="${dist_parent}" mode="666" username="root" group="root">
+				<include name="**/*.properties" />
+				<include name="**/*.png" />
+				<include name="**/*.dat" />
+				<include name="**/*.db" />
+			</tarfileset>
+		</tar>
+	</target>
+
+	<!-- 发布所有平台的发布包 -->
+	<target name="dist-all" description="发布所有平台的发布包">
+		<mkdir dir="${dist_all}" />
+		<antcall target="dist-win32-x86" />
+		<antcall target="move-dist" />
+		<antcall target="clean" />
+		<antcall target="dist-linux-gtk2-x86" />
+		<antcall target="move-dist" />
+		<antcall target="clean" />
+		<antcall target="dist-linux-gtk2-ppc" />
+		<antcall target="move-dist" />
+		<antcall target="clean" />
+		<antcall target="dist-linux-gtk2-x86-64" />
+		<antcall target="move-dist" />
+		<antcall target="clean" />
+		<antcall target="dist-solaris-gtk2-sparc" />
+		<antcall target="move-dist" />
+		<antcall target="clean" />
+	</target>
+
+	<!-- 从 temp 移动发布包到 dist_all 目录 -->
+	<target name="move-dist">
+		<move todir="${dist_all}">
+			<fileset dir="${temp}">
+				<include name="*.zip" />
+				<include name="*.tar.gz" />
+			</fileset>
+		</move>
+	</target>
+
+	<!-- 打包所有 path 文件 -->
+	<target name="patch" depends="jar,buildAllOtherProject" description="打包所有 path 文件，将会自动调用 buildAllOtherProject 来编译最新的 jar 包">
+		<zip destfile="${temp}/${ant.project.name}_${version}_${touch.day}_patch.zip">
+			<fileset dir="${lib}" includes="jql*.jar, lumaqq*.jar">
+			</fileset>
+			<fileset dir="${temp}" includes="${jar}">
+			</fileset>
+		</zip>
+	</target>
+</project>

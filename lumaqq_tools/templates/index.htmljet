@@ -1,0 +1,55 @@
+<%@ jet package="edu.tsinghua.lumaqq.template" imports="java.util.Map java.util.List edu.tsinghua.lumaqq.tools.FamilyBean" class="IndexHtmlGenerator" skeleton="generator.skeleton" %>
+<%
+	Map<String, Object> params = (Map<String, Object>)argument;
+	String menuName = (String)params.get(MENU_NAME);
+	List<FamilyBean> beans = (List<FamilyBean>)params.get(FAMILY_BEAN_LIST);
+	BreadcrumbDivGenerator breadcrumbDivGen = new BreadcrumbDivGenerator();
+	FooterDivGenerator footerDivGen = new FooterDivGenerator();
+%>
+<HTML>
+
+<HEAD>
+	<TITLE>LumaQQ Protocol Manual</TITLE>
+	<STYLE type=text/css media=all>@import url( ./css/base.css );@import url( ./css/theme.css );</STYLE>
+	<LINK media=print href="./css/print.css" type=text/css rel=stylesheet></LINK>
+	<META http-equiv=Content-Type content="text/html; charset=GBK"></META>
+</HEAD>
+
+<BODY class=composite>
+
+<DIV id=banner>
+<A id=organizationLogo href="http://lumaqq.linuxsir.org/"><IMG alt="LumaQQ" src="./images/lumaqq.gif"></IMG></A>
+	<DIV class=clear>
+	<HR></HR>
+	</DIV>
+</DIV>
+
+<%= breadcrumbDivGen.generate(argument) %>
+
+<DIV id=leftColumn>
+	<DIV id=navcolumn>
+		<DIV id=LumaQQ_protocol>
+			<H5><%= menuName %></H5>
+			<UL>
+			<% for(FamilyBean bean : beans) { %>
+				<LI class=none><A href="<%= "./family/" + bean.html %>"><%= bean.name %></A></LI>
+			<% } %>
+			</UL>
+		</DIV>
+	</DIV>
+</DIV>
+
+<DIV id=bodyColumn>
+	<DIV class=contentBox>
+		<DIV class=section>
+			<H2><%= INTRO_TITLE %></H2>
+			<P><%= INTRO %></P>
+		</DIV>
+	</DIV>
+</DIV>
+
+<%= footerDivGen.generate(argument) %>
+
+</BODY>
+
+</HTML>
