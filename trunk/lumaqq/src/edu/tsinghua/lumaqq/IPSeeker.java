@@ -150,7 +150,7 @@ public class IPSeeker {
 	 * @param s 地点子串
 	 * @return 包含IPEntry类型的List
 	 */
-	public List getIPEntriesDebug(String s) {
+	public List<IPEntry> getIPEntriesDebug(String s) {
 	    List<IPEntry> ret = new ArrayList<IPEntry>();
 	    long endOffset = ipEnd + 4;
 	    for(long offset = ipBegin + 4; offset <= endOffset; offset += IP_RECORD_LENGTH) {

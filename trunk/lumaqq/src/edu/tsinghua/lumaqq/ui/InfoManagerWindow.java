@@ -32,6 +32,7 @@ import java.util.List;
 import edu.tsinghua.lumaqq.models.Cluster;
 import edu.tsinghua.lumaqq.models.ClusterType;
 import edu.tsinghua.lumaqq.models.Group;
+import edu.tsinghua.lumaqq.models.Model;
 import edu.tsinghua.lumaqq.models.ModelRegistry;
 import edu.tsinghua.lumaqq.models.User;
 import edu.tsinghua.lumaqq.record.IKeyConstants;
@@ -296,7 +297,7 @@ public class InfoManagerWindow extends Window implements ShellListener {
 	private TableViewer recordViewer;
 	private List<Cluster> clusters;
 	private List<Group> otherGroups;
-	private List scopes;
+	private List<Model> scopes;
 	
 	private static final Integer[] root = new Integer[] {
 		1, 2, 3
@@ -978,7 +979,7 @@ public class InfoManagerWindow extends Window implements ShellListener {
 		pageNum = 0;
 		pageCount = 0;
 		keyword = "";
-		scopes = new ArrayList();
+		scopes = new ArrayList<Model>();
 		records = new ArrayList<RecordEntry>();
 		clusters = new ArrayList<Cluster>(main.getBlindHelper().getClusterGroup().clusters);
 		otherGroups = main.getBlindHelper().getUserGroupList();

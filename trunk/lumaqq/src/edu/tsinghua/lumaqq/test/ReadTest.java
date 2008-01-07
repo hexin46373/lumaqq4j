@@ -68,7 +68,7 @@ public class ReadTest {
     }
 
     private static void mkdir(File parent, DirectoryEntry root) {
-        for (Iterator it = root.getEntries(); it.hasNext();) {
+        for (Iterator<?> it = root.getEntries(); it.hasNext();) {
             Entry entry = (Entry) it.next();
 
             if (entry.isDirectoryEntry()) {

@@ -200,7 +200,7 @@ public class QQClient implements IQQListener {
     protected ResendTrigger<Object> resendTrigger;
     /** Keep Alive过程 */
     protected Runnable keepAliveTrigger;
-    protected ScheduledFuture keepAliveFuture;
+    protected ScheduledFuture<?> keepAliveFuture;
 
 	/** 接收队列 */
 	protected Queue<InPacket> receiveQueue;	

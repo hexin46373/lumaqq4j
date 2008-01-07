@@ -28,7 +28,7 @@ import com.sleepycat.je.DatabaseEntry;
  * 
  * @author luma
  */
-public class KeyComparator implements Comparator {
+public class KeyComparator implements Comparator<Object> {
 	private static final DatabaseEntry valueEntry = new DatabaseEntry();
 	private static final KeyBinding keyBinding = new KeyBinding();
 	

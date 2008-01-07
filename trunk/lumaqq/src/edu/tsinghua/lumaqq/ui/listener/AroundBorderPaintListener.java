@@ -66,7 +66,7 @@ public class AroundBorderPaintListener implements PaintListener {
      * @return
      * 		true表示需要
      */
-    private boolean accept(Class type) {
+    private boolean accept(Class<? extends Control> type) {
         for(int i = 0; i < types.length; i++) {
             if(type == types[i])
                 return true;            

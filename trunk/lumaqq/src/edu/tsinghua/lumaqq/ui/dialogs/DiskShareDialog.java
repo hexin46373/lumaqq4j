@@ -207,7 +207,7 @@ public class DiskShareDialog extends Dialog implements IFriendSelectionListener,
 			@Override
 			public void widgetSelected(SelectionEvent e) {
 				IStructuredSelection s = (IStructuredSelection)viewer.getSelection();
-				for(Iterator i = s.iterator(); i.hasNext(); ) {
+				for(Iterator<?> i = s.iterator(); i.hasNext(); ) {
 					Integer qq = (Integer)i.next();
 					User u = ModelRegistry.getUser(qq);
 					if(u != null)
