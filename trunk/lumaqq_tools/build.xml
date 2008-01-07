@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Jader Ant Build File -->
+<project name="lumaqq_tools" default="build-manual" basedir=".">
+	<property name="src" value="./src"/>
+	<property name="build" value="./build"/>
+	<property name="lib" value="./lib"/>
+	<property name="temp" value="./temp"/>
+	<property name="jql_protocol" value="../jql_protocol_2006"/>
+	<property name="LumaQQ" value="../LumaQQ_2006"/>
+		
+	<!-- initialization -->
+	<target name="setupDir">
+		<mkdir dir="${temp}"/>
+	</target>
+	
+	<!-- clean -->
+	<target name="clean">
+		<delete dir="${temp}" includeEmptyDirs="true"/>
+	</target>
+	
+	<target name="build-manual" depends="clean, setupDir">
+		<exec executable="apt">
+			<env key="PATH" path="${java.home}/bin"/>
+			<arg line="-encoding UTF-8"/>
+			<arg line="-s ${temp}"/>
+			<arg line="-classpath ${build};${jql_protocol}/build;${LumaQQ}/build;${LumaQQ}/lib/commons-logging.jar;${LumaQQ}/lib/commons-codec.jar"/>
+			<arg line="-nocompile"/>
+			<arg line="-factory edu.tsinghua.lumaqq.tools.ProtocolAnnotationProcessorFactory"/>
+			<arg line="${jql_protocol}/src/edu/tsinghua/lumaqq/qq/events/QQEvent.java"/>
+			<arg line="${jql_protocol}/src/edu/tsinghua/lumaqq/qq/packets/*.java"/>
+			<arg line="${jql_protocol}/src/edu/tsinghua/lumaqq/qq/packets/out/*.java"/>
+			<arg line="${jql_protocol}/src/edu/tsinghua/lumaqq/qq/packets/out/_03/*.java"/>
+			<arg line="${jql_protocol}/src/edu/tsinghua/lumaqq/qq/packets/out/_05/*.java"/>
+			<arg line="${jql_protocol}/src/edu/tsinghua/lumaqq/qq/packets/out/disk/*.java"/>
+			<arg line="${jql_protocol}/src/edu/tsinghua/lumaqq/qq/packets/in/*.java"/>
+			<arg line="${jql_protocol}/src/edu/tsinghua/lumaqq/qq/packets/in/_03/*.java"/>
+			<arg line="${jql_protocol}/src/edu/tsinghua/lumaqq/qq/packets/in/_05/*.java"/>
+			<arg line="${jql_protocol}/src/edu/tsinghua/lumaqq/qq/packets/in/disk/*.java"/>
+		</exec>
+	</target>
+</project>	

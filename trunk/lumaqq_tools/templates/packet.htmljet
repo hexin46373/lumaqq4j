@@ -1,0 +1,76 @@
+<%@ jet package="edu.tsinghua.lumaqq.template" class="PacketHtmlGenerator" imports="java.util.Map java.util.List edu.tsinghua.lumaqq.tools.FamilyBean edu.tsinghua.lumaqq.tools.PacketBean edu.tsinghua.lumaqq.tools.EventBean" skeleton="generator.skeleton" %>
+<%
+	Map<String, Object> params = (Map<String, Object>)argument;
+	PacketBean bean = (PacketBean)params.get(PACKET_BEAN);
+	String menuName = (String)params.get(MENU_NAME);
+	List<FamilyBean> beans = (List<FamilyBean>)params.get(FAMILY_BEAN_LIST);
+	HeaderDivGenerator headerDivGen = new HeaderDivGenerator();
+	BannerDivGenerator bannerDivGen = new BannerDivGenerator();
+	BreadcrumbDivGenerator breadcrumbDivGen = new BreadcrumbDivGenerator();
+	FooterDivGenerator footerDivGen = new FooterDivGenerator();
+%>
+<HTML>
+
+<%= headerDivGen.generate(argument) %>
+
+<BODY class=composite>
+
+<%= bannerDivGen.generate(argument) %>
+
+<%= breadcrumbDivGen.generate(argument) %>
+
+<DIV id=leftColumn>
+	<DIV id=navcolumn>
+		<DIV id=LumaQQ_protocol>
+			<H5><%= menuName %></H5>
+			<UL>
+			<% for(FamilyBean fb : beans) { %>
+				<LI class=none><A href="<%= "../family/" + fb.html %>"><%= fb.name %></A></LI>
+			<% } %>
+			</UL>
+		</DIV>
+	</DIV>
+</DIV>
+
+<DIV id=bodyColumn>
+	<DIV class=contentBox>
+		<DIV class=section>
+			<H2><%= bean.name %></H2>
+			<P><%= bean.format %></P>
+		</DIV>
+		<DIV class=section>
+			<H2><%= EVENT_LIST %></H2>
+			<P>
+				<% if(bean.events.isEmpty()) { %>
+				<%= NO_EVENT_LIST %>
+				<% } else { %>
+				<UL>
+				<% for(EventBean eb : bean.events) { %>
+					<LI><A href="<%= "../event/" + eb.html %>"><%= eb.name %></A></LI>
+				<% } %>
+				</UL>
+				<% } %>
+			</P>
+		</DIV>
+		<DIV class=section>
+			<H2><%= RELATED_PACKET %></H2>
+			<P>
+				<% if(bean.relatedPackets.isEmpty()) { %>
+				<%= NO_RELATED_PACKET %>
+				<% } else { %>
+				<UL>
+				<% for(PacketBean pb : bean.relatedPackets) { %>
+					<LI><A href="<%= pb.html %>"><%= pb.name %></A></LI>
+				<% } %>
+				</UL>
+				<% } %>
+			</P>
+		</DIV>
+	</DIV>
+</DIV>
+
+<%= footerDivGen.generate(argument) %>
+
+</BODY>
+
+</HTML>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="jql_net" default="compileWithoutDebug" basedir=".">
+	<description>JQL(Java QQ Library) 项目的协议网络连接方式实现部分。</description>
+	<tstamp>
+		<format property="touch.day" pattern="yyyyMMdd" />
+	</tstamp>
+	<property name="src" value="src" />
+	<property name="temp" value="temp" />
+	<property name="build" value="${temp}/build" />
+	<property name="jar" value="${ant.project.name}.jar" />
+
+	<!-- jql_protocol 项目的编译目标文件夹 -->
+	<property name="jql_protocol_build" location="D:\LumaQQWorkspace\jql_protocol_2006\build" />
+
+	<!-- LumaQQ 项目需要依赖的库文件夹 -->
+	<property name="lib" location="D:\LumaQQWorkspace\lib" />
+
+	<path id="depends_lib">
+		<pathelement path="${jql_protocol_build}" />
+		<fileset dir="${lib}">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+
+	<!-- 建立临时文件夹 -->
+	<target name="mkTempDir">
+		<mkdir dir="${temp}" />
+	</target>
+
+	<!-- 建立编译目标文件夹 -->
+	<target name="mkBuildDir">
+		<mkdir dir="${build}" />
+	</target>
+
+	<!-- 编译此项目的所有源码，使用 -g:none 参数编译 -->
+	<target name="compileWithoutDebug" description="编译此项目不带调试信息的版本" depends="mkBuildDir">
+		<javac srcdir="${src}" destdir="${build}" debug="off" deprecation="on" optimize="on" target="1.5" source="1.5" encoding="UTF8">
+			<classpath refid="depends_lib" />
+		</javac>
+	</target>
+
+	<!-- 使用全部调试信息的编译 -->
+	<target name="compileWithDebug" description="编译此项目带调试信息的版本" depends="mkBuildDir">
+		<javac srcdir="${src}" destdir="${build}" debug="on" deprecation="on" target="1.5" source="1.5" listfiles="yes" encoding="UTF8">
+			<classpath refid="depends_lib" />
+		</javac>
+	</target>
+
+	<!-- 清除所有因为发布建立的目录和资源 -->
+	<target name="clean" description="清除因为发布建立的临时文件夹">
+		<delete dir="${temp}" includeEmptyDirs="true" />
+	</target>
+
+	<!-- 发布此项目为 jar 文件 -->
+	<target name="jar" depends="compileWithoutDebug, mkTempDir" description="发布此项目为 jar 文件">
+		<property name="tempJar" value="${temp}/jar" />
+		<mkdir dir="${tempJar}" />
+		<copy includeemptydirs="false" todir="${tempJar}">
+			<fileset dir="${src}" excludes="**/*.MF,**/*.dtd,**/*.java" />
+			<fileset dir="${basedir}" includes="AUTHORS,COPYING,COPYRIGHT" />
+			<fileset dir="${build}" includes="**/*.class" />
+		</copy>
+		<jar jarfile="${temp}/${jar}" basedir="${tempJar}" manifest="${src}/META-INF/MANIFEST.MF" />
+		<delete dir="${tempJar}" includeemptydirs="true" />
+	</target>
+
+	<!-- 将 jar 文件发布到 lib 目录下，主要用来给 lumaqq 的 build.xml 调用 -->
+	<target name="jarToLib" depends="jar">
+		<copy file="${temp}/${jar}" tofile="${lib}/${jar}" overwrite="true" />
+		<antcall target="clean" />
+	</target>
+
+</project>

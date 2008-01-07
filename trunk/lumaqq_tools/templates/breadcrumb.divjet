@@ -1,0 +1,12 @@
+<%@ jet package="edu.tsinghua.lumaqq.template" class="BreadcrumbDivGenerator" imports="java.util.Map edu.tsinghua.lumaqq.ui.helper.DateTool" skeleton="generator.skeleton" %>
+<%
+	Map<String, Object> params = (Map<String, Object>)argument;
+	Long time = (Long)params.get(PUBLISH_TIME);
+%>
+<DIV id=breadcrumbs>
+	<DIV class=xleft><%= PUBLISH_TIME %><%= DateTool.format(time) %></DIV>
+	<DIV class=xright></DIV>
+	<DIV class=clear>
+		<HR></HR>
+	</DIV>
+</DIV>

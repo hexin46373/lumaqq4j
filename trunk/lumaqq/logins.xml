@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<login:Logins xmlns:login="http://lumaqq.tsinghua.edu/ecore/edu/tsinghua/lumaqq/ecore/login" lastLogin="393384883">
+  <login autoLogin="false" loginHidden="true" password="tuC330cOZ1n64XtVJUmnww==" qq="393384883" rememberPassword="true"/>
+  <network autoSelect="true" proxyPassword="" proxyPort="8000" proxyServer="" proxyType="None" proxyUsername="" server="tcpconn.tencent.com" tcpPort="80" useTcp="true"/>
+</login:Logins>

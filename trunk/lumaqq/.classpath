@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="var" path="LUMA_QQ_LIB_ROOT/commons-codec.jar"/>
+	<classpathentry kind="var" path="LUMA_QQ_LIB_ROOT/commons-logging.jar"/>
+	<classpathentry kind="var" path="LUMA_QQ_LIB_ROOT/jdom.jar"/>
+	<classpathentry kind="var" path="LUMA_QQ_LIB_ROOT/je.jar"/>
+	<classpathentry kind="var" path="LUMA_QQ_LIB_ROOT/log4j-1.2.8.jar"/>
+	<classpathentry kind="var" path="LUMA_QQ_LIB_ROOT/poifs.jar"/>
+	<classpathentry kind="var" path="LUMA_QQ_LIB_ROOT/xerces.jar"/>
+	<classpathentry kind="var" path="LUMA_QQ_LIB_ROOT/eclipse/org.eclipse.core.commands_3.2.0.I20051212-2000.jar"/>
+	<classpathentry kind="var" path="LUMA_QQ_LIB_ROOT/eclipse/org.eclipse.core.resources_3.2.0.v20051208.jar"/>
+	<classpathentry kind="var" path="LUMA_QQ_LIB_ROOT/eclipse/org.eclipse.core.runtime_3.2.0.v20051208.jar"/>
+	<classpathentry kind="var" path="LUMA_QQ_LIB_ROOT/eclipse/org.eclipse.emf.common_2.2.0.jar"/>
+	<classpathentry kind="var" path="LUMA_QQ_LIB_ROOT/eclipse/org.eclipse.emf.ecore_2.2.0.jar"/>
+	<classpathentry kind="var" path="LUMA_QQ_LIB_ROOT/eclipse/org.eclipse.emf.ecore.xmi_2.2.0.jar"/>
+	<classpathentry kind="var" path="LUMA_QQ_LIB_ROOT/eclipse/org.eclipse.equinox.common_1.0.0.v20051205.jar"/>
+	<classpathentry kind="var" path="LUMA_QQ_LIB_ROOT/eclipse/org.eclipse.jface_3.2.0.I20051214-0010.jar"/>
+	<classpathentry kind="var" path="LUMA_QQ_LIB_ROOT/eclipse/org.eclipse.osgi_3.2.0.v20051212a.jar"/>
+	<classpathentry kind="var" path="LUMA_QQ_LIB_ROOT/eclipse/org.eclipse.ui.workbench_3.2.0.I20051214-1200.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/lumaqq_xsd"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/jql_net"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/jql_protocol"/>
+	<classpathentry kind="var" path="LUMA_QQ_LIB_ROOT/commons-httpclient-3.0.1.jar"/>
+	<classpathentry kind="lib" path="/lumaqq_template/bin"/>
+	<classpathentry kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.swt.win32.win32.x86_3.3.1.v3346i.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

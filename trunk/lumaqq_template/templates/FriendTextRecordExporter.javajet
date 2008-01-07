@@ -1,0 +1,15 @@
+<%@ jet package="edu.tsinghua.lumaqq.template.record" class="FriendTextRecordExporter" imports="edu.tsinghua.lumaqq.widgets.record.* edu.tsinghua.lumaqq.models.* edu.tsinghua.lumaqq.record.* edu.tsinghua.lumaqq.ui.helper.DateTool java.util.Map java.util.List" skeleton="generator.skeleton" %>
+<%
+	Map<String, Object> params = (Map<String, Object>)argument;
+	User me = (User)params.get(IRecordExporter.MY_MODEL);
+	User friend = (User)params.get(IRecordExporter.FRIEND_MODEL);
+	List<RecordEntry> entries = (List<RecordEntry>)params.get(IRecordExporter.RECORD_ENTRIES);
+%>
+(<%= me.qq %>)<%= me.displayName %> and (<%= friend.qq %>)<%= friend.displayName %>
+
+==============================================================
+<% for(RecordEntry entry : entries) { %>
+
+<%= DateTool.format(entry.time) %> <% if(entry.sender == friend.qq) { %><%= friend.displayName %><% } else { %><%= me.displayName %><% } %>
+<%= entry.message %>
+<% } %>

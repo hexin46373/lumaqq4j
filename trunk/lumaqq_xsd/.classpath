@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="var" path="LUMA_QQ_LIB_ROOT/eclipse/org.eclipse.emf.common_2.2.0.jar"/>
+	<classpathentry kind="var" path="LUMA_QQ_LIB_ROOT/eclipse/org.eclipse.emf.ecore_2.2.0.jar"/>
+	<classpathentry kind="var" path="LUMA_QQ_LIB_ROOT/eclipse/org.eclipse.emf.ecore.xmi_2.2.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

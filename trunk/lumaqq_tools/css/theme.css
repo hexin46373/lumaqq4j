@@ -1,0 +1,123 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; PADDING-TOP: 0px
+}
+BODY {
+	FONT-SIZE: 13px; FONT-FAMILY: 宋体, Verdana, Helvetica, Arial, sans-serif
+}
+TD {
+	FONT-SIZE: 13px; FONT-FAMILY: 宋体, Verdana, Helvetica, Arial, sans-serif
+}
+SELECT {
+	FONT-SIZE: 13px; FONT-FAMILY: 宋体, Verdana, Helvetica, Arial, sans-serif
+}
+INPUT {
+	FONT-SIZE: 13px; FONT-FAMILY: 宋体, Verdana, Helvetica, Arial, sans-serif
+}
+LI {
+	FONT-SIZE: 13px; FONT-FAMILY: 宋体, Verdana, Helvetica, Arial, sans-serif
+}
+CODE {
+	FONT-SIZE: 13px
+}
+A {
+	TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #36a
+}
+A:visited {
+	COLOR: #47a
+}
+A:active {
+	COLOR: #69c
+}
+A:hover {
+	COLOR: #69c
+}
+#legend LI.externalLink {
+	PADDING-LEFT: 18px; BACKGROUND: url(../images/external.png) no-repeat left top
+}
+A.externalLink {
+	PADDING-RIGHT: 18px; BACKGROUND: url(../images/external.png) no-repeat right center
+}
+A.externalLink:link {
+	PADDING-RIGHT: 18px; BACKGROUND: url(../images/external.png) no-repeat right center
+}
+A.externalLink:visited {
+	PADDING-RIGHT: 18px; BACKGROUND: url(../images/external.png) no-repeat right center
+}
+A.externalLink:active {
+	PADDING-RIGHT: 18px; BACKGROUND: url(../images/external.png) no-repeat right center
+}
+A.externalLink:hover {
+	PADDING-RIGHT: 18px; BACKGROUND: url(../images/external.png) no-repeat right center
+}
+#legend LI.newWindow {
+	PADDING-LEFT: 18px; BACKGROUND: url(../images/newwindow.png) no-repeat left top
+}
+A.newWindow {
+	PADDING-RIGHT: 18px; BACKGROUND: url(../images/newwindow.png) no-repeat right center
+}
+A.newWindow:link {
+	PADDING-RIGHT: 18px; BACKGROUND: url(../images/newwindow.png) no-repeat right center
+}
+A.newWindow:visited {
+	PADDING-RIGHT: 18px; BACKGROUND: url(../images/newwindow.png) no-repeat right center
+}
+A.newWindow:active {
+	PADDING-RIGHT: 18px; BACKGROUND: url(../images/newwindow.png) no-repeat right center
+}
+A.newWindow:hover {
+	PADDING-RIGHT: 18px; BACKGROUND: url(../images/newwindow.png) no-repeat right center
+}
+H2 {
+	BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #999 1px solid; PADDING-LEFT: 6px; FONT-WEIGHT: 900; FONT-SIZE: x-large; PADDING-BOTTOM: 4px; BORDER-LEFT: #999 1px solid; COLOR: #900; PADDING-TOP: 4px; BORDER-BOTTOM: #999 1px solid; BACKGROUND-COLOR: #ddd
+}
+H3 {
+	BORDER-RIGHT: #aaa 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #aaa 1px solid; PADDING-LEFT: 6px; FONT-WEIGHT: normal; FONT-SIZE: large; PADDING-BOTTOM: 4px; BORDER-LEFT: #aaa 1px solid; COLOR: #900; PADDING-TOP: 4px; BORDER-BOTTOM: #aaa 1px solid; BACKGROUND-COLOR: #eee
+}
+P {
+	FONT-SIZE: small; LINE-HEIGHT: 1.3em
+}
+#breadcrumbs {
+	BORDER-TOP: #aaa 1px solid; BORDER-BOTTOM: #aaa 1px solid; BACKGROUND-COLOR: #ccc
+}
+#leftColumn {
+	BORDER-RIGHT: #999 1px solid; BORDER-TOP: #999 1px solid; MARGIN: 10px 0px 0px 5px; BORDER-LEFT: #999 1px solid; BORDER-BOTTOM: #999 1px solid; BACKGROUND-COLOR: #eee
+}
+#navcolumn H5 {
+	FONT-SIZE: 13px; PADDING-TOP: 2px; BORDER-BOTTOM: #aaaaaa 1px solid
+}
+TABLE.bodyTable TH {
+	FONT-WEIGHT: bold; COLOR: white; BACKGROUND-COLOR: #bbb; TEXT-ALIGN: left
+}
+TABLE.bodyTable TH {
+	FONT-SIZE: 1em
+}
+TABLE.bodyTable TD {
+	FONT-SIZE: 1em
+}
+TABLE.bodyTable TR.a {
+	BACKGROUND-COLOR: #ddd
+}
+TABLE.bodyTable TR.b {
+	BACKGROUND-COLOR: #eee
+}
+.source {
+	BORDER-RIGHT: #999 1px solid; BORDER-TOP: #999 1px solid; BORDER-LEFT: #999 1px solid; BORDER-BOTTOM: #999 1px solid
+}
+DT.question {
+	COLOR: #900; BACKGROUND-COLOR: #eee
+}
+#organizationLogo IMG {
+	MARGIN: 8px
+}
+#projectLogo IMG {
+	MARGIN: 8px
+}
+#projectLogo SPAN {
+	MARGIN: 8px
+}
+#banner {
+	BORDER-BOTTOM: #fff 1px solid
+}
