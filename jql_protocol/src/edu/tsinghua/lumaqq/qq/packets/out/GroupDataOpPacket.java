@@ -149,7 +149,7 @@ public class GroupDataOpPacket extends BasicOutPacket {
 	/**
 	 * @return Returns the groups.
 	 */
-	public List getGroups() {
+	public List<String> getGroups() {
 		return groups;
 	}
 	/**

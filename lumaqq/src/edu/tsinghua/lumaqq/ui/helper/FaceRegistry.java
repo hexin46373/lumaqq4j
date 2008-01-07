@@ -687,7 +687,7 @@ public class FaceRegistry {
 	public FaceGroup getFaceGroup(int index) {
 	    if(faces == null)
 	        return null;	    
-	    List list = faces.getGroup();
+	    List<FaceGroup> list = faces.getGroup();
 	    if(index < 0 || index >= list.size())
 	        return null;
 	    return (FaceGroup)faces.getGroup().get(index);
@@ -707,7 +707,7 @@ public class FaceRegistry {
 	    FaceGroup g = getFaceGroup(group);
 	    if(g == null)
 	        return null;
-	    List list = g.getFace();
+	    List<Face> list = g.getFace();
 	    if(index < 0 || index >= list.size())
 	        return null;
 	    return (Face)g.getFace().get(index);

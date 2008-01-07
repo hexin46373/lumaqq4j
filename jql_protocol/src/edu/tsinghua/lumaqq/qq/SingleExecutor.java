@@ -47,7 +47,7 @@ public class SingleExecutor {
 		return executor.submit(callable);
 	}
 	
-	public ScheduledFuture scheduleWithFixedDelay(Runnable command, long initialDelay, long delay, TimeUnit unit) {
+	public ScheduledFuture<?> scheduleWithFixedDelay(Runnable command, long initialDelay, long delay, TimeUnit unit) {
 		if(executor == null)
 			executor = Executors.newSingleThreadScheduledExecutor();
 		return executor.scheduleWithFixedDelay(command, initialDelay, delay, unit);

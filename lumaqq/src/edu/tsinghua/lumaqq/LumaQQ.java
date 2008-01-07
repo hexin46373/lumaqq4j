@@ -272,7 +272,7 @@ public class LumaQQ {
 		else {
 			Robot robot = robots.get(index);
 			try {
-				Class klass = Class.forName(robot.getClass_());
+				Class<?> klass = Class.forName(robot.getClass_());
 				return (IRobot)klass.newInstance();
 			} catch (Exception e) {
 				return null;

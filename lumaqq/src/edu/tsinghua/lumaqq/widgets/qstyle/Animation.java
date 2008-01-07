@@ -48,7 +48,7 @@ public enum Animation {
 	}
 	
 	public static Animation valueOf(IEffect effect) {
-		Class klass = effect.getClass();
+		Class<? extends IEffect> klass = effect.getClass();
 		if(klass == IconBlinkEffect.class)
 			return ICON_BLINK;
 		else if(klass == IconBounceEffect.class)
