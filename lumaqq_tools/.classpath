@@ -12,5 +12,6 @@
 	<classpathentry kind="var" path="LUMA_QQ_LIB_ROOT/xerces.jar"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/jql_protocol"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/lumaqq"/>
+	<classpathentry kind="var" path="LUMA_QQ_LIB_ROOT/tools.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
